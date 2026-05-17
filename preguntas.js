@@ -5038,7 +5038,2394 @@ const BBDD_PREGUNTAS = [
             "Actuará como un alias CNAME para redirigir sus peticiones al router de la red local."
         ],
         "correcta": 1
-    }
+    },
+    {
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué arquitectura principal emplea el protocolo FTP para su funcionamiento?",
+"opciones": [
+"Arquitectura Peer-to-Peer (P2P).",
+"Arquitectura Cliente/Servidor.",
+"Arquitectura de Anillo.",
+"Arquitectura de bus de datos compartido."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuál es uno de los principales problemas de seguridad del protocolo FTP estándar?",
+"opciones": [
+"No permite transferir archivos mayores de 1 GB.",
+"Suele bloquear los puertos del router automáticamente.",
+"La transferencia tiene lugar sin cifrar la información.",
+"Solo funciona correctamente en sistemas operativos de tipo UNIX."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué extensión del protocolo FTP asegura el cifrado en la transferencia de archivos?",
+"opciones": [
+"TFTP",
+"SFTP",
+"FTPS",
+"HTTP"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué protocolos criptográficos emplea FTPS para proporcionar comunicaciones seguras?",
+"opciones": [
+"WEP/WPA",
+"SSL/TLS",
+"IPsec/VPN",
+"SSH/RSA"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Con qué otro servicio se implementa el protocolo SFTP para conexiones seguras?",
+"opciones": [
+"Servicio Apache (HTTP).",
+"Servicio SSH.",
+"Servicio DNS.",
+"Servicio DHCP."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué RFC detalla el estándar relacionado con el protocolo FTP?",
+"opciones": [
+"RFC 959",
+"RFC 4251",
+"RFC 8080",
+"RFC 1918"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿A qué familia de protocolos de red pertenece FTP?",
+"opciones": [
+"Familia UDP",
+"Familia TCP",
+"Familia ICMP",
+"Familia IGMP"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al pertenecer a la familia de protocolos TCP, podemos afirmar que FTP es un protocolo...",
+"opciones": [
+"No orientado a conexión.",
+"Orientado a conexión.",
+"De multidifusión (multicast).",
+"De enrutamiento estático."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuántos puertos requiere el servidor FTP tradicional para su funcionamiento?",
+"opciones": [
+"Un único puerto TCP.",
+"Dos puertos TCP.",
+"Tres puertos UDP.",
+"Un puerto TCP y un puerto UDP."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En un servidor FTP, ¿para qué se emplea típicamente el puerto TCP 21?",
+"opciones": [
+"Para la transferencia directa de los datos binarios.",
+"Para cifrar la información de la sesión.",
+"Para establecer el control de la conexión (comandos).",
+"Para resolver los nombres de dominio de los clientes."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El puerto 20 en un servidor FTP es habitualmente conocido como...",
+"opciones": [
+"Puerto de comandos.",
+"Puerto de datos.",
+"Puerto de control cifrado.",
+"Puerto pasivo auxiliar."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Es obligatorio que los puertos de un servidor FTP sean siempre el 21 y el 20?",
+"opciones": [
+"Sí, están fijados por hardware en todos los servidores.",
+"Sí, modificar estos puertos infringe el RFC 959.",
+"No, estos puertos pueden ser modificados en la configuración del servidor.",
+"No, pero solo se puede cambiar el puerto de datos, el 21 es inamovible."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "A pesar de su inseguridad, ¿cuál es una ventaja de utilizar el protocolo FTP estándar?",
+"opciones": [
+"Genera automáticamente certificados digitales para el usuario.",
+"Su alto rendimiento y sencillez para transferir archivos.",
+"Evade cualquier cortafuegos perimetral sin configuración extra.",
+"No consume ancho de banda en la red local."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuáles de los siguientes son ejemplos de clientes FTP en terminal de comandos?",
+"opciones": [
+"FileZilla y CuteFTP.",
+"gftp y Firefox.",
+"ftp y lftp.",
+"Chrome y Nautilus."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuál de estas características NO pertenece al cliente gráfico FileZilla?",
+"opciones": [
+"Es exclusivo para sistemas operativos Windows.",
+"Soporta y reanuda la transferencia de archivos de gran tamaño.",
+"Soporta FTP, FTP sobre SSL/TLS y SFTP.",
+"Permite configurar límites de velocidad de transferencia."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En un servidor FTP, ¿qué son los 'usuarios anónimos'?",
+"opciones": [
+"Usuarios que ocultan su dirección IP mediante un proxy remoto.",
+"Usuarios que acceden al nivel raíz del servidor con privilegios de administrador.",
+"Usuarios con permisos limitados que suelen usar un correo como contraseña simbólica.",
+"Cuentas generadas automáticamente que se eliminan al finalizar la sesión."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué característica define a los 'usuarios del sistema' en un entorno FTP?",
+"opciones": [
+"No necesitan introducir contraseña al conectarse.",
+"Poseen una cuenta en la máquina que ofrece el servicio FTP y usan su contraseña del sistema.",
+"Solo pueden acceder desde la red local, nunca desde Internet.",
+"Están definidos exclusivamente en un directorio LDAP externo."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué ventaja tienen los 'usuarios virtuales' en un servidor FTP como ProFTPD?",
+"opciones": [
+"Poseen acceso FTP sin necesidad de existir como usuarios del sistema operativo.",
+"Tienen privilegios absolutos para modificar el fichero /etc/passwd.",
+"Su conexión está cifrada automáticamente con clave pública sin configurar TLS.",
+"Pueden saltarse el uso de cualquier puerto TCP."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Dónde pueden estar definidos los usuarios virtuales de un servidor FTP?",
+"opciones": [
+"Exclusivamente en ficheros XML cifrados.",
+"En bases de datos SQL, LDAP, RADIUS o ficheros de texto propios.",
+"Única y obligatoriamente en el archivo /etc/shadow del servidor.",
+"En los registros de conexión del cliente gráfico FileZilla."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué módulo emplea el servidor ProFTPD para permitir la autenticación de usuarios mediante MySQL o Postgres?",
+"opciones": [
+"mod_ldap",
+"mod_radius",
+"mod_pam",
+"mod_sql"
+],
+"correcta": 3
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué es PAM en el contexto de la autenticación de usuarios?",
+"opciones": [
+"Un protocolo de acceso rápido a ficheros binarios de Linux.",
+"Un mecanismo de autenticación flexible que permite abstraer políticas de identificación.",
+"Un servidor de cortafuegos para conexiones en modo pasivo.",
+"Un gestor de descargas reanudables integrado en clientes texto."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si empleas la directiva UserPassword en FTP, ¿qué ocurre con el archivo /etc/passwd del sistema?",
+"opciones": [
+"Se modifica automáticamente con la nueva contraseña.",
+"Se borra por razones de seguridad.",
+"No se modifica, la contraseña solo es efectiva dentro del contexto FTP.",
+"Se sobrescribe con formato de base de datos SQL."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el modo de conexión ACTIVO, ¿qué máquina inicia la conexión de DATOS?",
+"opciones": [
+"El cliente, abriendo una conexión hacia el puerto 21 del servidor.",
+"El servidor, abriendo una conexión desde su puerto 20 hacia el cliente.",
+"El cliente, conectando al puerto 20 del servidor.",
+"El servidor, abriendo un puerto aleatorio >1024 y esperando al cliente."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Por qué el modo activo puede dar problemas si el cliente tiene un cortafuegos (firewall) estándar?",
+"opciones": [
+"Porque el cliente no puede enviar comandos al puerto 21 del servidor.",
+"Porque el cortafuegos suele rechazar las conexiones entrantes desde el servidor hacia el cliente.",
+"Porque el puerto 20 está siempre prohibido por los ISP (Proveedores de Internet).",
+"Porque el modo activo utiliza el protocolo UDP, el cual es filtrado por defecto."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el modo de conexión PASIVO, ¿quién proporciona la dirección IP y el puerto aleatorio para los datos?",
+"opciones": [
+"El router del cliente mediante NAT.",
+"El servidor DNS de la red pública.",
+"El propio cliente FTP.",
+"El servidor FTP."
+],
+"correcta": 3
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el modo PASIVO, ¿qué máquina inicia la conexión hacia el puerto de datos?",
+"opciones": [
+"El servidor se conecta al puerto 20 del cliente.",
+"El cliente se conecta al puerto sin privilegios indicado por el servidor.",
+"El servidor se conecta a un puerto aleatorio >1024 del cliente.",
+"Ambos intercambian datos a través del puerto de control 21 simultáneamente."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En sistemas GNU/Linux, ¿qué archivo contiene una lista de puertos TCP/UDP relacionados con servicios estándar?",
+"opciones": [
+"/etc/protocols",
+"/etc/ports.conf",
+"/etc/services",
+"/etc/network/interfaces"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Desde el punto de vista de FTP, ¿en qué dos tipos fundamentales se agrupan los archivos para su transferencia?",
+"opciones": [
+"Locales y Remotos.",
+"ASCII y Binarios.",
+"Ejecutables y Comprimidos.",
+"Cifrados y en Texto Plano."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué extensión correspondería a un archivo de tipo ASCII en FTP?",
+"opciones": [
+".jpg",
+".mp3",
+".exe",
+".txt"
+],
+"correcta": 3
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué ocurre si transfieres un archivo binario (como una imagen) utilizando opciones de transferencia ASCII?",
+"opciones": [
+"Se comprime automáticamente para ahorrar ancho de banda.",
+"El archivo se convierte en un script ejecutable en el servidor.",
+"Se puede destruir la información del archivo, quedando corrupto.",
+"El cliente FTP mostrará un aviso visual y lo corregirá automáticamente."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Antes de transferir un archivo que no es de texto en la consola ftp, ¿qué comando debes usar?",
+"opciones": [
+"mode data",
+"set octet",
+"binary",
+"transfer exe"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El protocolo FTP sigue los permisos de entornos UNIX. ¿Cuál es el orden correcto de los tres grupos de permisos?",
+"opciones": [
+"Grupo, Otros, Propietario.",
+"Propietario, Grupo, Otros.",
+"Administrador, Usuarios locales, Usuarios remotos.",
+"Lectura, Escritura, Ejecución."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al establecer permisos en GNU/Linux, el permiso de lectura ('r') equivale al valor numérico:",
+"opciones": [
+"1",
+"2",
+"4",
+"7"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El permiso de escritura ('w') tiene un equivalente numérico de:",
+"opciones": [
+"1",
+"2",
+"4",
+"0"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿A qué equivale numéricamente el conjunto de permisos rw- para un usuario en Linux?",
+"opciones": [
+"3 (1+2+0)",
+"5 (4+0+1)",
+"6 (4+2+0)",
+"7 (4+2+1)"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si un archivo muestra los permisos rw-r--r--, ¿cuál es su equivalente numérico total?",
+"opciones": [
+"755",
+"644",
+"777",
+"600"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al usar 'ls -l' en Linux, si la línea comienza con 'd', significa que el elemento es:",
+"opciones": [
+"Un demonio de sistema (daemon).",
+"Un archivo de datos (data).",
+"Un directorio.",
+"Un disco virtual."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué fichero de Linux contiene una lista de usuarios que, por seguridad, NO tienen permiso de acceso por FTP?",
+"opciones": [
+"/etc/ftpusers",
+"/etc/proftpd/deny.conf",
+"/etc/shadow",
+"/etc/hosts.deny"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué usuarios típicos del sistema se recomienda listar en /etc/ftpusers para que no accedan por FTP?",
+"opciones": [
+"anonymous y ftp.",
+"root, bin, uucp, news.",
+"Usuarios virtuales creados por LDAP.",
+"Cualquier usuario con permisos 644."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si en el archivo /etc/ftpusers una línea comienza con el carácter '#', ¿qué significa?",
+"opciones": [
+"Que ese usuario tiene privilegios de administrador en FTP.",
+"Que el usuario debe usar clave cifrada obligatoriamente.",
+"Que la línea es tratada como un comentario y será ignorada.",
+"Que es un usuario anónimo restringido a su directorio home."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuál es la sintaxis básica para ejecutar el cliente en modo texto ftp desde la consola conectando a un host?",
+"opciones": [
+"ftp:// [host]",
+"ftp [-pinegvd] [host [port]]",
+"connect ftp [host] [port]",
+"start-ftp --target [host]"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si ejecutas el comando `ftp` sin parámetros en la terminal, ¿qué sucede?",
+"opciones": [
+"Muestra un mensaje de error por falta de host.",
+"Se conecta automáticamente al servidor localhost.",
+"Abre directamente la consola ftp interactiva (ftp>).",
+"Reinicia el servicio del servidor FTP local."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si ya te encuentras dentro de la consola `ftp>`, ¿qué comando debes usar para saber qué otros comandos están habilitados?",
+"opciones": [
+"list commands",
+"help (o ?)",
+"show all",
+"man ftp"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la consola `ftp>`, el comando `open servidor` sirve para:",
+"opciones": [
+"Abrir un archivo en el servidor remoto para editarlo.",
+"Iniciar una conexión remota con un servidor ftp.",
+"Abrir un puerto en el cortafuegos local.",
+"Mostrar los puertos abiertos del servidor."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si deseas finalizar la sesión ftp actual PERO sin cerrar la consola ftp, ¿qué comandos utilizas?",
+"opciones": [
+"bye / quit / exit",
+"close / disconnect",
+"stop / halt",
+"logout / logoff"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para terminar por completo la sesión ftp y salir de la consola ftp al sistema operativo, usas:",
+"opciones": [
+"close / disconnect",
+"bye / quit / exit",
+"end / kill",
+"return / back"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la consola ftp, ¿para qué sirve el comando `!` (signo de exclamación)?",
+"opciones": [
+"Fuerza la sobreescritura de un archivo remoto.",
+"Cifra inmediatamente la conexión.",
+"Sale a la línea de comandos del sistema operativo local temporalmente sin cortar la conexión.",
+"Reinicia el demonio del servidor remoto."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El comando `cd directorio` en la consola ftp se usa para:",
+"opciones": [
+"Copiar un directorio en el servidor.",
+"Cambiar de directorio en el servidor remoto.",
+"Crear un nuevo directorio en el cliente local.",
+"Comprimir un directorio antes de descargarlo."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué comando permite cambiarse de directorio en el equipo LOCAL (cliente ftp)?",
+"opciones": [
+"lcd",
+"cd local",
+"chdir",
+"lwd"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para listar el contenido del directorio remoto actual en la consola ftp, se usa:",
+"opciones": [
+"tree o show",
+"dir o ls",
+"list-all",
+"cat"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En ftp modo texto, ¿qué comando muestra tu directorio activo en el servidor remoto?",
+"opciones": [
+"pwd",
+"lpwd",
+"whereis",
+"path"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para mostrar el directorio activo en tu equipo local (cliente ftp) mientras estás en la consola, empleas:",
+"opciones": [
+"pwd",
+"dir-local",
+"lpwd",
+"echo $HOME"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué comando elimina un directorio VACÍO en el servidor remoto?",
+"opciones": [
+"deldir",
+"rmdir",
+"removedir",
+"deltree"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para crear un directorio en el servidor remoto desde la consola ftp, el comando es:",
+"opciones": [
+"maked",
+"newfolder",
+"mkdir",
+"crdir"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué comando usas en la consola ftp para obtener (descargar) un archivo desde el servidor hacia el cliente?",
+"opciones": [
+"download",
+"receive",
+"get",
+"fetch"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué comando usarías para descargar VARIOS archivos desde el servidor remoto a la vez?",
+"opciones": [
+"get-all",
+"mget",
+"multiget",
+"sync"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para enviar (subir) un archivo desde tu equipo local al servidor remoto mediante la consola ftp, el comando es:",
+"opciones": [
+"upload",
+"send",
+"put",
+"push"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si necesitas subir múltiples archivos al servidor remoto mediante un patrón, ¿qué comando ftp utilizas?",
+"opciones": [
+"put *",
+"upload-many",
+"mput",
+"send-batch"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En consola ftp, el comando `delete archivo` sirve para:",
+"opciones": [
+"Borrar un archivo en tu ordenador local.",
+"Borrar un archivo en el servidor remoto.",
+"Mover un archivo a la papelera remota.",
+"Cancelar una transferencia en curso."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cómo borrarías varios archivos en el servidor según un patrón empleando consola ftp?",
+"opciones": [
+"Con el comando mdelete.",
+"Con el comando del *.*.",
+"Con el comando rm -rf.",
+"Es imposible, hay que borrarlos de uno en uno."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué comando permite cambiar el nombre de un archivo en el servidor ftp remoto?",
+"opciones": [
+"mv",
+"rename",
+"chname",
+"alias"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En consola ftp, ¿para qué sirve el comando `chmod`?",
+"opciones": [
+"Para cambiar el propietario del servidor FTP.",
+"Para cifrar la conexión de control.",
+"Para el cambio de permisos en el servidor remoto.",
+"Para modificar la cuota de disco asignada."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué función cumple el comando `umask` en la consola ftp?",
+"opciones": [
+"Oculta la contraseña al teclearla.",
+"Configura el sistema de permisos en el lado remoto (archivos nuevos).",
+"Desactiva el cortafuegos temporalmente.",
+"Activa el modo pasivo de manera forzada."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "De acuerdo con el texto, ¿cómo es usualmente la interfaz de los clientes FTP gráficos?",
+"opciones": [
+"Una sola ventana con botones gigantes tipo asistente.",
+"Una consola negra que autocompleta comandos complejos.",
+"Ventana dividida en dos: izquierda el equipo cliente, derecha el equipo servidor.",
+"Cuatro paneles simultáneos de registro de logs."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Mencionados en la unidad teórica, dos ejemplos representativos de clientes gráficos FTP son:",
+"opciones": [
+"Putty y WinSCP.",
+"gftp y filezilla.",
+"Nautilus y Dolphin.",
+"lftp y ncurses-ftp."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si en un cliente FTP gráfico dejas el puerto en blanco al intentar conectar por FTP puro, ¿qué puerto asume por defecto?",
+"opciones": [
+"80",
+"22",
+"21",
+"443"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el cliente FileZilla, si te conectas a un servidor de acceso anónimo, ¿qué debes poner en 'Contraseña'?",
+"opciones": [
+"Dejarlo completamente en blanco o dará error.",
+"La clave de root del servidor remoto.",
+"Cualquier secuencia de caracteres, pues exige escribir algo por su interfaz.",
+"El número de puerto de control."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el cliente gráfico gftp, si cancelas la petición de usuario al conectar a un sitio como ftp.rediris.es, ¿qué hace el programa?",
+"opciones": [
+"Cierra la aplicación por error fatal.",
+"Cubre los campos usuario y contraseña entrando como anónimo al servidor.",
+"Te bloquea la IP por intento de acceso nulo.",
+"Cambia automáticamente al protocolo SFTP."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cómo se accede al servicio de transferencia de archivos desde un navegador web genérico?",
+"opciones": [
+"Escribiendo en la barra: http://ftp.servidor.com",
+"Escribiendo en la barra: ftp://nombre_servidor_ftp:puerto",
+"Instalando un plugin de Java obligatorio.",
+"Solamente buscando 'FTP' en Google y pulsando 'Voy a tener suerte'."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si usas un navegador web (como Firefox) y accedes a un FTP anónimo, ¿cómo descargas un archivo?",
+"opciones": [
+"Escribiendo el comando 'get' en la barra de direcciones.",
+"Haciendo doble clic y esperando que se ejecute en el servidor.",
+"Pulsando botón derecho sobre él y eligiendo 'Guardar enlace como…'.",
+"Arrastrando el archivo hacia el escritorio directamente."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Una desventaja de usar el navegador web como cliente FTP frente a un cliente gráfico (como FileZilla) es:",
+"opciones": [
+"El navegador no puede mostrar carpetas, solo archivos sueltos.",
+"El navegador no soporta el puerto 21 bajo ninguna circunstancia.",
+"El cliente ftp del navegador no tiene la posibilidad de continuar (reanudar) descargas interrumpidas.",
+"El navegador exige siempre autenticación en texto plano."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué ocurre con los datos cuando se transmiten empleando el protocolo FTP puro sin extensiones?",
+"opciones": [
+"Viajan comprimidos en formato ZIP de forma nativa.",
+"Viajan cifrados mediante certificados auto-firmados.",
+"Cualquiera con acceso al canal de transmisión podrá ver en texto claro todo lo transmitido.",
+"Se envían a través del puerto 22, asegurando su privacidad."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para entidades que necesitan que los datos viajen cifrados, ¿qué alternativas a FTP se deben contemplar?",
+"opciones": [
+"TFTP o FTPD.",
+"FTPS o SFTP.",
+"Telnet o rlogin.",
+"HTTP o SNMP."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué dos modos principales de funcionamiento permite la extensión FTPS?",
+"opciones": [
+"Activo e Inactivo.",
+"Simétrico y Asimétrico.",
+"SSL Implícito y SSL/TLS Explícito.",
+"Público y Privado."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En FTPS usando 'SSL Implícito', ¿qué puertos se usan típicamente en lugar de los convencionales?",
+"opciones": [
+"20 y 21",
+"80 y 443",
+"990 y 989",
+"1024 y 2048"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En FTPS usando 'SSL Explícito', ¿qué puertos utiliza el cliente?",
+"opciones": [
+"Los mismos puertos estándar FTP: 20 y 21, efectuando el cifrado en ellos.",
+"Solo el puerto 443.",
+"Puertos TCP mayores a 65000.",
+"Los puertos 990 y 989."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuál es la directiva/comando que se emplea en 'TLS Explícito' para iniciar el cifrado?",
+"opciones": [
+"START TLS",
+"AUTH TLS",
+"ENCRYPT ON",
+"SECURE CONN"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El cifrado de clave pública o asimétrico utiliza...",
+"opciones": [
+"Una única clave secreta compartida por cliente y servidor.",
+"Una clave maestra controlada por la Autoridad de Certificación.",
+"Un par de claves: clave pública (kpub) y clave privada (kpriv).",
+"Un algoritmo basado exclusivamente en el filtrado de direcciones MAC."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el cifrado asimétrico, si una información es cifrada mediante la clave pública (kpub), ¿quién puede descifrarla?",
+"opciones": [
+"Cualquier persona que conozca esa misma clave pública.",
+"Solamente quien posea la clave privada (kpriv) correspondiente.",
+"Solamente el servidor de nombres de dominio (DNS).",
+"Nadie, es un mecanismo de solo escritura."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el funcionamiento del cifrado asimétrico entre cliente y servidor, ¿a quién interesa publicar su clave pública?",
+"opciones": [
+"A nadie, ambas claves deben permanecer en estricto secreto.",
+"Interesa publicarla para que llegue a ser conocida por cualquiera que desee enviar información segura.",
+"Solo debe enviarse a la policía o autoridades competentes.",
+"Se publica solo si la conexión es mediante una VPN privada."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el despliegue de una aplicación web, ¿por qué puede ser más ventajoso usar FTP para subir archivos grandes en lugar de un formulario web?",
+"opciones": [
+"Porque el formulario web no soporta extensiones .zip.",
+"Porque el servidor web suele estar configurado con límites de tamaño máximo y tiempo corto de conexión.",
+"Porque FTP no consume datos de la tarifa de Internet.",
+"Porque las aplicaciones web cifran todo dos veces ralentizando el proceso."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Normalmente, ¿qué permiten las empresas de alojamiento web (hosting) para que subas los ficheros de tu página?",
+"opciones": [
+"Utilizar un servidor de correo SMTP para mandar adjuntos.",
+"Utilizar exclusivamente disquetes físicos por correo postal.",
+"La subida mediante un servidor ftp usando clientes como FileZilla, Cute FTP, etc.",
+"Solo permiten editar el código online mediante SSH estricto."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si en un cliente como FileZilla indicas conectar de forma cifrada mediante el puerto 22, ¿qué protocolo estás utilizando?",
+"opciones": [
+"SFTP (sobre SSH)",
+"FTPS (SSL Implícito)",
+"Telnet",
+"HTTPs"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la transferencia FTP de tu aplicación web, ¿qué significa el error típico 'access denied' al intentar subir ficheros?",
+"opciones": [
+"Que el disco duro del servidor se ha roto físicamente.",
+"Que el cortafuegos local de Windows bloquea el programa FTP.",
+"Que tu usuario FTP no tiene permisos suficientes sobre la carpeta en la que deseas subir.",
+"Que tu IP pública ha sido baneada permanentemente por el ISP."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Tras subir tu página web por FTP, notas que 'Index.html' no es reconocido automáticamente pero 'index.html' sí. ¿A qué se debe?",
+"opciones": [
+"El servidor FTP corrompió el primer archivo.",
+"Los servidores GNU/Linux son sensibles a mayúsculas y minúsculas.",
+"El navegador cliente está fallando en la lectura de HTML5.",
+"El modo transferencia ASCII elimina letras mayúsculas."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si un cliente FTP muestra el error 'too many connections from your IP address', significa que:",
+"opciones": [
+"El cable de red está saturado de colisiones.",
+"Se ha superado el número de conexiones permitidas abiertas desde una misma IP al servidor FTP.",
+"El servidor ha detectado un virus y ha bloqueado la IP.",
+"Estás utilizando el puerto pasivo equivocado."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Ante el error 'too many connections from your IP', ¿qué elemento local de red/software puede estar provocándolo indirectamente?",
+"opciones": [
+"Un cortafuegos que bloquee las conexiones y provoque que el cliente establezca más intentos de los necesarios.",
+"El antivirus local escaneando la memoria RAM.",
+"Tener abierto YouTube de fondo consumiendo ancho de banda.",
+"Un fallo en el cable HDMI conectado al monitor."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué se desaconseja totalmente al subir archivos o actualizar tu web por FTP?",
+"opciones": [
+"El uso de programas con interfaz gráfica por su lentitud.",
+"Subir archivos en horario nocturno.",
+"El uso de aplicaciones FTP no actualizadas que podrían comprometer la seguridad.",
+"Emplear el modo texto puro (comandos) en un entorno de producción."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Según la teoría, ¿cómo inicia un cliente la negociación en FTPS usando SSL explícito (AUTH SSL/TLS)?",
+"opciones": [
+"1º Solicita conexión al servidor, 2º el servidor envía una copia del certificado.",
+"1º Comprueba el certificado, 2º abre el puerto UDP 69.",
+"1º Cifra toda su partición de disco local, 2º contacta al puerto 990.",
+"1º Envía su clave privada en texto plano, 2º recibe datos."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la autenticación de servidor con TLS, una vez que el cliente FTP comprueba y confía en el certificado, ¿qué hace el servidor?",
+"opciones": [
+"Se desconecta automáticamente para aplicar directivas locales.",
+"Confirma su identidad mediante una firma digital, y a partir de ahí la información viaja cifrada.",
+"Inicia un escaneo completo de puertos en la red del cliente.",
+"Envía la clave privada del cliente de vuelta."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué ocurre en un cliente FTPS si NO confía en la copia del certificado enviada por el servidor?",
+"opciones": [
+"Se ve un mensaje/aviso en el cliente advirtiendo de la situación.",
+"Se formatea el cliente FTP automáticamente por seguridad.",
+"Conecta en modo UDP ignorando la seguridad por completo.",
+"Cambia automáticamente a usar puertos inferiores a 1024."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la infraestructura de FTP pasivo, si el cliente envía el comando PASV, el servidor responde con...",
+"opciones": [
+"El nombre de usuario actual y la ruta del directorio (PWD).",
+"Su dirección IP y el puerto aleatorio donde esperará la conexión de datos.",
+"Un error 503 indicando caída de red local.",
+"El comando PORT solicitando que sea el cliente quien abra el puerto."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si debes automatizar la descarga de un fichero diariamente por FTP en un servidor Linux usando un script bash simple sin interfaz, ¿qué cliente elegirías?",
+"opciones": [
+"FileZilla Server",
+"Firefox Browser",
+"Un cliente modo consola como ftp o lftp.",
+"Internet Explorer FTP mode"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué sucedería con el permiso 0 si aplicamos chmod a un archivo?",
+"opciones": [
+"Otorga permisos de ejecución exclusivamente.",
+"Revoca cualquier tipo de permiso (lectura, escritura y ejecución) mostrando un guión (-).",
+"Indica que el archivo se vuelve un directorio estático.",
+"Es un error de sintaxis del sistema operativo."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al conectar al servidor de RedIRIS con cliente consola desde una máquina Debian básica, ¿qué tipo de usuario se usa típicamente para acceder sin cuenta oficial?",
+"opciones": [
+"Usuario 'root' con contraseña maestra.",
+"Un usuario creado mediante módulos LDAP o mod_sql.",
+"Cualquier usuario y contraseña cualquiera (acceso anónimo).",
+"Un usuario de pago de la institución RedIRIS exclusivamente."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué muestra el cliente consola ftp si se introduce el comando 'ls' y el directorio remoto está vacío?",
+"opciones": [
+"Genera un fallo de segmentación (segmentation fault) y aborta.",
+"Cambia automáticamente al directorio raíz.",
+"No lista ningún archivo/directorio u arroja información genérica de directorio vacío.",
+"Abre un cliente gráfico para que sea más fácil buscar."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Por qué motivo es importante conocer si un archivo es ASCII o Binario en FTP de la vieja escuela?",
+"opciones": [
+"Porque usar la opción incorrecta en FTP altera bytes importantes, como los saltos de línea (CR/LF), corrompiendo ejecutables o multimedia.",
+"Porque el modo ASCII cobra tarifas extra a nivel de red.",
+"Porque el protocolo TCP/IP descarta paquetes de archivos binarios puros.",
+"En realidad es un mito, FTP lo detecta el 100% de las veces sin intervención del usuario o la aplicación."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué aporta el cliente gráfico 'gftp' además de interactividad en comparación con la consola cruda?",
+"opciones": [
+"Reemplaza a Apache como servidor web integral.",
+"Se usa principalmente para modelado 3D.",
+"Permite gestionar marcadores/sitios y transferencias de forma muy visual y dividida.",
+"Solo funciona si desactivas tu cortafuegos físico."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué significa que el servidor FTP transfiere información 'en claro' (texto plano)?",
+"opciones": [
+"Que solo admite colores blanco y negro en archivos de imagen.",
+"Que un analizador de red (sniffer) en el medio podría capturar credenciales y datos tal cual se escribieron.",
+"Que todo el contenido binario se pasa obligatoriamente a archivos .txt locales.",
+"Que requiere contraseñas sin ningún carácter especial ni números."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si empleamos el cliente FileZilla para conectarnos a nuestra página web alojada y vemos la opción SFTP en la configuración del gestor de sitios, estamos activando...",
+"opciones": [
+"Transferencia mediante el protocolo FTP simple sin cifrar.",
+"El protocolo de transferencia segura de archivos operando sobre el subsistema de SSH.",
+"Una red P2P anónima de servidores distribuidos.",
+"Una conexión cifrada, pero exclusivamente para archivos de texto plano."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Bajo qué tipo de licencia se distribuye el servidor ProFTPd?",
+"opciones": [
+"Licencia Propietaria.",
+"Licencia GPL.",
+"Licencia MIT.",
+"Licencia Freeware Shareware."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Según el temario, ¿cuáles son los sistemas de bases de datos que ProFTPd soporta nativamente para usuarios virtuales?",
+"opciones": [
+"MongoDB y SQLite.",
+"Oracle y MariaDB exclusivas.",
+"MySQL y PostgreSQL.",
+"SQL Server y Access."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para instalar el servidor ProFTPd en un sistema operativo Debian 6.0, ¿qué comando se debe ejecutar?",
+"opciones": [
+"apt-get update proftpd",
+"yum install proftpd-server",
+"apt-get install proftpd",
+"dpkg --install proftpd.tar.gz"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Durante la instalación de ProFTPd, se debe elegir entre dos modos de ejecución. ¿Cuáles son?",
+"opciones": [
+"Modo gráfico o modo consola.",
+"Como servicio desde inetd o como servidor independiente.",
+"Como módulo de Apache o como script PHP.",
+"Modo Activo o Modo Pasivo obligatorio."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si un servidor FTP sólo va a recibir unas pocas conexiones diarias, ¿qué modo de ejecución es el más recomendable para ahorrar recursos?",
+"opciones": [
+"Ejecutarlo como servidor independiente (standalone).",
+"Ejecutarlo desde inetd.",
+"Apagar el daemon después de cada uso.",
+"Utilizar exclusivamente el puerto UDP 21."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si el servidor FTP tiene mucho tráfico, ¿por qué debería ejecutarse como servidor independiente?",
+"opciones": [
+"Para evitar crear un proceso nuevo por cada conexión entrante.",
+"Para que funcione obligatoriamente sobre el puerto 80.",
+"Porque inetd elimina los archivos binarios grandes.",
+"Porque el modo independiente cifra las contraseñas por defecto."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué usuarios del sistema se crean automáticamente durante la instalación estándar de ProFTPd en Debian?",
+"opciones": [
+"admin y ftpadmin",
+"proftpd y ftp",
+"root-ftp y anon",
+"virtualftp y proftp-user"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿A qué grupo pertenecen por defecto los usuarios creados ('proftpd' y 'ftp') en la instalación?",
+"opciones": [
+"ftp-users",
+"root",
+"nogroup",
+"daemon"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para evitar que los usuarios 'proftpd' y 'ftp' tengan acceso al sistema mediante consola de comandos, ¿qué shell se les asigna?",
+"opciones": [
+"/bin/bash",
+"/bin/sh",
+"/usr/sbin/nologin",
+"/bin/false"
+],
+"correcta": 3
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿En qué archivo del sistema GNU/Linux se puede comprobar la creación y configuración de los usuarios de ProFTPd?",
+"opciones": [
+"/etc/shadow",
+"/etc/passwd",
+"/etc/proftpd/users.conf",
+"/var/log/proftpd.users"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El temario afirma que la configuración de ProFTPd resulta familiar si se poseen conocimientos sobre otro servidor. ¿Sobre cuál?",
+"opciones": [
+"Servidor Apache.",
+"Servidor Nginx.",
+"Servidor de correo Postfix.",
+"Servidor DHCPd."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuál es la ruta absoluta del fichero de configuración principal de ProFTPd?",
+"opciones": [
+"/etc/proftpd.conf",
+"/usr/local/etc/proftpd/proftpd.conf",
+"/etc/proftpd/proftpd.conf",
+"/var/ftp/conf/proftpd.conf"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En ProFTPd, si una configuración no está incluida dentro de la definición de un host virtual (virtualhost), ¿qué ocurre?",
+"opciones": [
+"Da un error de sintaxis y el servidor no arranca.",
+"Toma un valor nulo por defecto.",
+"Se hereda directamente de la configuración principal.",
+"El virtualhost se desactiva por seguridad."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuáles son ejemplos de contextos de configuración disponibles en ProFTPd?",
+"opciones": [
+"kernel, user, module, system.",
+"global, directorio, virtualhost, anonymous.",
+"tcp, udp, icmp, igmp.",
+"local, remote, proxy, cache."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Igual que Apache, ProFTPd soporta la activación y desactivación de funcionalidades adicionales a través de:",
+"opciones": [
+"Ficheros DLL compilados.",
+"Módulos.",
+"Bases de datos externas.",
+"Parches del kernel."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el archivo proftpd.conf, ¿cómo interpreta el servidor las líneas que comienzan con el carácter '#'",
+"opciones": [
+"Son directivas obligatorias de seguridad.",
+"Son líneas tratadas como comentarios y por tanto ignoradas.",
+"Indican comandos de importación de módulos.",
+"Declaran usuarios con permisos de superadministrador."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué directiva del fichero proftpd.conf se utiliza para recoger e importar la configuración de ficheros externos?",
+"opciones": [
+"Import",
+"LoadConfig",
+"Include",
+"Require"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Por defecto, en el proftpd.conf recién instalado, ¿cómo se encuentran los soportes de LDAP, SQL, TLS, virtualhosts y cuotas?",
+"opciones": [
+"Activados por motivos de seguridad.",
+"Desactivados (sus líneas Include están comentadas).",
+"Inexistentes, requieren recompilar el servidor.",
+"Configurados para arrancar sólo en modo gráfico."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿En qué fichero suele encontrarse por defecto el mensaje de bienvenida del servidor ProFTPd?",
+"opciones": [
+"welcome.msg",
+"motd.txt",
+"banner.html",
+"hello.ftp"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para 'enjaular' a los usuarios en sus respectivos directorios personales y evitar que naveguen por todo el sistema, ¿qué directiva se debe usar?",
+"opciones": [
+"JailRoot on",
+"ChrootUser /home",
+"DefaultRoot ~",
+"LockDirectory /*"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué propósito cumple la directiva 'MaxInstances 30' configurada por defecto?",
+"opciones": [
+"Limitar el tamaño de cada archivo subido a 30 MB.",
+"Permitir sólo 30 megabytes de transferencia por usuario.",
+"Evitar ataques de denegación de servicio permitiendo solo 30 conexiones simultáneas.",
+"Cerrar la conexión FTP si el usuario está inactivo durante 30 minutos."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Con la directiva 'umask 022', los archivos creados tienen permisos 644 y los directorios 755. ¿A qué se refiere el primer grupo de números en la directiva umask?",
+"opciones": [
+"Identifican los permisos de los directorios.",
+"Identifican los permisos de los enlaces simbólicos.",
+"Identifican los permisos de ejecución de scripts.",
+"Identifican los permisos de los ficheros creados."
+],
+"correcta": 3
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Una vez modificada la configuración en /etc/proftpd/proftpd.conf, ¿cómo se aplican los cambios sin reiniciar el proceso por completo?",
+"opciones": [
+"/etc/init.d/proftpd reload",
+"/etc/init.d/proftpd stop",
+"kill -9 proftpd",
+"service ftp update"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué ocurre si ejecutas '/etc/init.d/proftpd restart' en lugar de 'reload'?",
+"opciones": [
+"Se borran todos los usuarios conectados y sus archivos.",
+"Se reinicia el servicio por completo, cortando posibles conexiones activas.",
+"Abre el puerto 22 para SSH automáticamente.",
+"Actualiza la versión del paquete mediante apt-get."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En un servidor proftpd configurado como 'ftp privado' por defecto, ¿qué usuarios pueden conectarse?",
+"opciones": [
+"Cualquier usuario de Internet sin contraseña.",
+"Sólo el usuario 'root'.",
+"Cualquier usuario del sistema que posea una consola de comandos activa definida en /etc/shells.",
+"Únicamente los usuarios definidos en el módulo mod_sql."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para conectarte a un FTP privado, la estructura de conexión desde el cliente de comandos sería:",
+"opciones": [
+"ftp://privado@servidor",
+"ftp usuario_del_sistema@servidor_ftp",
+"connect ftp -u usuario",
+"start-ftp --private servidor"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En un servidor FTP privado por defecto, ¿qué puerto TCP utiliza el cliente para establecer la conexión de control?",
+"opciones": [
+"Puerto 22.",
+"Puerto 80.",
+"Puerto 21.",
+"Puerto 20."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si un cliente FTP no es capaz de conectarse al FTP privado, ¿qué elemento de seguridad local es típico revisar según el temario?",
+"opciones": [
+"La configuración de la tarjeta gráfica.",
+"El servidor DNS de Google.",
+"La configuración de su cortafuegos (firewall).",
+"El cable USB del teclado."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué permisos suele tener asignados un usuario anónimo por seguridad en un servidor FTP mixto?",
+"opciones": [
+"Control total, lectura y escritura en todo el disco duro.",
+"Moverse por directorios y descargar, pero nunca subir ni eliminar archivos.",
+"Permisos exclusivos para borrar archivos antiguos.",
+"Permiso de escritura únicamente en la carpeta /etc."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para configurar un contexto anónimo en el archivo proftpd.conf, ¿qué etiqueta delimitadora principal se usa?",
+"opciones": [
+"<Anonymous ~ftp>",
+"<VirtualHost anon>",
+"<Directory /anonymous>",
+"<Global Anonymous>"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la etiqueta '<Anonymous ~ftp>', ¿qué significa concretamente '~ftp'?",
+"opciones": [
+"Es una expresión regular que bloquea al usuario ftp.",
+"Indica que el usuario anónimo entra en la variable $HOME del usuario ftp (ej. /home/ftp).",
+"Redirige al usuario al servidor raíz del sistema operativo.",
+"Define la cuota máxima en megabytes (~ftp)."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué efecto tiene sobre el directorio /home/ftp usar la etiqueta <Anonymous ~ftp> en Debian?",
+"opciones": [
+"Lo enjaula (chroot), impidiendo que el usuario acceda a directorios situados fuera de /home/ftp.",
+"Lo convierte en un enlace simbólico a la web pública de Apache.",
+"Lo borra al desconectarse el usuario.",
+"Lo cifra con clave pública automáticamente."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Dentro del bloque Anonymous, la directiva 'UserAlias anonymous ftp' sirve para:",
+"opciones": [
+"Evitar que alguien use el nombre 'anonymous'.",
+"Permitir hacer login con el nombre 'anonymous' igual que si fuera el usuario 'ftp'.",
+"Enviar un correo a ftp cada vez que se conecta un anónimo.",
+"Sustituir la cuenta root por la cuenta anonymous."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Las directivas 'DirFakeUser on ftp' y 'DirFakeGroup on ftp' cumplen la función de:",
+"opciones": [
+"Falsificar la IP del servidor por seguridad.",
+"Cambiar la apariencia para que todos los ficheros parezcan pertenecer al usuario y grupo ftp.",
+"Ocultar los archivos maliciosos de los escaneos antivirus.",
+"Crear usuarios falsos en /etc/passwd."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si un usuario anónimo (como el usuario ftp) tiene configurada una shell en /bin/false, ¿qué directiva es indispensable activar para que logre entrar?",
+"opciones": [
+"DefaultRoot off",
+"AllowFalseShell yes",
+"RequireValidShell off",
+"UseFtpShell on"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para limitar el máximo número de inicios de sesión anónimos concurrentes a 10, se usa la directiva:",
+"opciones": [
+"MaxClients 10",
+"LimitConnections 10",
+"UsersQuota 10",
+"AnonymousMax 10"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué combinación de directivas deniega la posibilidad de ESCRITURA en cualquier directorio al usuario anónimo?",
+"opciones": [
+"<Limit READ> AllowAll </Limit>",
+"<Directory *> <Limit WRITE> DenyAll </Limit> </Directory>",
+"<WritePermission False>",
+"<DisableUpload on>"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para configurar el servidor FTP permitiendo conexiones anónimas SIN requerir contraseña alguna, ¿qué directiva se usa?",
+"opciones": [
+"PasswordRequired no",
+"AnonRequirePassword off",
+"EmptyPassword allowed",
+"AuthUserFile none"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si configuras un usuario privado (ej: 'invitado') como base para un bloque Anonymous pero quieres que se requiera su contraseña de sistema, utilizas:",
+"opciones": [
+"AnonRequirePassword on",
+"RequireValidShell on",
+"PasswordAuthentication strong",
+"ForcePassword true"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el contexto de restricciones, ¿qué hace la directiva 'Order allow, deny'?",
+"opciones": [
+"Ordena alfabéticamente los ficheros antes de subirlos.",
+"Indica el orden de evaluación de reglas de permisos: primero las que permiten, luego las que deniegan.",
+"Permite todo a usuarios 'allow' y rechaza a usuarios 'deny'.",
+"Establece una prioridad de ancho de banda."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si quiero permitir explícitamente acceso desde la red 192.168.200 a un directorio, ¿qué directiva escribo en el bloque <Limit>?",
+"opciones": [
+"Accept IP 192.168.200.*",
+"Allow from 192.168.200.",
+"NetworkPermit 192.168.200.0/24",
+"WhiteList 192.168.200"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cómo prohibiría el acceso a todos los equipos que no coincidan con las reglas 'Allow' previas?",
+"opciones": [
+"Deny from all",
+"Reject rest",
+"Block IP *",
+"Drop ALL"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cómo se estructuran múltiples redes o dominios permitidos en una sola directiva 'Allow from'?",
+"opciones": [
+"Separados por espacios exclusivamente.",
+"En líneas separadas obligatoriamente.",
+"Separados por una coma (,).",
+"Separados por punto y coma (;)."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Permite la directiva 'Allow from' utilizar nombres de dominios DNS (ej. tuhostA.tudominio.edu) además de IPs?",
+"opciones": [
+"Sí, separándolos con comas al igual que las IPs.",
+"No, solo admite IPs en notación decimal.",
+"Solo si se emplea el protocolo IPv6.",
+"Sí, pero requiere recompilar el módulo mod_dns."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué tecnología permite alojar y separar configuraciones de varios dominios (como empresa1.com y empresa2.com) en un mismo servidor ProFTPd?",
+"opciones": [
+"Cloud Computing.",
+"Hosts virtuales o virtualhosts.",
+"Docker containers.",
+"NAT (Traducción de direcciones de red)."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si estableces la directiva 'TimeoutIdle 1200' en la configuración principal (fuera de cualquier virtualhost), ¿qué ocurre con los virtualhosts?",
+"opciones": [
+"La ignoran, los virtualhosts deben llevar todas las directivas de forma explícita.",
+"Se bloquean al entrar en conflicto.",
+"Heredan esa configuración, aplicándose el timeout a todos los dominios alojados.",
+"Causa un error 500 y detiene ProFTPD."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué utilidad tiene la directiva 'TimeoutIdle' mencionada en el temario?",
+"opciones": [
+"Cerrar la conexión FTP si un usuario permanece inactivo el número máximo de segundos definido.",
+"Limitar la velocidad de descarga cuando el servidor está saturado.",
+"Retrasar el inicio del servidor en el arranque del sistema.",
+"Definir el tiempo de vigencia de las contraseñas."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al definir la directiva VirtualHost, ¿qué se puede utilizar como parámetro identificador en su apertura?",
+"opciones": [
+"Exclusivamente el nombre del usuario administrador.",
+"La IP del servidor FTP o bien el nombre DNS correspondiente.",
+"El identificador MAC de la tarjeta de red.",
+"El número de puerto obligatoriamente."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si empleas dominios DNS apuntando a IPs privadas para los virtualhosts, ¿qué requisito de red es imprescindible?",
+"opciones": [
+"Desactivar cualquier cortafuegos perimetral.",
+"Tener un contrato de IP pública estática.",
+"Existir un servidor DNS que las resuelva en local o tener entradas en /etc/hosts.",
+"Que el puerto FTP se reasigne al 8080."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué herramienta de comandos se menciona para generar ficheros de autenticación de usuarios virtuales sin necesidad de crearlos en el sistema operativo?",
+"opciones": [
+"useradd-virtual",
+"htpasswd",
+"ftpasswd",
+"mysql-adduser"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En el comando 'ftpasswd', ¿qué función cumple el parámetro '--passwd'?",
+"opciones": [
+"Fuerza a no pedir contraseña.",
+"Indica que se solicitará la contraseña del usuario a crear.",
+"Almacena la contraseña en texto plano en la raíz del sistema.",
+"Extrae la contraseña de /etc/shadow."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al crear un usuario virtual con 'ftpasswd', ¿qué representa el parámetro '--uid 107'?",
+"opciones": [
+"La cuota en megabytes asignada al usuario.",
+"El número de conexiones simultáneas permitidas.",
+"El identificador de usuario de red (UID) del sistema, que suele corresponder al usuario 'ftp'.",
+"El número de días hasta que la clave caduque."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Por qué un usuario virtual se crea especificando el parámetro '--shell /bin/false'?",
+"opciones": [
+"Para engañar a los hackers con una shell trampa.",
+"Para ahorrar memoria RAM en el servidor.",
+"Para identificar una consola de comandos que no permite la conexión real como usuario del sistema.",
+"Porque es el único intérprete de comandos compatible con FTP."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para que los virtualhosts estén habilitados y aislados organizativamente en su propio fichero, ¿qué se debe hacer en proftpd.conf?",
+"opciones": [
+"Borrar el archivo proftpd.conf original.",
+"Descomentar la línea 'Include /etc/proftpd/virtuals.conf'.",
+"Cambiar el puerto general a 2121.",
+"Añadir la opción 'EnableVirtual on'."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Cuando se configuran virtualhosts basados en nombre (identificando ambos a la misma máquina e IP), ¿qué condición es necesaria para que no colisionen?",
+"opciones": [
+"Deben pertenecer a subredes IP distintas.",
+"Ambos deben carecer de cifrado TLS.",
+"Cada virtualhost debe servir en un puerto TCP distinto (ej. 2121 y 2122).",
+"Solo uno de ellos puede permitir escritura."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Dentro del bloque `<VirtualHost 192.168.200.250>`, ¿qué directiva indica el archivo donde residen los usuarios virtuales de ese dominio?",
+"opciones": [
+"VirtualAuth none",
+"AuthUserFile /etc/passwd.usuarios.virtuales",
+"PasswdFile /var/ftp/passw",
+"LoadUsers /etc/proftpd/users"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué finalidad tiene la directiva `ServerName \"Servidor FTP empresa1\"` dentro de un VirtualHost?",
+"opciones": [
+"Cambiar el nombre del host a nivel del núcleo de Linux.",
+"Sirve para uso interno del registro log exclusivamente.",
+"Configura el nombre descriptivo que se muestra al usuario en el momento de la conexión.",
+"Permite acceder al servidor desde un navegador web."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para aislar por completo el directorio de un virtualhost (ej. empresa1) de forma que el cliente no pueda salir de él, se emplea:",
+"opciones": [
+"ChrootPath /var/ftp/empresa1/",
+"LockUser true",
+"DefaultRoot /var/ftp/empresa1/",
+"HomeDir /empresa1/"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Una vez definidos los virtualhosts y sus directorios locales como /var/ftp/empresa1/, ¿qué debes hacer con los permisos del sistema?",
+"opciones": [
+"Asignar permisos 777 a toda la rama /var.",
+"Hacer chown al usuario ftp para que tenga propiedad sobre las carpetas (ej. chown ftp /var/ftp/empresa1/).",
+"Cifrar el directorio con GPG.",
+"Borrar cualquier archivo oculto que contenga."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En la configuración de Virtualhosts basados en IP, ¿se exige que las IPs del servidor sean iguales para cada dominio?",
+"opciones": [
+"Sí, deben compartir la misma IP y distinto puerto obligatoriamente.",
+"No, cada dominio/virtualhost corresponde a una dirección IP distinta asignada a una interfaz de red.",
+"Sí, pero deben resolver a diferentes MACs virtuales.",
+"No, el VirtualHost basado en IP ignora las IPs físicas de la máquina."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al utilizar Virtualhosts basados en IPs diferentes, ¿qué ocurre con el puerto TCP de cada host virtual?",
+"opciones": [
+"Deben ser puertos altos (mayores a 10000).",
+"Es indiferente, puede ser el mismo puerto estándar (ej. 21) ya que las IPs son distintas.",
+"Solo se permite usar puertos en formato UDP.",
+"El RFC exige usar el puerto 21 para el primero y 2121 para el segundo obligatoriamente."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Según el temario, ¿cuál es una desventaja de los virtualhosts basados en IP frente a los basados en nombre?",
+"opciones": [
+"Son menos seguros ante ataques de denegación de servicio.",
+"No aportan ventajas adicionales y pueden ser más difíciles de mantener si las IP cambian con frecuencia.",
+"No admiten usuarios virtuales mediante ftpasswd.",
+"Exigen hardware dedicado en cada tarjeta de red."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué archivo incluye proftpd.conf donde deben activarse los módulos necesarios para habilitar el uso de cuotas?",
+"opciones": [
+"/etc/proftpd/modules.conf",
+"/etc/proftpd/quota.conf",
+"/etc/modprobe.d/proftpd.conf",
+"/var/lib/ftp/modules.load"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para habilitar las cuotas por completo en proftpd.conf, la directiva QuotaEngine debe estar en el valor:",
+"opciones": [
+"off",
+"on",
+"auto",
+"strict"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para gestionar cuotas locales en ficheros, ¿cuáles son los dos módulos esenciales que debemos asegurar que están cargados en modules.conf?",
+"opciones": [
+"mod_sql.c y mod_ldap.c",
+"mod_tls.c y mod_crypto.c",
+"mod_quotatab.c y mod_quotatab_file.c",
+"mod_limit.c y mod_tally.c"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué directiva define la ubicación del archivo de registro específico de la operativa de cuotas?",
+"opciones": [
+"LogQuota /var/log/quota",
+"QuotaLog /var/log/proftpd/quota.log",
+"SyslogLevel debug",
+"WriteLog /etc/quota.txt"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En ProFTPD existen básicamente dos tipos funcionales de cuotas. ¿Cuáles son?",
+"opciones": [
+"limit y tally.",
+"upload y download.",
+"soft y hard.",
+"user y group."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Para qué se utiliza de forma específica el tipo de cuota 'limit'?",
+"opciones": [
+"Para restringir el tiempo que un usuario puede estar conectado.",
+"Para limitar o contabilizar el espacio en disco (tamaño en bytes) utilizado.",
+"Para forzar un ancho de banda máximo de 1 MB/s.",
+"Para limitar la cantidad máxima de subdirectorios creados."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Para qué se utiliza específicamente el tipo de cuota 'tally'?",
+"opciones": [
+"Para restringir la transferencia en horario nocturno.",
+"Para cifrar las descargas a la mitad de velocidad.",
+"Para limitar o contabilizar el número de ficheros individuales que se utilizan.",
+"Para llevar la cuenta de errores de inicio de sesión."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Cuál es la diferencia entre un límite 'soft' y un límite 'hard' en las cuotas?",
+"opciones": [
+"Soft afecta a software y hard al hardware del disco.",
+"Soft permite un espacio de gracia (en bytes) donde se puede sobrepasar el límite temporalmente, hard no.",
+"Soft borra archivos antiguos automáticamente, hard bloquea la subida.",
+"Hard bloquea al usuario de forma permanente y soft lo expulsa temporalmente."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El temario sugiere que restringir el espacio de subida de archivos (upload) actúa de facto como limitación de espacio en disco porque:",
+"opciones": [
+"Los archivos en modo ASCII pesan menos de lo esperado.",
+"Los bytes cargados a través de FTP se almacenan automáticamente en el disco, consumiendo ese espacio directo.",
+"Las particiones Linux comprimen el upload de forma estricta.",
+"El protocolo borra los archivos tras finalizar la sesión."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué comando interactivo o desde terminal se proporciona para inicializar y gestionar las tablas de cuotas?",
+"opciones": [
+"edquota",
+"setquota",
+"ftpquota",
+"quota-ftp-manager"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué hace el comando `ftpquota --create-table --type=limit --table-path=/etc/proftpd/ftpquota.limittab`?",
+"opciones": [
+"Imprime una tabla en pantalla con los límites actuales.",
+"Asigna 1GB de límite por defecto a todos los usuarios.",
+"Crea e inicializa el archivo binario de base de datos para registrar las cuotas de tipo limit.",
+"Borra la tabla actual provocando que nadie tenga límite."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si quisieras establecer un límite de 4 GB de subida al usuario user-empresa1, ¿qué parámetro usas con ftpquota para agregar esa nueva entrada?",
+"opciones": [
+"--insert-row",
+"--add-record",
+"--new-user",
+"--append-limit"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Dentro de la ejecución de ftpquota, el modificador `--bytes-upload=4 --units=Gb` indica que:",
+"opciones": [
+"Se permite la descarga de 4 Gigabytes diarios.",
+"Se reserva 4 Gigabytes de espacio RAM para el usuario.",
+"Se restringe la cantidad máxima de archivos subidos a 4.",
+"Se establece un límite máximo de subida de datos de 4 Gigabytes."
+],
+"correcta": 3
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Es posible asignar límites distintos de subida y descarga simultáneamente con ftpquota al mismo usuario?",
+"opciones": [
+"No, solo puede elegirse limitar subida o descarga, pero no ambos.",
+"Sí, utilizando por ejemplo `--bytes-upload=4 --bytes-download=2`.",
+"Solo si se crean dos cuentas de usuario separadas.",
+"Sí, pero solo con el tipo de cuota tally, no limit."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué argumento se añade a ftpquota para ver a quién se le está ejerciendo restricciones y en qué medida?",
+"opciones": [
+"--list-all",
+"--show-records",
+"--display-quota",
+"--cat-table"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al consultar los registros de cuota, si aparece 'Downloaded bytes: unlimited', significa que:",
+"opciones": [
+"El comando falló al leer el archivo de base de datos.",
+"El usuario no tiene fijado un límite de descarga de datos.",
+"El usuario ha superado su cuota y se le ha cancelado la cuenta.",
+"El disco duro del servidor no tiene espacio disponible."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si un usuario requiere más espacio o modificar su restricción (ej: de 4Gb a 2300Mb), ¿qué acción usamos en ftpquota?",
+"opciones": [
+"--edit-quota",
+"--modify-limit",
+"--update-record",
+"--change-user"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué debes usar para desactivar o eliminar por completo la restricción de cuota impuesta a un usuario específico?",
+"opciones": [
+"ftpquota --delete-record --name=usuario",
+"Borrar manualmente la carpeta del usuario.",
+"Establecer sus bytes a -1.",
+"Pausar el demonio cron de proftpd."
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si ejecutas `--show-records` tras haber borrado todos los usuarios de la base de datos de cuotas, el comando devolverá:",
+"opciones": [
+"ftpquota: (empty table)",
+"Error 404: File not found",
+"Segmentation fault",
+"All users unlimited"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Para dotar de acceso seguro al servidor ProFTPd empleando cifrado SSL/TLS, ¿qué fichero de configuración se debe importar primero?",
+"opciones": [
+"/etc/proftpd/crypto.conf",
+"/etc/proftpd/ssl.conf",
+"/etc/proftpd/tls.conf",
+"/etc/proftpd/secure.conf"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En sistemas Debian 6 (squeeze), ¿qué paquete software se requiere instalar para generar manualmente certificados x509 y claves privadas?",
+"opciones": [
+"gnupg",
+"openssl",
+"ssh-keygen",
+"certbot"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Al generar las claves con openssl para el servidor FTP, se producen un certificado (.crt) y una clave. ¿Qué naturaleza tiene la clave proftpd.key?",
+"opciones": [
+"Es una clave pública genérica.",
+"Es un hash MD5 de la contraseña root.",
+"Es la clave privada RSA del servidor, esencial para descifrar.",
+"Es una clave simétrica temporal (sesión)."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué método alternativo y más directo se menciona en el texto para generar el certificado TLS válido por 1 año sin usar comandos largos de openssl?",
+"opciones": [
+"make cert",
+"proftpd-gencert",
+"auto-tls-setup",
+"dpkg-reconfigure proftpd"
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Por estrictas razones de seguridad, ¿qué permisos octales deben aplicarse al archivo de la clave privada (`/etc/ssl/private/proftpd.key`)?",
+"opciones": [
+"0777",
+"0644",
+"0600",
+"0400"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué permisos octales son los recomendados para el certificado público (`/etc/ssl/certs/proftpd.crt`)?",
+"opciones": [
+"0644",
+"0600",
+"0700",
+"0755"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Una vez finalizada la configuración de TLS, ¿qué cliente gráfico es adecuado para comprobar la conexión segura (FTPES)?",
+"opciones": [
+"Navegador Mozilla Firefox estándar.",
+"Cliente texto básico ftp.",
+"FileZilla configurado para requerir FTP sobre TLS.",
+"Internet Explorer versión 6."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si se desea depurar o verificar en tiempo real las conexiones seguras cifradas, ¿qué comando y archivo se deben utilizar?",
+"opciones": [
+"tail -f /var/log/proftpd/tls.log",
+"cat /etc/shadow",
+"less /var/log/auth.log",
+"watch /var/log/proftpd/ssl.error"
+],
+"correcta": 0
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Durante la generación del certificado con openssl, si aparece la pregunta 'Common Name (eg, YOUR name)', ¿qué dato es el correcto a introducir?",
+"opciones": [
+"El nombre de pila del administrador.",
+"El nombre o dirección DNS resoluble del servidor (ej: ftp.empresa1.com).",
+"El nombre del sistema operativo (Debian).",
+"Cualquier cadena aleatoria, es irrelevante."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Durante el proceso de crear un certificado con openssl, si deseas dejar un campo en blanco según las instrucciones del promt, ¿qué carácter debes teclear?",
+"opciones": [
+"Un asterisco (*)",
+"La palabra NULL",
+"Un punto (.)",
+"Un espacio en blanco ( )"
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Qué riesgo latente elimina la implantación de TLS en ProFTPd?",
+"opciones": [
+"Que el disco duro se quede sin espacio por falta de cuotas.",
+"Que las credenciales de usuarios e información se transmitan en texto claro y puedan ser espiadas.",
+"Que el servidor no soporte virtualhosts por IP.",
+"Que el servicio se inicie automáticamente en cada arranque."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "¿Se puede aplicar la configuración segura TLS de manera global afectando también a los virtualhosts?",
+"opciones": [
+"No, el protocolo FTPES es incompatible con Virtualhosts.",
+"Sí, modificando el fichero tls.conf o incluyendo las directivas en el ámbito adecuado.",
+"Solo si todos los virtualhosts comparten el mismo directorio raíz.",
+"Sí, pero requiere un certificado digital diferente por cada usuario local."
+],
+"correcta": 1
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "El parámetro `QuotaLimitTable file:/etc/proftpd/ftpquota.limittab` indica:",
+"opciones": [
+"Que los límites de ancho de banda se aplican por red.",
+"El archivo en formato texto plano donde el administrador anota los avisos.",
+"El fichero de tabla (base de datos) que contiene las restricciones de cuota tipo limit.",
+"El fichero ejecutable que comprime los datos al subir."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "En las tablas Limit y Tally, si una cuota se marca como 'Per Session: False', quiere decir que:",
+"opciones": [
+"La conexión se cerrará abruptamente en la siguiente sesión.",
+"El usuario no tiene permiso de sesión interactiva.",
+"El registro de datos almacenados perdura entre las distintas conexiones del usuario, es global.",
+"Las cuotas no se aplican en la sesión activa actual."
+],
+"correcta": 2
+},
+{
+"tema": "Unidad de Trabajo 3",
+"pregunta": "Si combinamos configuraciones, un servidor ProFTPd es capaz de soportar simultáneamente:",
+"opciones": [
+"Sólo acceso anónimo y usuarios de sistema, no admite virtuales.",
+"Usuarios anónimos, usuarios de sistema, usuarios virtuales, virtualhosts, cuotas y conexiones cifradas TLS.",
+"TLS y Virtualhosts, pero desactivando cualquier cuota.",
+"Un único dominio a la vez si se utilizan cuotas 'hard'."
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Por qué se recomienda ejecutar el servidor ProFTPd en modo independiente (standalone) en lugar de usar inetd cuando hay mucho tráfico?",
+"opciones": [
+"Porque el modo standalone comprime los archivos automáticamente.",
+"Para evitar la sobrecarga y el consumo de recursos que supone crear un proceso nuevo por cada conexión entrante.",
+"Porque inetd no es compatible con el cifrado TLS.",
+"Para que el servidor pueda utilizar el puerto 80 en lugar del 21."
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "En el contexto del protocolo FTP, ¿qué característica define al 'Modo Activo' de conexión?",
+"opciones": [
+"El servidor inicia la conexión de datos desde su puerto 20 hacia un puerto aleatorio del cliente.",
+"El cliente cifra los datos antes de establecer la conexión.",
+"El servidor obliga al cliente a conectarse a través del puerto 22 (SSH).",
+"El cliente inicia ambas conexiones, la de control y la de datos."
+],
+"correcta": 0
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Por qué los cortafuegos (firewalls) modernos en el lado del cliente suelen bloquear las transferencias FTP en modo activo?",
+"opciones": [
+"Porque el protocolo FTP activo transmite virus en los archivos de texto.",
+"Porque perciben la conexión de datos iniciada por el servidor como tráfico entrante no autorizado o malicioso.",
+"Porque el modo activo usa el protocolo UDP, que siempre se bloquea por defecto.",
+"Porque saturan la tabla NAT del router del cliente."
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Para evitar los bloqueos del cortafuegos del cliente, se utiliza el 'Modo Pasivo'. ¿Cómo funciona la conexión de datos en este modo?",
+"opciones": [
+"El servidor envía los datos empaquetados por el puerto de control 21.",
+"El servidor se conecta al puerto 20 del cliente de forma encubierta.",
+"El cliente solicita el modo pasivo y es él mismo quien inicia la conexión hacia un puerto abierto proporcionado por el servidor.",
+"Se utiliza una red privada virtual (VPN) obligatoria."
+],
+"correcta": 2
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Qué directiva se debe configurar en ProFTPd para indicar el rango de puertos que el servidor ofrecerá a los clientes en el modo pasivo?",
+"opciones": [
+"ActivePorts",
+"DataPortsRange",
+"PassivePorts",
+"Port 50000-50010"
+],
+"correcta": 2
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Para configurar usuarios anónimos en ProFTPd y restringir su navegación a un directorio específico, ¿qué directiva o técnica se aplica habitualmente?",
+"opciones": [
+"La etiqueta <Anonymous ruta> o la directiva DefaultRoot para 'enjaular' (chroot) al usuario.",
+"Otorgar permisos 777 a la carpeta /var/ftp.",
+"Crear un enlace simbólico desde la raíz del sistema hacia la carpeta del usuario.",
+"Desactivar el cortafuegos local."
+],
+"correcta": 0
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Si deseas limitar el número máximo de conexiones simultáneas que pueden realizar los usuarios anónimos en ProFTPd, ¿qué directiva utilizas?",
+"opciones": [
+"LimitConnections",
+"MaxClients",
+"UsersQuota",
+"MaxInstances"
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Cómo se bloquea completamente la capacidad de subir, borrar o modificar archivos (solo lectura) para un grupo de usuarios en un directorio con ProFTPd?",
+"opciones": [
+"Con la directiva <Limit WRITE> configurada con el valor DenyAll.",
+"Con el comando chmod 000 ejecutado en el cliente FTP.",
+"Cambiando el puerto de datos a uno de solo lectura.",
+"Estableciendo UserAlias a nobody."
+],
+"correcta": 0
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Al intentar borrar un archivo en un servidor FTP recibes el error '550 Permission denied' (Operación no permitida). ¿Qué significa a nivel teórico?",
+"opciones": [
+"Que la conexión TLS ha caducado.",
+"Que el servidor ha detectado que el archivo está infectado.",
+"Que el cliente está en modo activo y el servidor lo ha bloqueado.",
+"Que las políticas del servidor o los permisos del sistema deniegan la acción de escritura/borrado a tu usuario."
+],
+"correcta": 3
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Al crear usuarios virtuales para FTP o configurar el acceso anónimo, a menudo no se requiere que tengan acceso al sistema operativo. ¿Qué directiva permite su conexión FTP en ProFTPd?",
+"opciones": [
+"RequireValidShell off",
+"AllowSystemUsers no",
+"ShellAccess false",
+"VirtualUsers on"
+],
+"correcta": 0
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Qué ventaja principal ofrece el uso de 'Usuarios Virtuales' en un servidor FTP?",
+"opciones": [
+"Son usuarios que navegan sin revelar su dirección IP pública.",
+"Poseen acceso al servidor FTP sin necesidad de existir como usuarios reales en el sistema operativo subyacente.",
+"Pueden saltarse el uso del protocolo TLS sin ser detectados.",
+"No ocupan espacio en el disco duro porque se almacenan en la memoria RAM."
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Qué herramienta de línea de comandos se utiliza habitualmente junto a ProFTPd para generar y gestionar los ficheros de contraseñas de los usuarios virtuales?",
+"opciones": [
+"htpasswd",
+"useradd",
+"ftpasswd",
+"mysql-adduser"
+],
+"correcta": 2
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Cuando se crea un usuario virtual mediante comandos, ¿qué intérprete de comandos (shell) se le suele asignar como medida de seguridad para evitar que inicie sesión en el sistema host?",
+"opciones": [
+"/bin/bash",
+"/bin/sh",
+"/bin/false (o /usr/sbin/nologin)",
+"/bin/ftp"
+],
+"correcta": 2
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Qué directiva indica a ProFTPd la ruta del fichero de texto donde debe verificar las credenciales de los usuarios virtuales creados?",
+"opciones": [
+"AuthUserFile",
+"VirtualPasswd",
+"UserDatabase",
+"LoadUsers"
+],
+"correcta": 0
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "En sistemas GNU/Linux, ¿por qué es importante que la carpeta asignada a un usuario virtual pertenezca al mismo usuario de sistema que ejecuta el servicio FTP (por ejemplo, chown ftp:nogroup)?",
+"opciones": [
+"Porque el demonio ProFTPd necesita poseer los permisos de sistema de archivos adecuados para poder escribir/subir archivos en nombre del usuario virtual.",
+"Porque el protocolo FTP rechaza carpetas propiedad del usuario root.",
+"Porque si no, el comando cd (cambiar directorio) bloquea el cliente.",
+"Es indiferente, ProFTPd ignora los permisos del sistema operativo."
+],
+"correcta": 0
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Para qué sirve el 'Gestor de sitios' (Site Manager) en un cliente gráfico como FileZilla?",
+"opciones": [
+"Para alojar bases de datos SQL de usuarios virtuales.",
+"Para configurar y guardar perfiles de conexión persistentes, facilitando el acceso a diferentes servidores FTP.",
+"Para compilar el código fuente de las aplicaciones web antes de subirlas.",
+"Para administrar los cortafuegos locales de forma automatizada."
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "¿Qué paquete de software se utiliza típicamente en distribuciones Linux para generar un certificado digital X.509 y su clave privada para asegurar ProFTPd?",
+"opciones": [
+"certbot",
+"openssl",
+"gnupg",
+"ssh-keygen"
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Por cuestiones críticas de seguridad criptográfica, ¿qué permisos octales deben configurarse en el archivo de la CLAVE PRIVADA del certificado TLS (.key)?",
+"opciones": [
+"0777 (Lectura, escritura y ejecución para todos)",
+"0644 (Lectura para todos)",
+"0600 (Lectura y escritura solo para el propietario)",
+"0000 (Bloqueo total)"
+],
+"correcta": 2
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Al implementar la seguridad TLS en ProFTPd (mediante mod_tls.c), ¿qué directiva fuerza a los clientes a usar obligatoriamente una conexión cifrada en lugar de enviar contraseñas en texto plano?",
+"opciones": [
+"TLSEngine on",
+"TLSVerifyClient off",
+"TLSRequired on",
+"ForceSSL true"
+],
+"correcta": 2
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Si utilizas un 'certificado autofirmado' en tu servidor FTP, ¿qué advertencia lógica te mostrará el cliente (como FileZilla) la primera vez que intentes conectar de forma cifrada?",
+"opciones": [
+"Que la conexión usa un protocolo obsoleto y se desconectará.",
+"Que el certificado es desconocido (no emitido por una Autoridad de Certificación comercial) y te pedirá confirmación manual para confiar en él.",
+"Que el puerto 21 está cerrado y debe usar el puerto 443.",
+"Que la contraseña enviada no cumple con las políticas de complejidad."
+],
+"correcta": 1
+},
+{
+"tema": "tarea tema 3",
+"pregunta": "Cuando configuras en tu cliente FTP la opción 'Requiere FTP explícito sobre TLS', estás utilizando un protocolo también conocido como:",
+"opciones": [
+"SFTP (SSH File Transfer Protocol).",
+"TFTP (Trivial File Transfer Protocol).",
+"FTPES (FTP over explicit TLS).",
+"HTTPS (Hypertext Transfer Protocol Secure)."
+],
+"correcta": 2
+}
 
 
 
