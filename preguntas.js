@@ -7425,6 +7425,776 @@ const BBDD_PREGUNTAS = [
 "HTTPS (Hypertext Transfer Protocol Secure)."
 ],
 "correcta": 2
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El certificado digital que un servidor ftp envía a un cliente _____ mediante una autoridad de certificación la autenticación del servidor ftp.",
+"opciones": [
+"por si solo no asegura",
+"mediante el protocolo ftp enbasic no asegura",
+"mediente el protocolo ftps enbasic asegura",
+"asegura"
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Para recargar el servicio proftpd se puede emplear el comando:",
+"opciones": [
+"/etc/init.d/proftpd reload",
+"/etc/init.d/proftpd update",
+"systemctl proftpd refresh",
+"/etc/proftpd/restart"
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Un servidor ftp ProFTPD permite enjaular a los usuarios en una ruta raíz definida. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, usando directivas como DefaultRoot.",
+"Falso, ProFTPD no soporta enjaulamiento (chroot).",
+"Verdadero, pero solo para el usuario root del sistema.",
+"Falso, los usuarios siempre pueden navegar por la raíz del disco."
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Un archivo de texto .txt puede transferirse como:",
+"opciones": [
+"Tipo de archivo binary exclusivamente.",
+"Un archivo comprimido obligatoriamente.",
+"Tipo de archivo ascii.",
+"Un script remoto."
+],
+"correcta": 2
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En el modo activo la conexión de datos es iniciada por el cliente ftp. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, el cliente inicia tanto la conexión de control como la de datos.",
+"Falso, en el modo activo es el servidor quien inicia la conexión de datos hacia el cliente.",
+"Verdadero, pero solo a través del puerto 21.",
+"Falso, en el modo activo no se utilizan conexiones de datos."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "FTPS y SFTP identifican el mismo protocolo de cifrado. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, son nombres distintos para el mismo servicio.",
+"Falso, FTPS es una extensión de FTP (usa SSL/TLS) y SFTP funciona sobre SSH.",
+"Verdadero, ambos utilizan únicamente el puerto 21 de control.",
+"Falso, FTPS no existe y SFTP es el único estándar seguro."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El cliente ftp del navegador permite la configuración de plantillas. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, en la sección de opciones de red.",
+"Falso, el navegador carece de gestión de sitios o plantillas como los clientes gráficos dedicados.",
+"Verdadero, siempre que se acceda mediante HTTPS.",
+"Falso, solo permite guardar temporalmente la contraseña en memoria."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En un host virtual _____ significa que por la interfaz de red 192.168.200.250 atenderá peticiones.",
+"opciones": [
+"<VirtualHost *:??>",
+"<VirtualHost 192.168.200.0::21>",
+"<VirtualHost *:*>",
+"<VirtualHost 192.168.200.250>"
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En la consola ftp, los comandos quit y exit:",
+"opciones": [
+"Finalizan la sesión ftp sin cerrar la consola ftp.",
+"Salen a línea de comandos del sistema operativo temporalmente sin cortar la conexión.",
+"Son alias de los comandos qut y ext.",
+"Terminan la sesión ftp y salen de la consola ftp."
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En ProFTPD, en relación a las cuotas de tipo Limit:",
+"opciones": [
+"No pueden subdividirse y son siempre de limitación estricta.",
+"Pueden subdividirse en soft, donde se puede sobrepasar el límite, o hard cuando no existe un espacio de gracia.",
+"Se utilizan exclusivamente para limitar la cantidad de ficheros, no el espacio en disco.",
+"Solamente afectan a las transferencias por usuarios anónimos."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El modo de funcionamiento de un servidor ftp puede ser activo o pasivo. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, dependiendo de quién inicie la conexión de datos para evitar bloqueos de cortafuegos.",
+"Falso, el único modo existente es el modo activo.",
+"Falso, en la actualidad los servidores solo admiten el modo pasivo.",
+"Verdadero, pero el modo pasivo solo es compatible con redes locales."
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Los permisos rw-r--r-- identifican:",
+"opciones": [
+"Los permisos: 655.",
+"Los permisos: 644.",
+"Los permisos: 544.",
+"Los permisos: 744."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En una comunicación cliente(A)-servidor(B) mediante el cifrado asimétrico, 'A' envía la información cifrada mediante la clave _____ y 'B' la descifra mediante su clave privada.",
+"opciones": [
+"privada de 'B'",
+"privada y pública de 'B'",
+"privada y pública de 'A'",
+"pública de 'B'"
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En la consola ftp, los comandos close y disconnect:",
+"opciones": [
+"Terminan la sesión ftp y salen de la consola ftp.",
+"Salen a línea de comandos del sistema operativo temporalmente sin cortar la conexión.",
+"Son alias de los comandos qut y ext.",
+"Finalizan la sesión ftp sin cerrar la consola ftp."
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "ProFTPD es modular y por lo tanto debe instalarse cada vez que queremos actualizarlo. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, requiere reinstalación completa para añadir nuevas funciones.",
+"Falso, al ser modular permite activar/desactivar opciones adicionales en su configuración sin reinstalar todo.",
+"Verdadero, los módulos están compilados de forma estática obligatoriamente.",
+"Falso, no es modular en absoluto."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El archivo de configuración /etc/proftpd/proftpd.conf permite incorporar otros archivos de configuración mediante la directiva:",
+"opciones": [
+"Include",
+"Require",
+"Import",
+"LoadModule"
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En la consola ftp, los comandos ? y help:",
+"opciones": [
+"No funcionan ambos en la consola ftp, solamente funciona el comando ?.",
+"No funcionan ambos en la consola ftp, solamente funciona el comando help.",
+"Muestran la información relativa al estado del servidor remoto.",
+"Muestran una lista de los comandos disponibles."
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El cliente ftp FileZilla permite la configuración de plantillas (gestor de sitios). ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, permite recordar los perfiles y parámetros de las conexiones (sitios).",
+"Falso, carece de cualquier función de almacenamiento de sesiones.",
+"Verdadero, pero solo a través de la instalación de complementos de terceros.",
+"Falso, hay que introducir los datos manualmente cada vez."
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Asocia la directiva del servidor ProFTPD con su uso: ¿Qué directiva se emplea para definir el fichero de autenticación de usuarios?",
+"opciones": [
+"Port",
+"AuthUserFile",
+"DefaultRoot",
+"ServerName"
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "¿Qué directiva de ProFTPD se encarga de configurar el nombre que se muestra en la conexión de los usuarios?",
+"opciones": [
+"TimeoutIdle",
+"RequireValidShell",
+"AuthUserFile",
+"ServerName"
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Un archivo de imagen .jpg puede transferirse como:",
+"opciones": [
+"Tipo de archivo ascii.",
+"Texto plano si no supera los 10 KB.",
+"Tipo de archivo binary.",
+"Cualquiera de los anteriores sin pérdida de calidad."
+],
+"correcta": 2
+},
+{
+        "tema": "Examen Online tema 4",
+        "pregunta": "¿Cuál es el único atributo de una entrada en LDAP que, según la teoría y su definición de clases, no puede eliminarse en sí mismo?",
+        "opciones": [
+            "uid (User ID)",
+            "dn (Distinguished Name)",
+            "objectClass",
+            "cn (Common Name)"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "En la organización de un servidor LDAP, ¿qué nombre o siglas recibe exactamente su estructura jerárquica en forma de árbol?",
+        "opciones": [
+            "DN (Nombre Distinguible)",
+            "CN (Nombre Común)",
+            "RDN (Nombre Completo Relativo)",
+            "DIT (Árbol de Directorios de la Información)"
+        ],
+        "correcta": 3
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "En la administración de un directorio LDAP, ¿qué comando se emplea exclusivamente para añadir nuevas entradas (inyectarlas) y no para modificarlas?",
+        "opciones": [
+            "ldapsearch",
+            "ldapmodify",
+            "ldapadd",
+            "slapdtest"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "¿Es cierto que el servidor DNS permite traducir una IP a su nombre de dominio correspondiente únicamente cuando es una IP versión 4?",
+        "opciones": [
+            "Sí, puesto que la IP versión 6 no lo permite.",
+            "Sí, mediante resolución inversa exclusiva del dominio local.",
+            "No, porque también proporciona un proceso de resolución inversa para el Protocolo de Internet versión 6 (IPv6) usando el dominio ip6.arpa.",
+            "Sí, mediante resolución directa de tipo AAAA."
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "¿Qué característica define a un servicio de directorio electrónico en cuanto a la actualización de sus datos frente a un directorio impreso tradicional?",
+        "opciones": [
+            "Es estático.",
+            "Es inflexible.",
+            "Es dinámico, permitiendo consultas y actualizaciones en tiempo real.",
+            "Es inseguro."
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "A diferencia de un directorio tradicional que presenta problemas para reorganizar o añadir nuevos campos de información sobre la marcha, se dice que un servicio de directorio electrónico es:",
+        "opciones": [
+            "Flexible, ya que permite localizar la información de distintas maneras y modificar cualquier contenido al instante.",
+            "Inflexible",
+            "Difícilmente configurable",
+            "Secuencial"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "En lo que respecta a la gestión y el acceso a la información confidencial, ¿qué cualidad describe mejor a un servicio de directorio electrónico?",
+        "opciones": [
+            "Totalmente público sin control",
+            "Vulnerable por defecto",
+            "Seguro, porque permite controlar el acceso a la información exigiendo claves para obtenerla.",
+            "Inseguro"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "En el funcionamiento del cliente DNS, al realizar consultas recursivas, ¿qué espera obtener exactamente el cliente del servidor consultado?",
+        "opciones": [
+            "Quiere que el servidor DNS no use recursividad y sí iteración.",
+            "Está interesado en la mejor respuesta inmediata sin contactar a otros servidores.",
+            "Quiere que el servidor DNS le resuelva totalmente la consulta, asumiendo la asistencia de otros servidores si fuera necesario.",
+            "Siempre solicita anteriormente una consulta iterativa."
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "¿Qué ventaja en el rendimiento general tiene para un servidor DNS realizar y completar procesos de consultas recursivas por todo el árbol?",
+        "opciones": [
+            "Libera instantáneamente la memoria RAM del servidor.",
+            "Da lugar a que la caché del servidor se pueda ver beneficiada de mucha información obtenida sobre el espacio de nombres de dominio.",
+            "Evita por completo el uso posterior de los servidores raíz DNS en todo el mundo.",
+            "Limita la necesidad de utilizar el protocolo UDP en la red local."
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "Si quisieras administrar y añadir un usuario o grupo en un servidor OpenLDAP de forma sencilla sin tener que crear manualmente los archivos LDIF, en caso de existir e instalarse, podrías utilizar la suite de comandos de nombre:",
+        "opciones": [
+            "ldapadduser",
+            "slapadd",
+            "ldapscripts",
+            "ldapmodify"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "En cuanto a las capacidades del comando 'dig' al realizar consultas al servidor DNS, ¿qué afirmación es correcta?",
+        "opciones": [
+            "No permite realizar resoluciones inversas y directas.",
+            "Solamente permite realizar resoluciones inversas.",
+            "Solamente permite realizar resoluciones directas, esto es, de nombres de dominio DNS a IP.",
+            "Permite realizar resoluciones inversas y directas."
+        ],
+        "correcta": 3
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "En comparación con la gestión de nombres utilizando el fichero local /etc/hosts, ¿qué nos permite un servidor DNS en una red?",
+        "opciones": [
+            "El servidor DNS, a diferencia del fichero /etc/hosts, no permite una gestión centralizada.",
+            "El servidor DNS permite una gestión centralizada y dinámica que facilita las actualizaciones sin tener que editar los ficheros equipo por equipo.",
+            "Ambos sistemas ofrecen exactamente el mismo nivel de descentralización de la información.",
+            "El servidor DNS impide la resolución inversa local."
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "Examen Online tema 4",
+        "pregunta": "El protocolo LDAP fue diseñado y surge como una alternativa mucho más ligera, simple y funcional frente a DAP, ¿de qué estándar formaba parte este último protocolo?",
+        "opciones": [
+            "IPv4",
+            "X.400",
+            "X.500",
+            "IEEE 802.11"
+        ],
+        "correcta": 2
+    },
+    {
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 755 identifican:",
+"opciones": [
+"Los permisos: rwxr--r--",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-r--r--",
+"Los permisos: rwxrw-rw-"
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rwxr-xr-x identifican:",
+"opciones": [
+"Los permisos: 777.",
+"Los permisos: 644.",
+"Los permisos: 755.",
+"Los permisos: 750."
+],
+"correcta": 2
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rw-r--r-- identifican:",
+"opciones": [
+"Los permisos: 655.",
+"Los permisos: 644.",
+"Los permisos: 544.",
+"Los permisos: 744."
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 644 identifican:",
+"opciones": [
+"Los permisos: rw-r--r--",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-rw-rw-",
+"Los permisos: r--r--r--"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 777 identifican:",
+"opciones": [
+"Los permisos: rwx------",
+"Los permisos: rw-rw-rw-",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rwxrwxrwx"
+],
+"correcta": 3
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rwxrwxrwx identifican:",
+"opciones": [
+"Los permisos: 666.",
+"Los permisos: 777.",
+"Los permisos: 755.",
+"Los permisos: 700."
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 600 identifican:",
+"opciones": [
+"Los permisos: r--------",
+"Los permisos: rw-r--r--",
+"Los permisos: rw-------",
+"Los permisos: rwx------"
+],
+"correcta": 2
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rw------- identifican:",
+"opciones": [
+"Los permisos: 644.",
+"Los permisos: 600.",
+"Los permisos: 400.",
+"Los permisos: 700."
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 400 identifican:",
+"opciones": [
+"Los permisos: r--------",
+"Los permisos: rw-------",
+"Los permisos: r-xr-xr-x",
+"Los permisos: --------w-"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos r-------- identifican:",
+"opciones": [
+"Los permisos: 200.",
+"Los permisos: 400.",
+"Los permisos: 600.",
+"Los permisos: 100."
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 666 identifican:",
+"opciones": [
+"Los permisos: r--r--r--",
+"Los permisos: rw-rw-rw-",
+"Los permisos: rwxrwxrwx",
+"Los permisos: rw-r--r--"
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rw-rw-rw- identifican:",
+"opciones": [
+"Los permisos: 777.",
+"Los permisos: 644.",
+"Los permisos: 222.",
+"Los permisos: 666."
+],
+"correcta": 3
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 700 identifican:",
+"opciones": [
+"Los permisos: rwx------",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-------",
+"Los permisos: rwxrwxrwx"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rwx------ identifican:",
+"opciones": [
+"Los permisos: 755.",
+"Los permisos: 700.",
+"Los permisos: 600.",
+"Los permisos: 400."
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 750 identifican:",
+"opciones": [
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-r-----",
+"Los permisos: rwxrw-r--",
+"Los permisos: rwxr-x---"
+],
+"correcta": 3
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rwxr-x--- identifican:",
+"opciones": [
+"Los permisos: 755.",
+"Los permisos: 740.",
+"Los permisos: 750.",
+"Los permisos: 700."
+],
+"correcta": 2
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 444 identifican:",
+"opciones": [
+"Los permisos: r--r--r--",
+"Los permisos: rwxrwxrwx",
+"Los permisos: rw-rw-rw-",
+"Los permisos: -w--w--w-"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos r--r--r-- identifican:",
+"opciones": [
+"Los permisos: 222.",
+"Los permisos: 666.",
+"Los permisos: 777.",
+"Los permisos: 444."
+],
+"correcta": 3
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 744 identifican:",
+"opciones": [
+"Los permisos: rwxr--r--",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-r--r--",
+"Los permisos: rwxrw-rw-"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos rwxr--r-- identifican:",
+"opciones": [
+"Los permisos: 755.",
+"Los permisos: 644.",
+"Los permisos: 744.",
+"Los permisos: 700."
+],
+"correcta": 2
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos 000 identifican:",
+"opciones": [
+"Los permisos: ---------",
+"Los permisos: r--r--r--",
+"Los permisos: --x--x--x",
+"Los permisos: -w--w--w-"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Los permisos --------- identifican:",
+"opciones": [
+"Los permisos: 111.",
+"Los permisos: 000.",
+"Los permisos: 777.",
+"Los permisos: 444."
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "En un servidor ProFTPD, los permisos recomendados para el archivo de la clave privada (proftpd.key) son 600. Esto identifica:",
+"opciones": [
+"Los permisos: r--------",
+"Los permisos: rwx------",
+"Los permisos: rw-------",
+"Los permisos: rw-r--r--"
+],
+"correcta": 2
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Según la teoría, el certificado público (proftpd.crt) suele tener asignados los permisos 644, que identifican:",
+"opciones": [
+"Los permisos: rw-r--r--",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-------",
+"Los permisos: r--r--r--"
+],
+"correcta": 0
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Con una directiva umask 022, los directorios creados adquieren permisos 755. Estos permisos identifican:",
+"opciones": [
+"Los permisos: rwxrwxrwx",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rwxrw-rw-",
+"Los permisos: rw-r--r--"
+],
+"correcta": 1
+},
+{
+"tema": "Ejemplo de permisos Tema 3",
+"pregunta": "Con una directiva umask 022, los ficheros creados en una conexión ftp adquieren permisos 644. Estos identifican:",
+"opciones": [
+"Los permisos: rw-r--r--",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-rw-rw-",
+"Los permisos: rwx------"
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En la consola ftp, el comando ! se utiliza para:",
+"opciones": [
+"Terminar la sesión ftp y salir de la consola ftp.",
+"Finalizar la sesión ftp sin cerrar la consola ftp.",
+"Ejecutar un alias del comando exiture.",
+"Salir a línea de comandos del sistema operativo temporalmente sin cortar la conexión. Para volver debes teclear exit."
+],
+"correcta": 3
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En el modo activo como en el pasivo el cliente ftp es quién inicia la conexión (de control). ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, el cliente ftp siempre inicia la solicitud de conexión al servidor.",
+"Falso, el servidor es quien inicia siempre la conexión en ambos modos.",
+"Falso, en el modo pasivo el servidor inicia la conexión de control.",
+"Verdadero, pero solo si la transferencia es de un archivo binario."
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El protocolo FTP nativo permite cifrar la información entre el cliente y el servidor ftp:",
+"opciones": [
+"Sí, mediante el método AUTH basic auto.",
+"No, la transferencia tiene lugar sin cifrar la información transferida.",
+"Sí, independientemente del modo de funcionamiento usado.",
+"Sí, siempre y cuando el cliente sea el origen de la información."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Los permisos 755 identifican:",
+"opciones": [
+"Los permisos: rwxr--r--",
+"Los permisos: rwxr-xr-x",
+"Los permisos: rw-r--r--",
+"Los permisos: rwxrw-rw-"
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "El servidor ftp ProFTPD permite configurar hosts virtuales:",
+"opciones": [
+"No, la configuración de hosts virtuales solamente es posible en servidores web.",
+"Sí, permite configurar hosts virtuales, por ejemplo, basados en IP o nombre.",
+"Sí, pero exclusivamente permite hosts virtuales basados en nombre.",
+"Sí, pero solo si se usa el protocolo UDP."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "En una consola ftp, si ejecutamos 'o' corresponde al comando:",
+"opciones": [
+"open",
+"options",
+"output",
+"out"
+],
+"correcta": 0
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Los hosts virtuales basados en IP en ProFTPD permiten:",
+"opciones": [
+"Configurar en una misma IP varios dominios obligatoriamente.",
+"Configurar en un conjunto de IP un único dominio tipo local.",
+"Configurar un dominio por host virtual, asignando una IP a cada uno.",
+"Configurar dominios independientemente de la IP del servidor ftp siempre y cuando el puerto TCP de escucha sea el 20."
+],
+"correcta": 2
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Para ProFTPD existen básicamente dos tipos de cuotas:",
+"opciones": [
+"No, solamente existen las cuotas limit.",
+"Limit y tally. Estando las limit subdivididas en soft y hard.",
+"Solamente existen las cuotas tally, divididas en blandas y duras.",
+"Limit y upload, sin subdivisiones."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Dos nombres DNS distintos que identifican a la misma máquina y a la misma IP, pueden servir una configuración ftp distinta mediante el servidor ProFTPD.",
+"opciones": [
+"No, es imposible para cualquier servidor ftp.",
+"Sí, es posible configurando virtualhosts, siempre y cuando cada virtualhost sirva en un puerto TCP distinto.",
+"Sí, es posible configurando virtualhosts, pudiendo utilizar exactamente el mismo puerto TCP para todos.",
+"No, a menos que se instalen físicamente dos tarjetas de red separadas."
+],
+"correcta": 1
+},
+{
+"tema": "Examen online tema 3",
+"pregunta": "Los clientes ftp solamente confían y permiten la comunicación cifrada con un servidor ftp si ya poseen por defecto en su instalación los certificados digitales del mismo. ¿Verdadero o falso?",
+"opciones": [
+"Verdadero, si no poseen el certificado por defecto, bloquean la conexión inmediatamente.",
+"Falso, el cliente puede pedir confirmación manual al usuario para confiar en un certificado desconocido o autofirmado.",
+"Verdadero, siempre y cuando el certificado haya caducado.",
+"Falso, los clientes FTP ignoran completamente los certificados digitales."
+],
+"correcta": 1
 }
 
 
