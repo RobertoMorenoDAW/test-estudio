@@ -8195,7 +8195,4924 @@ const BBDD_PREGUNTAS = [
 "Falso, los clientes FTP ignoran completamente los certificados digitales."
 ],
 "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuáles son los tres aspectos fundamentales que conviene documentar en una aplicación?",
+    "opciones": [
+        "Variables, Constantes y Clases.",
+        "Interfaz, Implementación y Toma de decisiones.",
+        "Bases de datos, Servidor y Cliente.",
+        "Rendimiento, Seguridad y Escalabilidad."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Dentro de la documentación, ¿qué describe la 'interfaz'?",
+    "opciones": [
+        "Cómo está implementada cada función internamente.",
+        "Qué hace una función, qué parámetros se le pasan y qué devuelve.",
+        "El análisis de rendimiento y optimización de recursos.",
+        "La interfaz gráfica de usuario (HTML/CSS)."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Para quién es tremendamente útil la información de la 'interfaz' documentada?",
+    "opciones": [
+        "Para las personas que utilizan funciones o clases diseñadas por otros.",
+        "Exclusivamente para los administradores de sistemas.",
+        "Para los auditores de seguridad de bases de datos.",
+        "Para el compilador del código."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué aspecto de la documentación indica qué algoritmo se utiliza o qué hacen los métodos privados?",
+    "opciones": [
+        "La interfaz.",
+        "La implementación.",
+        "La toma de decisiones.",
+        "El manual de usuario."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿A quién resulta especialmente interesante la información sobre la 'implementación'?",
+    "opciones": [
+        "Al usuario final de la aplicación web.",
+        "A quienes tengan que depurar o actualizar bloques de código.",
+        "A los clientes que compran el software.",
+        "A los diseñadores gráficos del equipo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué documenta la 'toma de decisiones' en un proyecto de software?",
+    "opciones": [
+        "Los parámetros que devuelve una función.",
+        "Por qué se ha implementado la aplicación de determinada forma y no de otra.",
+        "El código fuente exacto de las clases privadas.",
+        "Las contraseñas de acceso a la base de datos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Normalmente, ¿dónde conviene plasmar la información sobre la 'interfaz'?",
+    "opciones": [
+        "Oculta dentro de las variables privadas.",
+        "En un documento independiente del código fuente (manual de uso).",
+        "Únicamente en diagramas de flujo de papel.",
+        "En la base de datos de la aplicación."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuál es el principal problema de mantener la documentación en un manual de uso externo al código?",
+    "opciones": [
+        "Que ocupa demasiado espacio en el disco duro.",
+        "Que cada modificación en el código implica reflejarlo en el manual, lo que es un doble trabajo.",
+        "Que los usuarios finales pueden leer el código fuente.",
+        "Que requiere servidores de bases de datos muy potentes."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para evitar el problema de mantener un manual externo desactualizado, lo ideal sería:",
+    "opciones": [
+        "Dejar de documentar el código.",
+        "Automatizar la generación de documentación a partir del código fuente.",
+        "Contratar a una persona solo para escribir manuales en Word.",
+        "Escribir el código directamente en el manual."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuál es la herramienta estándar para generar documentación automática en Java?",
+    "opciones": [
+        "PhpDocumentor.",
+        "Doxygen.",
+        "Javadoc.",
+        "EclipseDoc."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuál es una de las herramientas más utilizadas para documentar código en PHP?",
+    "opciones": [
+        "Javadoc.",
+        "PhpDocumentor.",
+        "PHPMaker.",
+        "JavaPHP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Para qué utilizan los entornos de programación modernos los comentarios del código fuente?",
+    "opciones": [
+        "Para ejecutar el programa más rápido.",
+        "Para mostrarlos en el 'autocompletado' de código.",
+        "Para compilar las funciones privadas de forma aislada.",
+        "Para cifrar el código antes de enviarlo a producción."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "El autocompletado basado en comentarios es imprescindible en lenguajes como PHP porque:",
+    "opciones": [
+        "No necesita que se declare el tipo del argumento de una función.",
+        "Es un lenguaje fuertemente tipado que lo exige.",
+        "PHP no soporta programación orientada a objetos.",
+        "Es la única forma de que Apache interprete el código."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué entornos aprovechan los comentarios del código fuente para mostrar información muy útil?",
+    "opciones": [
+        "Photoshop e Illustrator.",
+        "NetBeans o Eclipse.",
+        "Word y Excel.",
+        "Apache y Nginx."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Tanto NetBeans, Eclipse como phpDocumentor esperan comentarios basados en el estándar de:",
+    "opciones": [
+        "C++Doc.",
+        "JavaDoc.",
+        "HTML5.",
+        "XML Standard."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Quién podrá aprovechar más y mejor la documentación de nuestro proyecto según la teoría?",
+    "opciones": [
+        "El cliente final que navega por la web.",
+        "Toda persona (o tercera persona) que se acerque a nuestro proyecto.",
+        "Únicamente el administrador de redes.",
+        "Exclusivamente el creador original del código."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Según los apuntes, la documentación de un proyecto de software...",
+    "opciones": [
+        "Es secundaria frente a la interfaz gráfica.",
+        "Es tan importante como su código.",
+        "Solo es necesaria en proyectos de código cerrado.",
+        "Debe escribirse siempre en un documento de texto a mano."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué tipo de licencia o distribución tiene PhpDocumentor?",
+    "opciones": [
+        "Es software propietario de pago.",
+        "Es de uso exclusivo para entornos Windows.",
+        "Es software libre.",
+        "Es una herramienta que requiere pago por suscripción."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué significan las siglas CLI en el contexto de las formas de utilizar PhpDocumentor?",
+    "opciones": [
+        "Code Line Interface.",
+        "Command Line Interpreter.",
+        "Common Logic Interface.",
+        "Computer Language Index."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Además de la línea de comandos y la interfaz web, ¿de qué otra forma se puede utilizar phpDocumentor?",
+    "opciones": [
+        "A través de una aplicación móvil iOS.",
+        "Desde código, incluyéndolo dentro de scripts propios en PHP.",
+        "Mediante una extensión del navegador Chrome.",
+        "A través de comandos de voz."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Al configurar phpDocumentor, ¿qué ocurre con los subdirectorios dentro del directorio de código que indicamos?",
+    "opciones": [
+        "Deben indicarse uno por uno manualmente.",
+        "Son ignorados por defecto.",
+        "Se encarga de recorrerlos de forma automática.",
+        "Generan un error en la compilación de la documentación."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Opcionalmente, al ejecutar phpDocumentor, se pueden indicar los paquetes que deseamos documentar mediante la etiqueta:",
+    "opciones": [
+        "@module",
+        "@folder",
+        "@group",
+        "@package"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué se mostrará si indicamos en phpDocumentor que la documentación generada será 'interna'?",
+    "opciones": [
+        "Solo los métodos públicos.",
+        "Los bloques private y los comentarios @internal.",
+        "Exclusivamente las variables globales.",
+        "Solo el diagrama de bases de datos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuáles son los formatos de salida que puede generar phpDocumentor?",
+    "opciones": [
+        "HTML, PDF y XML (DocBook).",
+        "JPG, PNG y GIF.",
+        "DOCX, XLSX y PPTX.",
+        "EXE, BAT y SH."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué ventaja tiene generar la salida de phpDocumentor en formato XML (DocBook)?",
+    "opciones": [
+        "Que ocupa mucho menos espacio que un archivo de texto plano.",
+        "Que a partir de él podemos transformar a cualquier otro usando XSLT.",
+        "Que es el único formato que se puede leer en un móvil.",
+        "Que se ejecuta como un programa independiente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuál es una herramienta alternativa a phpDocumentor que también sirve para documentar PHP?",
+    "opciones": [
+        "PHP-DocGen.",
+        "JavaDoc.",
+        "Doxygen.",
+        "XSLT-Doc."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuál es la principal diferencia técnica entre Doxygen y phpDocumentor?",
+    "opciones": [
+        "Doxygen solo genera HTML y phpDocumentor solo PDF.",
+        "Doxygen es un programa, mientras que phpDocumentor es código PHP.",
+        "Doxygen requiere un servidor web y phpDocumentor no.",
+        "Doxygen es de pago y phpDocumentor es gratuito."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué requisito tiene phpDocumentor frente a Doxygen debido a su naturaleza?",
+    "opciones": [
+        "No necesita PHP, pero sí un servidor Java.",
+        "Genera la documentación con PHP, por lo que necesita PHP instalado.",
+        "Requiere compilación manual en C++.",
+        "Solo funciona en sistemas Windows 10."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En phpDocumentor, la documentación se distribuye en bloques denominados:",
+    "opciones": [
+        "CodeBlocks.",
+        "DocBlock.",
+        "PHP-Blocks.",
+        "CommentSets."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Dónde se colocan siempre los 'DocBlocks' en el código PHP?",
+    "opciones": [
+        "Al final del fichero, tras cerrar la etiqueta de PHP.",
+        "Al principio del fichero, en la primera línea.",
+        "Justo antes del elemento al que documentan.",
+        "Dentro del cuerpo de la función a documentar."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Con qué caracteres debe empezar obligatoriamente un DocBlock para ser reconocido por phpDocumentor?",
+    "opciones": [
+        "//",
+        "/*",
+        "/**",
+        "<!--"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué sucede con las líneas dentro de un DocBlock que NO comienzan con un asterisco (*) en phpDocumentor?",
+    "opciones": [
+        "Provocan un error fatal de sintaxis.",
+        "Son procesadas como código PHP ejecutable.",
+        "Se resaltan en color rojo en la documentación.",
+        "Son ignoradas."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "De los siguientes elementos, ¿cuál SÍ puede ser documentado con DocBlocks según los apuntes?",
+    "opciones": [
+        "Bucles for y while.",
+        "Condicionales if/else.",
+        "class y function.",
+        "Llamadas a echo y print."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Es posible documentar elementos como include/require en phpDocumentor?",
+    "opciones": [
+        "No, solo clases y métodos.",
+        "Sí, están entre los elementos que pueden ser documentados.",
+        "Solo en su versión de pago.",
+        "Sí, pero solo si están dentro de una clase."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué etiqueta de phpDocumentor usarías si solo deseas generar documentación sobre la interfaz (métodos públicos) pero no sobre la implementación?",
+    "opciones": [
+        "@public",
+        "@ignore",
+        "@access 'private'",
+        "@hide"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Para qué sirve la marca @author en un DocBlock?",
+    "opciones": [
+        "Para definir la autorización de ejecución del código.",
+        "Para indicar el autor del código.",
+        "Para asignar permisos de lectura a un archivo.",
+        "Para enlazar con el perfil social del programador."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué etiqueta se utiliza en phpDocumentor para proporcionar información sobre derechos de autor?",
+    "opciones": [
+        "@author",
+        "@rights",
+        "@copyright",
+        "@license"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si un elemento del código no debería utilizarse porque en futuras versiones podría no estar disponible, ¿qué marca usamos?",
+    "opciones": [
+        "@delete",
+        "@warning",
+        "@obsolete",
+        "@deprecated"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué funcionalidad específica ofrece la etiqueta @example de phpDocumentor?",
+    "opciones": [
+        "Imprime el texto en negrita.",
+        "Permite especificar la ruta a un fichero y muestra su código resaltado (syntax-highlighted).",
+        "Ejecuta una prueba unitaria del código.",
+        "Redirige al usuario a la documentación oficial de PHP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué etiqueta utilizaríamos para evitar que phpDocumentor documente un determinado elemento de forma explícita?",
+    "opciones": [
+        "@avoid",
+        "@exclude",
+        "@ignore",
+        "@skip"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para incluir información que no debería aparecer en la documentación pública, pero sí en la de desarrolladores, usamos:",
+    "opciones": [
+        "@internal",
+        "@private",
+        "@developer",
+        "@hidden"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cómo se incluye un enlace HTTP a un determinado recurso dentro de un DocBlock?",
+    "opciones": [
+        "Con la marca @href.",
+        "Con la marca @url.",
+        "Con la marca @link.",
+        "Con la marca @web."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué marca se emplea en phpDocumentor para crear enlaces internos a la documentación de otro elemento?",
+    "opciones": [
+        "@go",
+        "@linkto",
+        "@see",
+        "@internal-link"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "La etiqueta @since se utiliza para indicar:",
+    "opciones": [
+        "La fecha de la última modificación.",
+        "Que el elemento está disponible desde una determinada versión del paquete o distribución.",
+        "El tiempo estimado de ejecución de una función.",
+        "El momento exacto de la compilación."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Para qué sirve la etiqueta @version en phpDocumentor?",
+    "opciones": [
+        "Para forzar el uso de PHP 7.",
+        "Para indicar la versión actual del elemento.",
+        "Para mantener el historial de versiones en Git.",
+        "Para comprobar la versión del navegador web."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "De las siguientes etiquetas, ¿cuál se utiliza específicamente para documentar parámetros que recibe una función?",
+    "opciones": [
+        "@arg",
+        "@variable",
+        "@input",
+        "@param"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Con qué etiqueta documentamos el valor que devuelve una función?",
+    "opciones": [
+        "@output",
+        "@return",
+        "@yield",
+        "@result"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Para qué se utiliza la marca @global?",
+    "opciones": [
+        "Para declarar una variable en la configuración del servidor.",
+        "Para especificar el uso de variables globales dentro de una función.",
+        "Para traducir la aplicación a múltiples idiomas.",
+        "Para aplicar estilos CSS a toda la página web."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Según los apuntes, ¿qué distribución de Linux se utiliza como ejemplo para instalar phpDocumentor?",
+    "opciones": [
+        "Ubuntu 20.04 LTS.",
+        "Debian 6.0.1 Squeeze.",
+        "CentOS 7.",
+        "Fedora 34."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Como requisito previo a instalar phpDocumentor, si accedemos a http://localhost y Apache funciona, ¿qué mensaje debería aparecer?",
+    "opciones": [
+        "Welcome to Apache!",
+        "Hello World!",
+        "It works!",
+        "Server is running."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para probar si PHP funciona desde línea de comandos (CLI) ejecutamos: <?php echo 10; ?> | php. ¿Cuál debería ser el resultado?",
+    "opciones": [
+        "1",
+        "0",
+        "10",
+        "php: command not found"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿En qué carpeta busca Apache por defecto el contenido web según el tema (donde está index.html)?",
+    "opciones": [
+        "/var/www",
+        "/usr/share/nginx",
+        "/etc/apache2/htdocs",
+        "/home/user/public_html"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para comprobar que Apache ejecuta código PHP creamos un archivo en el directorio raíz web. ¿Qué nombre se propone en los apuntes?",
+    "opciones": [
+        "test.php",
+        "index.php",
+        "phpinfo.php",
+        "apache.php"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué código exacto introducimos en el archivo 'phpinfo.php' para mostrar la información del servidor web y PHP?",
+    "opciones": [
+        "<?php echo phpinfo(); ?>",
+        "<?php show_info(); ?>",
+        "<?php phpinfo(); ?>",
+        "<?php system_info(); ?>"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "El primer paso de instalación de phpDocumentor es instalar un entorno de desarrollo y sistema de distribución de componentes PHP. ¿Cuál es?",
+    "opciones": [
+        "Composer.",
+        "php-pear.",
+        "NPM.",
+        "APT-PHP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué comando usamos en Debian para instalar el paquete php-pear?",
+    "opciones": [
+        "yum install php-pear",
+        "apt-get install php-pear",
+        "pacman -S php-pear",
+        "dpkg -i php-pear"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué comando configurará el directorio donde queremos que phpDocumentor trabaje a través de pear?",
+    "opciones": [
+        "pear config-set data_dir /var/www",
+        "pear update dir /var/www",
+        "phpdoc --dir /var/www",
+        "apt-get configure pear /var/www"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para instalar PhpDocumentor y TODAS sus dependencias utilizando pear, el comando es:",
+    "opciones": [
+        "pear install PhpDocumentor",
+        "pear install --alldeps PhpDocumentor",
+        "pear add PhpDocumentor --all",
+        "apt-get install --alldeps PhpDocumentor"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Según los apuntes, en lugar de usar pear, ¿de qué otra forma directa se puede descargar el paquete PhpDocumentor?",
+    "opciones": [
+        "Haciendo un git clone a github.",
+        "Usando wget a sourceforge.net y luego descomprimiendo el tgz.",
+        "Mediante composer require phpdocumentor/phpdocumentor.",
+        "Descargándolo desde el panel de control de Apache."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Una vez terminada la instalación, se crea un directorio de salida para phpDocumentor (ej. /var/www/docs). ¿A qué usuario debemos asignarle la propiedad?",
+    "opciones": [
+        "root",
+        "alumno",
+        "www-data",
+        "apache-user"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué comando empleamos para dar propiedad del directorio /var/www/docs/ al usuario del servidor web?",
+    "opciones": [
+        "chmod 777 /var/www/docs/",
+        "chown www-data /var/www/docs/",
+        "usermod -aG www-data root",
+        "chgrp admin /var/www/docs/"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿A qué URL accederíamos en el navegador para comprobar la instalación y usar la interfaz web de phpDocumentor en local?",
+    "opciones": [
+        "http://localhost/PhpDocumentor/",
+        "http://localhost/docs/",
+        "http://127.0.0.1:8080/phpdoc",
+        "http://localhost/admin"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Según la nota 'Debes conocer', para que funcione bien la instalación en Ubuntu (versión 14.04), hay que añadir un parámetro a pear install. ¿Cuál es?",
+    "opciones": [
+        "--force",
+        "--nocompress",
+        "--ignore-errors",
+        "--ubuntu-fix"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si generamos la documentación desde línea de comandos, ¿qué parámetro se usa para indicar el formato de la documentación generada?",
+    "opciones": [
+        "-d",
+        "-t",
+        "-f",
+        "-o"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En línea de comandos (phpdoc), ¿qué indica el parámetro '-d'?",
+    "opciones": [
+        "El formato de salida de la documentación.",
+        "La carpeta donde están los proyectos PHP origen.",
+        "La carpeta donde se almacena la documentación de destino.",
+        "Si se muestran o no los mensajes de depuración (debug)."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En línea de comandos (phpdoc), ¿para qué se utiliza el parámetro '-t'?",
+    "opciones": [
+        "Para establecer un temporizador límite de ejecución (timeout).",
+        "Para generar la documentación de tutoriales.",
+        "Para indicar la carpeta de destino donde se almacenan los archivos generados (target).",
+        "Para traducir la documentación (translate)."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si ejecutamos el comando '#phpdoc -o HTML:frames:phpedit -d /var/www/ -t /var/www/docs/', ¿qué sucederá?",
+    "opciones": [
+        "Se borrará el directorio /var/www/docs/ y se creará un archivo HTML único.",
+        "Generará la documentación de /var/www en formato HTML y la guardará en /var/www/docs/.",
+        "Generará la documentación de /var/www/docs/ y la guardará en /var/www/.",
+        "Producirá un error porque le falta el parámetro -p."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué comando emplearíamos para ver la ayuda y obtener información de los múltiples parámetros de phpdoc?",
+    "opciones": [
+        "phpdoc --info",
+        "phpdoc -help",
+        "phpdoc -h",
+        "man phpdoc"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para configurar phpDocumentor a través de su entorno web, debemos ir a la ruta 'PhpDocumentor/user' y duplicar un archivo. ¿Qué archivo?",
+    "opciones": [
+        "config.php",
+        "settings.xml",
+        "default.ini",
+        "phpdoc.conf"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Una vez duplicado 'default.ini' con un nuevo nombre (ej. mi_proyecto.ini), debemos editarlo para modificar la línea de 'target'. ¿Qué define 'target'?",
+    "opciones": [
+        "El formato en el que se generará la salida.",
+        "La ruta donde se encuentran los archivos fuente del proyecto.",
+        "El nombre del proyecto a documentar.",
+        "La ruta donde se guardará la documentación generada."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En el mismo archivo .ini, ¿qué define la variable 'directory'?",
+    "opciones": [
+        "La ruta donde guardar la documentación generada.",
+        "La ruta donde se encuentran los archivos del proyecto (código fuente).",
+        "El directorio de instalación de Apache.",
+        "La carpeta de estilos de phpDocumentor."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Dentro de la interfaz web de phpDocumentor, ¿en qué opción del menú debemos entrar para seleccionar nuestro archivo '.ini' personalizado?",
+    "opciones": [
+        "Output",
+        "Files",
+        "Config",
+        "Options"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Tras seleccionar el archivo .ini en la interfaz web, ¿qué botón debemos presionar para que comience a crearse la documentación?",
+    "opciones": [
+        "Start",
+        "Generate",
+        "Run",
+        "Go"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para visualizar la documentación final generada, ¿qué archivo debemos abrir en el directorio de salida?",
+    "opciones": [
+        "main.php",
+        "index.html",
+        "default.htm",
+        "doc.pdf"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "phpDocumentor es capaz de crear su propia documentación; sus ficheros fuente de documentación están en una subcarpeta llamada:",
+    "opciones": [
+        "docs",
+        "manuals",
+        "tutorials",
+        "guides"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si queremos compilar los tutoriales propios de phpDocumentor, ¿qué debemos especificar como directorio de entrada a phpdoc?",
+    "opciones": [
+        "La carpeta '/var/www'.",
+        "El archivo 'default.ini'.",
+        "El directorio raíz de phpDocumentor.",
+        "El directorio '/tutorials' de forma exclusiva."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Es posible usar phpDocumentor para compilar SÓLO los tutoriales sin procesar el código fuente principal vinculado?",
+    "opciones": [
+        "Sí, usando el flag -t en consola.",
+        "No, no es posible compilar sólo tutoriales (deben vincularse a algún código fuente).",
+        "Sí, pero únicamente desde la interfaz web.",
+        "Sí, borrando previamente los archivos .php."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para compilar la documentación propia de la herramienta, ¿qué se debe especificar como nombre del proyecto?",
+    "opciones": [
+        "tutorials",
+        "my_project",
+        "phpDocumentor",
+        "default"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Según la cita de Rich Cook mencionada en los apuntes, 'La programación es una carrera entre ingenieros de software intentando construir programas a prueba de idiotas y...'",
+    "opciones": [
+        "...el universo intentando producir cada vez mejores ordenadores.",
+        "...el universo intentando producir cada vez más grandes y mejores idiotas.",
+        "...el cliente pidiendo cambios constantemente.",
+        "...los plazos de entrega que siempre se retrasan."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En términos de documentación, si la implementación cambia de forma drástica, pero los parámetros de entrada y salida no se modifican, ¿qué tipo de documentación seguramente NO cambiará?",
+    "opciones": [
+        "La de la toma de decisiones.",
+        "La de la implementación.",
+        "La de la interfaz.",
+        "El DocBlock interno de las variables privadas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "El formato estándar usado por phpDocumentor es similar a otra herramienta. ¿A cuál?",
+    "opciones": [
+        "A Javadoc.",
+        "A HTML5 validator.",
+        "A PHPUnit.",
+        "A MySQL Workbench."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si un desarrollador incluye una nota explicando por qué se eligió usar un array en vez de un objeto para ahorrar memoria, esta información pertenece a:",
+    "opciones": [
+        "Interfaz.",
+        "Implementación.",
+        "Toma de decisiones.",
+        "Despliegue."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué problema fundamental ocurre cuando tenemos un 'manual de uso' desconectado del código fuente?",
+    "opciones": [
+        "Que los programadores no saben leer.",
+        "Que requiere software propietario para visualizarlo.",
+        "Que al realizar actualizaciones o corregir errores en el código, el manual queda desactualizado si no se hace doble trabajo.",
+        "Que el servidor Apache se bloquea al intentar servirlo."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En phpDocumentor, las variables globales dentro de un script PHP pueden ser documentadas. ¿Verdadero o falso?",
+    "opciones": [
+        "Falso, phpDocumentor solo lee clases orientadas a objetos.",
+        "Verdadero, las variables globales están entre los elementos que pueden ser documentados.",
+        "Falso, arrojan un error de seguridad.",
+        "Solo es verdadero si usamos Doxygen."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Cuál de las siguientes combinaciones representa la forma correcta de abrir y cerrar un comentario de documentación para phpDocumentor (DocBlock)?",
+    "opciones": [
+        "/* y */",
+        "// y //",
+        "/** y */",
+        "<!-- y -->"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "La etiqueta @access 'private' tiene el efecto principal de:",
+    "opciones": [
+        "Asegurar la red contra ataques maliciosos.",
+        "Ocultar esa porción de código para que no se genere documentación (a menos que se fuerce documentación interna).",
+        "Denegar permisos de escritura en el servidor de archivos.",
+        "Encriptar el archivo PHP resultante."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si queremos mostrar una advertencia de que una clase concreta está obsoleta, escribiremos:",
+    "opciones": [
+        "@warning obsoleta",
+        "@deprecated obsoleta",
+        "@alert obsoleta",
+        "@obsolete true"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En un equipo de trabajo, la herramienta de documentación automática resulta crucial especialmente porque:",
+    "opciones": [
+        "Acelera la velocidad del servidor de bases de datos.",
+        "Ayuda a saber qué hacen las partes desarrolladas por otras personas, facilitando el uso de esas funciones.",
+        "Corrige los errores de sintaxis automáticamente.",
+        "Reemplaza a los analistas de sistemas."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Qué ocurre si dentro de un DocBlock incluimos una línea de texto que NO empiece por el carácter '*' ?",
+    "opciones": [
+        "Produce un error fatal que detiene la generación de la documentación.",
+        "Se interpreta como una variable global.",
+        "Dicha línea es ignorada por phpDocumentor.",
+        "Se imprime en rojo llamativo en la web generada."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Al definir la configuración de phpDocumentor, si queremos omitir el código fuente no público, generaremos la documentación en modo:",
+    "opciones": [
+        "Internal.",
+        "Pública (solo interfaz).",
+        "Depuración profunda.",
+        "Strict PHP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Cuando phpDocumentor encuentra la etiqueta @example apuntando a un archivo, muestra el código de dicho archivo...",
+    "opciones": [
+        "...ejecutando su contenido en tiempo real.",
+        "...con resaltado de sintaxis (syntax-highlighted).",
+        "...ocultando las contraseñas que tenga dentro.",
+        "...solamente si es código HTML."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Puede Doxygen generar documentación de código PHP?",
+    "opciones": [
+        "No, solo puede documentar C y C++.",
+        "Sí, es una alternativa a phpDocumentor que también soporta PHP.",
+        "Sí, pero requiere licencia comercial.",
+        "No, está obsoleto desde 2010."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "El comando 'pear config-set data_dir /var/www' sirve fundamentalmente para:",
+    "opciones": [
+        "Crear la carpeta /var/www en el sistema.",
+        "Reiniciar el servicio de base de datos MySQL.",
+        "Decirle a PEAR dónde queremos que phpDocumentor deba trabajar respecto al directorio de contenido web.",
+        "Eliminar los datos de la carpeta /var/www."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Al usar la interfaz web 'docBuilder' de phpDocumentor, la pestaña donde definimos si usar 'default.ini' o 'mi_proyecto.ini' es:",
+    "opciones": [
+        "Config",
+        "Introduction",
+        "Output",
+        "Files"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "La etiqueta @see en phpDocumentor se parece a @link, pero a diferencia de @link (@link enlaza a HTTP externa), @see se usa para:",
+    "opciones": [
+        "Comprobar visualmente los errores de sintaxis.",
+        "Crear enlaces internos a la documentación de otro elemento del proyecto.",
+        "Abrir la cámara web del desarrollador.",
+        "Generar un documento PDF anexo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "El parámetro '--alldeps' al ejecutar 'pear install --alldeps PhpDocumentor' significa:",
+    "opciones": [
+        "All deployments.",
+        "All dependencies (instalar phpDocumentor y también sus dependencias).",
+        "Allow deprecations (ignorar elementos obsoletos).",
+        "Allocate depth (recorrer todas las carpetas)."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para documentar un bloque 'class', ¿es válido usar phpDocumentor?",
+    "opciones": [
+        "No, phpDocumentor solo funciona con funciones.",
+        "Sí, 'class' y 'class vars' son elementos documentables.",
+        "No, para las clases se debe usar obligatoriamente Javadoc.",
+        "Sí, pero solo en la versión CLI, no en la web."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "¿Por qué motivo NetBeans y Eclipse se convierten en herramientas imprescindibles en lenguajes como PHP según los apuntes?",
+    "opciones": [
+        "Porque compilan PHP a binario mucho más rápido.",
+        "Porque ofrecen autocompletado leyendo los comentarios, supliendo la falta de declaración estricta de tipos de argumentos en PHP.",
+        "Porque incluyen un servidor Apache embebido en la aplicación.",
+        "Porque impiden guardar archivos con errores lógicos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si quisieras indicar que una función está disponible a partir de la versión 2.5 de tu proyecto, ¿qué etiqueta usarías en su DocBlock?",
+    "opciones": [
+        "@version 2.5",
+        "@release 2.5",
+        "@since 2.5",
+        "@build 2.5"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "En un entorno Debian, si descargamos phpDocumentor comprimido con wget (tar.gz o tgz), ¿con qué comando se descomprimiría usualmente según los conocimientos básicos de sistema (aunque el apunte muestre descargar y usar)?",
+    "opciones": [
+        "unzip archivo.zip",
+        "tar -xzf (o similar para descomprimir el tgz/tar.gz).",
+        "rar x archivo.rar",
+        "pear extract archivo"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Para la generación de la documentación web, se recomienda duplicar 'default.ini' desde la carpeta:",
+    "opciones": [
+        "PhpDocumentor/admin",
+        "PhpDocumentor/user",
+        "PhpDocumentor/config",
+        "PhpDocumentor/bin"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad de Trabajo 5 apartados 1 y 2",
+    "pregunta": "Si una etiqueta de bloque DocBlock está mal escrita (ej. @paramm en vez de @param), ¿qué es lo más probable que haga phpDocumentor según el estándar general?",
+    "opciones": [
+        "Formateará el disco duro por seguridad.",
+        "La ignorará o la mostrará como texto normal, no reconociendo su significado especial.",
+        "Corregirá automáticamente la palabra por inteligencia artificial.",
+        "Enviará un correo al administrador de red."
+    ],
+    "correcta": 1
+},{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué es Javadoc según el material proporcionado? [1]",
+    "opciones": [
+        "Un entorno de desarrollo integrado (IDE).",
+        "Una utilidad de Sun Microsystems para generar APIs en formato HTML.",
+        "Un gestor de bases de datos para aplicaciones web.",
+        "Un lenguaje de programación orientado a objetos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cuál es el formato de salida predeterminado de la documentación generada por Javadoc? [1]",
+    "opciones": [
+        "PDF.",
+        "XML.",
+        "HTML.",
+        "DOCX."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cuál es la finalidad principal de utilizar Javadoc al programar? [2]",
+    "opciones": [
+        "Evitar que la documentación se quede rápidamente obsoleta manteniendo los comentarios junto al código.",
+        "Aumentar la velocidad de compilación del programa Java.",
+        "Cifrar el código fuente para que no sea legible por terceros.",
+        "Comprimir los archivos .java para que ocupen menos espacio."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Dónde se pide a los programadores de Java que escriban la documentación básica para Javadoc? [2]",
+    "opciones": [
+        "En un documento de Word externo.",
+        "En una wiki compartida en la intranet.",
+        "En el propio código fuente, mediante comentarios especiales.",
+        "En un archivo de configuración XML independiente."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué extrae exactamente la herramienta Javadoc para generar la documentación? [2]",
+    "opciones": [
+        "Las variables privadas de la clase.",
+        "Los comentarios incrustados en el código fuente de los programas Java.",
+        "Las sentencias SQL ejecutadas.",
+        "Los mensajes de error de la consola."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cómo interpreta el formato HTML resultante de Javadoc la comunidad de desarrolladores? [3]",
+    "opciones": [
+        "Como un formato obsoleto y en desuso.",
+        "Como el formato de toda la documentación estándar de Java provista por Sun.",
+        "Como un formato inestable que requiere conversores externos.",
+        "Como exclusivo para plataformas Linux."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Con qué caracteres deben comenzar obligatoriamente los comentarios interpretados por Javadoc? [3]",
+    "opciones": [
+        "/*",
+        "//",
+        "/**",
+        "<!--"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Con qué caracteres terminan los comentarios de Javadoc? [3]",
+    "opciones": [
+        "*/",
+        "***/",
+        "//",
+        "-->"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Dentro de un bloque de comentario Javadoc, ¿por qué carácter comienza habitualmente cada línea? [3]",
+    "opciones": [
+        "#",
+        "*",
+        "-",
+        ">"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Es posible incluir código HTML dentro de los comentarios de Javadoc? [3]",
+    "opciones": [
+        "No, generará un error de compilación.",
+        "Sí, se puede escribir código HTML y operadores para que los interprete Javadoc.",
+        "Solo en la versión comercial de Javadoc.",
+        "Sí, pero únicamente la etiqueta <b>."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué símbolo se utiliza generalmente para preceder a las etiquetas o operadores de Javadoc? [4]",
+    "opciones": [
+        "&",
+        "%",
+        "@",
+        "$"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Las etiquetas de Javadoc son sensibles a mayúsculas y minúsculas? [4]",
+    "opciones": [
+        "No, dan el mismo resultado en cualquier formato.",
+        "Sí, son sensibles a mayúsculas-minúsculas.",
+        "Solo en sistemas operativos Windows.",
+        "Depende de la versión del JDK instalada."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Dónde debe situarse exactamente una etiqueta Javadoc para que la herramienta la interprete como tal? [4]",
+    "opciones": [
+        "En cualquier parte del comentario, sin restricciones.",
+        "Al final de la línea, después de un punto y coma.",
+        "Siempre al principio de una línea, o sólo precedida por espacio(s) y asterisco(s).",
+        "Únicamente en la primera línea del archivo .java."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué sucede si una etiqueta Javadoc no se ubica correctamente al principio de la línea o tras un asterisco? [4]",
+    "opciones": [
+        "Se elimina automáticamente del código.",
+        "El programa no compila.",
+        "La herramienta Javadoc la interpretará como texto normal.",
+        "El archivo HTML generado se corrompe."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cuáles son los dos tipos principales de etiquetas en Javadoc? [5]",
+    "opciones": [
+        "Globales y locales.",
+        "Públicas y privadas.",
+        "De bloque e inline (en línea).",
+        "Estructurales y visuales."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Dónde se pueden utilizar exclusivamente las etiquetas de bloque en Javadoc? [5]",
+    "opciones": [
+        "En cualquier parte de la descripción principal.",
+        "Sólo en la sección de etiquetas que sigue a la descripción principal.",
+        "Fuera de los comentarios, en el código ejecutable.",
+        "Antes de importar las librerías."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué formato visual define a una etiqueta de bloque? [5]",
+    "opciones": [
+        "{@etiqueta}",
+        "@etiqueta",
+        "<etiqueta>",
+        "$$etiqueta$$"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Dónde está permitido utilizar las etiquetas inline en Javadoc? [5]",
+    "opciones": [
+        "Únicamente en la sección de variables de clase.",
+        "Sólo en la sección final de etiquetas.",
+        "Tanto en la descripción principal como en la sección de etiquetas.",
+        "Nunca dentro de un comentario Javadoc."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cuál es la sintaxis correcta para escribir una etiqueta inline en Javadoc? [5]",
+    "opciones": [
+        "[@tag]",
+        "(@tag)",
+        "{@tag}",
+        "<@tag>"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En el ejemplo del tema, ¿sobre qué sistema operativo se realiza la instalación de Javadoc y los IDEs? [6]",
+    "opciones": [
+        "Ubuntu 20.04 LTS.",
+        "Debian 6.0.1 Squeeze.",
+        "Windows 10 Pro.",
+        "macOS Catalina."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué dos entornos de desarrollo integrados (IDEs) se mencionan como los de mayor crecimiento para programar en Java? [7]",
+    "opciones": [
+        "IntelliJ IDEA y BlueJ.",
+        "Visual Studio y Xcode.",
+        "Eclipse y NetBeans.",
+        "Sublime Text y Atom."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué pilar fundamental se menciona como base para el crecimiento y evolución de IDEs como Eclipse o NetBeans? [7]",
+    "opciones": [
+        "El soporte de hardware avanzado.",
+        "Su comunidad de desarrolladores.",
+        "El respaldo exclusivo de Microsoft.",
+        "La falta de alternativas en el mercado."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Según el texto, ¿qué presiona a los programadores a mejorar los IDEs continuamente? [8]",
+    "opciones": [
+        "El pago por licencias comerciales.",
+        "La competencia por ser el mejor IDE ante el avance de nuevas tecnologías.",
+        "Las leyes internacionales de software.",
+        "El límite de memoria RAM de los equipos antiguos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué comando se indica para instalar Eclipse desde un terminal en Debian? [8]",
+    "opciones": [
+        "yum install eclipse",
+        "apt-get install eclipse",
+        "pacman -S eclipse",
+        "dpkg -i eclipse.deb"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Para instalar NetBeans, ¿qué método de obtención se sugiere en el documento? [8]",
+    "opciones": [
+        "Usar el comando apt-get directamente.",
+        "Acceder a la página de NetBeans para realizar la descarga.",
+        "Instalarlo a través del gestor Synaptic exclusivamente.",
+        "Compilarlo desde su código fuente en GitHub."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Al descargar NetBeans desde su web, ¿qué plataforma y arquitectura se seleccionan en el ejemplo? [9]",
+    "opciones": [
+        "Windows (x86/x64).",
+        "macOS (ARM).",
+        "Linux (x86/x64).",
+        "Solaris (SPARC)."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué comando se usa para crear la carpeta de instalación de NetBeans según los apuntes? [9]",
+    "opciones": [
+        "mkdir /usr/NetBeans69",
+        "touch /usr/NetBeans69",
+        "nano /usr/NetBeans69",
+        "rmdir /usr/NetBeans69"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Tras crear la carpeta para NetBeans, ¿qué comando asigna los permisos de propietario al usuario 'alumno' de forma recursiva? [9]",
+    "opciones": [
+        "chmod 777 /usr/NetBeans69",
+        "chown -R alumno /usr/NetBeans69",
+        "useradd alumno /usr/NetBeans69",
+        "usermod -aG alumno /usr/NetBeans69"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cómo se llama el archivo descargado para instalar NetBeans en el ejemplo de los apuntes? [9]",
+    "opciones": [
+        "netbeans-install.deb",
+        "NetBeans-6.9-ml-linux.sh",
+        "netbeans_setup.exe",
+        "netbeans.tar.gz"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué comando se ejecuta para asignar permisos de ejecución al instalador de NetBeans? [10]",
+    "opciones": [
+        "chown root NetBeans-6.9-ml-linux.sh",
+        "chmod a+x /usr/NetBeans69/NetBeans-6.9-ml-linux.sh",
+        "attrib +x NetBeans-6.9-ml-linux.sh",
+        "chmod 644 NetBeans-6.9-ml-linux.sh"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Para ejecutar el binario de instalación de NetBeans desde la consola, se utiliza el comando: [10]",
+    "opciones": [
+        "bash ./install",
+        "sh NetBeans-6.9-ml-linux.sh",
+        "run NetBeans",
+        "start NetBeans-6.9-ml-linux.sh"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Una vez ejecutado el instalador de NetBeans y aceptada la licencia, ¿qué interfaz aparece para continuar? [10]",
+    "opciones": [
+        "Una consola de texto en blanco y negro.",
+        "Un 'wizard' o asistente de configuración.",
+        "Un formulario web en el navegador.",
+        "Un editor de código."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Además de generar Javadoc, ¿qué otra funcionalidad útil ofrecen IDEs como Eclipse y NetBeans basada en los comentarios? [10]",
+    "opciones": [
+        "El completado de código javadoc.",
+        "La traducción automática del código.",
+        "La encriptación de la base de datos.",
+        "La subida automática a producción."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En Eclipse, ¿en qué menú se encuentra la opción 'Generate Javadoc...'? [11]",
+    "opciones": [
+        "File",
+        "Edit",
+        "Project",
+        "Window"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Al usar 'Generate Javadoc...' en Eclipse, ¿qué parámetros principales permite configurar la ventana? [11]",
+    "opciones": [
+        "El puerto de red y el servidor DNS.",
+        "El proyecto del que generar documentación y la ruta de la carpeta de destino.",
+        "La contraseña del administrador de base de datos.",
+        "El lenguaje de programación al que se traducirá el código."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué archivo HTML se genera comúnmente como punto de entrada para iniciar la navegación de la documentación Javadoc? [12]",
+    "opciones": [
+        "main.html",
+        "index.html",
+        "default.htm",
+        "home.html"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si no se usa un IDE, ¿cómo se puede ejecutar javadoc directamente sobre el código fuente? [12]",
+    "opciones": [
+        "Desde el panel de control de Windows.",
+        "Yendo al directorio donde se instaló el JDK y ejecutando javadoc por consola.",
+        "Instalando un servidor Apache y ejecutando un script PHP.",
+        "Enviando el código por correo a Sun Microsystems."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cuál es el comando exacto para generar documentación de un archivo llamado 'ejemplo.java' desde la consola? [12]",
+    "opciones": [
+        "java doc ejemplo.java",
+        "javadoc ejemplo.java",
+        "javac ejemplo.java",
+        "make javadoc ejemplo.java"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿A qué elementos están destinados principalmente los comentarios JavaDoc? [13]",
+    "opciones": [
+        "A bucles y condicionales.",
+        "A clases y métodos.",
+        "A archivos de configuración XML.",
+        "A la interfaz gráfica HTML."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Según la teoría, ¿por qué se decidió fijar un formato común para los comentarios Javadoc? [13]",
+    "opciones": [
+        "Para que la compilación sea más rápida.",
+        "Para que los comentarios escritos por un programador resultaran legibles y útiles para otro.",
+        "Para reducir el peso de los archivos .java.",
+        "Porque era un requisito del gobierno para software libre."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En un bloque Javadoc, la descripción general de la clase o método... [14]",
+    "opciones": [
+        "Debe comenzar siempre con el indicador @description.",
+        "No va precedida de ningún indicador especial.",
+        "Debe estar escrita obligatoriamente en inglés.",
+        "Se oculta en la versión final del HTML."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Son obligatorios los indicadores (etiquetas) en los comentarios Javadoc? [15]",
+    "opciones": [
+        "Sí, sin ellos no se genera la documentación.",
+        "Sí, siempre debe haber al menos un @author.",
+        "No, los indicadores no son obligatorios.",
+        "Solo son obligatorios para las variables privadas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Es posible que un comentario incluya un mismo indicador más de una vez? [15]",
+    "opciones": [
+        "No, generaría un error de redundancia.",
+        "Sí, por ejemplo si un método tiene varios parámetros, se repite @param.",
+        "Solo en el caso de la etiqueta @version.",
+        "Sí, pero Javadoc ignorará todos menos el primero."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué información proporciona el indicador @author? [15]",
+    "opciones": [
+        "El servidor donde está alojado el código.",
+        "Quién escribió el código al que se refiere el comentario.",
+        "La licencia de distribución del software.",
+        "El usuario de la base de datos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si un código fue escrito por varias personas, ¿cómo se reflejan en la etiqueta @author? [15]",
+    "opciones": [
+        "Escribiendo los nombres separados por comas o repitiendo el indicador.",
+        "Agrupándolos bajo un nombre ficticio.",
+        "Solo se puede poner al programador principal.",
+        "Se prohíbe poner más de un autor."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Dónde es normal incluir el indicador @author para no ser redundante? [16]",
+    "opciones": [
+        "En todos y cada uno de los métodos privados.",
+        "En el comentario de la clase, y no repetirlo por método a menos que lo escriba otra persona.",
+        "Fuera del archivo Java, en un txt.",
+        "En el nombre del archivo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué indicador se utiliza para especificar el número de versión de una clase? [15]",
+    "opciones": [
+        "@release",
+        "@build",
+        "@version",
+        "@edition"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Para qué elementos se usa normalmente la etiqueta @version? [16]",
+    "opciones": [
+        "Principalmente para clases, y en ocasiones para métodos.",
+        "Exclusivamente para variables globales.",
+        "Solo para la función main().",
+        "Para documentar importaciones de librerías."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "El indicador @param sirve específicamente para describir: [17]",
+    "opciones": [
+        "El tipo de retorno de la clase.",
+        "Un parámetro de un método.",
+        "La ruta del archivo en disco.",
+        "Los permisos de ejecución del archivo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Según el texto, si un método no tiene parámetros... [15]",
+    "opciones": [
+        "Se escribe '@param none'.",
+        "Se genera una excepción al compilar.",
+        "No se incluye obviamente el indicador @param.",
+        "Se utiliza el indicador @empty."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué etiqueta Javadoc se emplea para describir el valor de salida o retorno de un método? [17]",
+    "opciones": [
+        "@yield",
+        "@output",
+        "@return",
+        "@value"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿En qué situación se debe utilizar la etiqueta @see? [17]",
+    "opciones": [
+        "Cuando el método necesita mostrar algo por pantalla.",
+        "Cuando el trozo de código está relacionado con otra clase o método cuyo nombre se indica.",
+        "Para revisar errores de sintaxis visuales.",
+        "Para ocultar la visibilidad de una variable."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si un método puede 'romperse' o fallar bajo alguna circunstancia lanzando un error, ¿qué etiqueta se usa para documentarlo? [17]",
+    "opciones": [
+        "@error",
+        "@catch",
+        "@break",
+        "@throws"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué información acompaña al indicador @throws en su sintaxis? [17]",
+    "opciones": [
+        "El nombre de la clase de excepción y su descripción.",
+        "El número de línea donde podría ocurrir el error.",
+        "El correo del soporte técnico.",
+        "Un código numérico de error."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si un método antiguo ha sido sustituido por uno nuevo y ya no debe usarse, lo documentaremos con: [17]",
+    "opciones": [
+        "@old",
+        "@unused",
+        "@deprecated",
+        "@obsolete"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Según los apuntes, ¿es común encontrar la etiqueta @deprecated en una clase completa? [17]",
+    "opciones": [
+        "Sí, es su uso más habitual.",
+        "No, es más raro encontrarlos para una clase que para un método.",
+        "Es totalmente imposible y genera error.",
+        "Solo si la clase es abstracta."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué facilidad brindan las convenciones en el código fuente (como usar /** y */) junto a herramientas como javadoc? [18]",
+    "opciones": [
+        "Evitan el uso de memoria RAM.",
+        "Hacen que el trabajo de documentar el código de nuevas clases Java sea trivial.",
+        "Previenen ataques de denegación de servicio (DDoS).",
+        "Traducen automáticamente el código a C++."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "La documentación oficial del API de Java ha sido creada utilizando: [18]",
+    "opciones": [
+        "Microsoft Word.",
+        "Las convenciones de comentarios Javadoc.",
+        "Editores hexadecimales.",
+        "Generadores de PDF de terceros."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué son exactamente las 'plantillas de código' (templates) mencionadas en los apuntes? [18]",
+    "opciones": [
+        "Imágenes de fondo para el entorno de programación.",
+        "Sugerencias de código asociadas a palabras clave.",
+        "Diseños CSS para el HTML generado por Javadoc.",
+        "Modelos de arquitectura de bases de datos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿En qué ruta de menú se pueden encontrar o definir las plantillas en Eclipse? [18]",
+    "opciones": [
+        "File > New > Template",
+        "Preferences > Java > Editor > Templates",
+        "Window > View > Code Snippets",
+        "Help > Install > Templates"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué recomendación se da en el tema acerca de las plantillas existentes en el IDE? [18]",
+    "opciones": [
+        "Borrarlas todas para ahorrar memoria.",
+        "Examinarlas todas, ya que pueden ahorrar mucho trabajo.",
+        "Usarlas únicamente en proyectos comerciales.",
+        "No modificarlas nunca para no corromper el IDE."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Las plantillas suelen utilizar nombres similares a las construcciones Java que encapsulan, por ejemplo: [19]",
+    "opciones": [
+        "int, float, double",
+        "public, private, protected",
+        "try, for, while, if",
+        "html, body, div"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Es posible crear plantillas personalizadas en el IDE? [19]",
+    "opciones": [
+        "No, vienen predefinidas e inmutables de fábrica.",
+        "Sí, podemos definir y crear nuestras propias plantillas.",
+        "Solo comprando la licencia Premium de Eclipse.",
+        "Sí, pero requieren programarlas en C."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Además de plantillas de estructuras de código (como bucles), existen plantillas predefinidas específicas para: [19]",
+    "opciones": [
+        "Javadoc.",
+        "Consultas SQL.",
+        "Cifrado de contraseñas.",
+        "Conexiones SSH."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Una plantilla de código se compone estructuralmente de: [19]",
+    "opciones": [
+        "Clase, método, paquete e importación.",
+        "Variables globales y locales.",
+        "Un nombre, una descripción, un contexto y un pattern.",
+        "Una imagen, un texto alternativo y un enlace."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En la composición de una plantilla, ¿qué es el 'contexto'? [19]",
+    "opciones": [
+        "El ámbito donde se guarda el archivo en disco duro.",
+        "El entorno en función del lenguaje (por ejemplo, si estamos en el código, en el javadoc...).",
+        "La versión del compilador utilizada.",
+        "El sistema operativo sobre el que corre el IDE."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Dentro de la definición de una plantilla, ¿qué es el 'pattern'? [19]",
+    "opciones": [
+        "El código de la plantilla, que puede incluir texto fijo y variables predefinidas.",
+        "El diseño de colores del código en el editor.",
+        "La frecuencia con la que se utiliza la plantilla.",
+        "El nombre del autor de la plantilla."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué indica la variable predefinida ${cursor} dentro del 'pattern' de una plantilla? [20]",
+    "opciones": [
+        "El icono del ratón que se mostrará.",
+        "La posición en la que se establecerá el cursor de texto tras desplegar el código.",
+        "La selección automática de todo el texto generado.",
+        "La ejecución de una macro de teclado."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Para qué sirve la variable predefinida ${enclosing_type} en una plantilla? [20]",
+    "opciones": [
+        "Para encapsular el código en un try/catch.",
+        "Para escribir el nombre de la variable actual.",
+        "Para insertar el tipo de la clase en la que nos encontramos.",
+        "Para determinar el tipo de retorno genérico."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué información inserta automáticamente la variable ${enclosing_method}? [20]",
+    "opciones": [
+        "Los parámetros del método.",
+        "El nombre del método en el que nos encontramos.",
+        "El valor devuelto por el método.",
+        "La visibilidad del método (public/private)."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si deseamos que nuestra plantilla de Javadoc incluya el año automáticamente, usaremos la variable: [20]",
+    "opciones": [
+        "${date}",
+        "${current_year}",
+        "${year}",
+        "${yyyy}"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué variable predefinida inserta la hora en curso al usar una plantilla? [20]",
+    "opciones": [
+        "${hour}",
+        "${time}",
+        "${clock}",
+        "${now}"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué atajo de teclado se utiliza comúnmente para desplegar sugerencias de plantillas tras comenzar a escribir su nombre? [20]",
+    "opciones": [
+        "ALT + F4",
+        "SHIFT + Enter",
+        "CTRL + espacio",
+        "TAB + Flecha Abajo"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Para añadir una plantilla nueva desde la opción 'Templates' se requiere: [20]",
+    "opciones": [
+        "Reiniciar el entorno de desarrollo.",
+        "Asignarle nombre, descripción y elegir el código que queremos que se muestre.",
+        "Saber programar en lenguaje ensamblador.",
+        "Pagar una licencia comercial a Oracle."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En el contexto empresarial descrito (BK programación), ¿qué factor fundamental afecta a la reutilización de código de manera positiva? [21]",
+    "opciones": [
+        "Ocultar el código fuente a los demás compañeros.",
+        "Una buena documentación y los comentarios del código fuente mediante plantillas.",
+        "El uso de sistemas operativos antiguos.",
+        "No utilizar comentarios para que el código cargue más rápido."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En el ejemplo de código 'HolaMundo', ¿cuál es el autor definido en el comentario Javadoc? [14]",
+    "opciones": [
+        "Sun Microsystems",
+        "Linus Torvalds",
+        "Paco Programador Java",
+        "Roberto Moreno"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En el ejemplo de código 'HolaMundo', el método 'main' tiene un comentario que documenta un parámetro, ¿cuál es? [11]",
+    "opciones": [
+        "@param args",
+        "@param string",
+        "@param none",
+        "@param output"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué ocurre si en el código Java encontramos un bloque que comienza por '/*' en vez de '/**'? [3]",
+    "opciones": [
+        "Se interpreta como una etiqueta de bloque.",
+        "Provoca un error fatal de compilación.",
+        "Javadoc lo ignorará y no formará parte de la API generada.",
+        "Se resaltará en color rojo avisando de la falta del asterisco."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿A qué se refiere Javadoc cuando menciona generar APIs? [1]",
+    "opciones": [
+        "Archivos de Protocolo de Internet.",
+        "Aplication Programing Interface (Interfaz de Programación de Aplicaciones).",
+        "Accesos Privados Internos.",
+        "Asignaciones de Puertos Informáticos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Por qué Javadoc representa una ventaja sobre un manual de documentación completamente desconectado del código? [2]",
+    "opciones": [
+        "Porque Javadoc pesa menos en megabytes.",
+        "Porque evita tener que mantener el manual al día realizando un doble trabajo al modificar el código.",
+        "Porque permite agregar animaciones 3D al texto.",
+        "Porque no requiere de ningún navegador para leerse."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si un desarrollador incluye una etiqueta `@author` en mayúsculas, como `@AUTHOR`, ¿qué pasará probablemente según las normas de Javadoc? [4]",
+    "opciones": [
+        "Funcionará exactamente igual.",
+        "Provocará la eliminación del archivo por seguridad.",
+        "No será interpretada como etiqueta al ser sensible a mayúsculas-minúsculas.",
+        "Traducirá el nombre del autor a mayúsculas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Es obligatorio el indicador `@return` para métodos que devuelven 'void' (nada)? [15]",
+    "opciones": [
+        "Sí, siempre debe ponerse `@return void`.",
+        "No, los indicadores no son obligatorios y en este caso carece de sentido.",
+        "Sí, debe ponerse `@return null`.",
+        "La compilación exige que todo método tenga un `@return`."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Cómo se indica en Javadoc que una versión concreta de la documentación fue escrita el 24/07/11, basándonos en el ejemplo de los apuntes? [14]",
+    "opciones": [
+        "Con la etiqueta @date 24/07/11",
+        "Con la etiqueta @version 1.2.0, 24/07/11",
+        "Con la etiqueta @history 24/07/11",
+        "Con la etiqueta @time 24/07/11"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si Eclipse ofrece opciones de Javadoc, ¿dónde podemos acceder a la navegación principal de la documentación que acaba de crear? [12]",
+    "opciones": [
+        "Abriendo el archivo index.html generado en la ruta indicada.",
+        "Leyendo el código binario .class.",
+        "Imprimiendo la consola del sistema.",
+        "Mediante una conexión Telnet al puerto 8080."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "El comando de sistema operativo para dar de forma recursiva la propiedad a un usuario sobre una carpeta (como se vio en la instalación de NetBeans) usa el parámetro: [9]",
+    "opciones": [
+        "-r",
+        "-R",
+        "--recursive",
+        "-all"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Durante la instalación de herramientas para Java en Debian, se usan comandos ejecutados con el símbolo '#' por delante. ¿Qué implica habitualmente el símbolo '#'? [8]",
+    "opciones": [
+        "Que es un comentario de Java.",
+        "Que el comando debe ejecutarse como administrador o root en la consola.",
+        "Que es una directiva de preprocesador.",
+        "Que no debe ejecutarse, es solo un apunte."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En las etiquetas inline '{@tag}', ¿qué representan las llaves? [5]",
+    "opciones": [
+        "El inicio y fin del código ejecutable del programa.",
+        "La delimitación física para que la herramienta interprete la etiqueta en medio de la descripción.",
+        "Un error tipográfico del estándar.",
+        "Un arreglo (array) de datos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué indicador sería apropiado para detallar que un método realiza una división y falla si el divisor es cero? [17]",
+    "opciones": [
+        "@error DivZero",
+        "@warning Divisor cero",
+        "@throws ArithmeticException descripción",
+        "@deprecated No dividir por cero"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Según la nomenclatura de las plantillas predefinidas en IDEs, ¿qué plantilla usarías presumiblemente para generar la estructura de una condición? [19]",
+    "opciones": [
+        "for",
+        "while",
+        "if",
+        "try"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué beneficio inmediato aporta a un desarrollador el autocompletado de javadoc en un IDE como NetBeans? [10]",
+    "opciones": [
+        "Genera interfaces gráficas con botones automáticamente.",
+        "Acelera la escritura y evita memorizar la estructura exacta de etiquetas, al ofrecerlas y rellenarlas automáticamente.",
+        "Optimiza el uso de CPU al 100%.",
+        "Elimina los virus del ordenador."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Si abres la documentación HTML de un método y observas un texto tachado con una advertencia de que será eliminado en el futuro, ¿qué etiqueta usó el creador? [17]",
+    "opciones": [
+        "@deleted",
+        "@removed",
+        "@deprecated",
+        "@trashed"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué relación existe entre las herramientas phpDocumentor (vista previamente) y Javadoc? [1]",
+    "opciones": [
+        "Ninguna, tienen sintaxis totalmente opuestas.",
+        "phpDocumentor genera la documentación de una forma parecida al estándar y etiquetas de JavaDoc.",
+        "Ambas son obligatorias para programar en C.",
+        "Javadoc es un plugin interno de phpDocumentor."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "La instalación de software en distribuciones Linux de la familia Debian suele requerir la gestión de permisos. ¿Qué hace `chmod a+x` sobre el instalador de NetBeans? [10]",
+    "opciones": [
+        "Añade un usuario al sistema.",
+        "Asigna permiso de ejecución (eXecute) a todos (All) los usuarios.",
+        "Borra todos los archivos temporales.",
+        "Cambia el dueño del archivo a 'alumno'."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Por qué es tan importante la variable predefinida `${cursor}` al diseñar una plantilla de código propia? [20]",
+    "opciones": [
+        "Porque cambia el color del puntero del ratón.",
+        "Porque permite ubicar al desarrollador exactamente en el punto de escritura donde debe continuar codificando tras insertar la plantilla.",
+        "Porque bloquea el uso del teclado numérico.",
+        "Porque cierra el programa tras un error."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "Cuando en Eclipse vamos a `Preferences > Java > Editor > Templates`, estamos modificando configuraciones que afectan principalmente al: [18]",
+    "opciones": [
+        "Compilador visual del sistema operativo.",
+        "Editor de código fuente del IDE.",
+        "Navegador de internet predeterminado.",
+        "Servidor Apache."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "¿Qué indica el apunte respecto al número de autores que se pueden citar con `@author`? [15]",
+    "opciones": [
+        "Existe un límite máximo de dos autores.",
+        "Si son varias personas se escriben los nombres separados por comas o se repite el indicador.",
+        "Solo la empresa propietaria puede ser autora.",
+        "Si hay más de uno, la etiqueta se ignora automáticamente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En un método que calcula un área, recibe 'base' y 'altura' y devuelve el resultado, ¿cuántos `@param` y `@return` utilizaríamos según las buenas prácticas? [15]",
+    "opciones": [
+        "Un `@param` conjunto y ningún `@return`.",
+        "Dos `@param` (uno para base, otro para altura) y un `@return`.",
+        "Solo un `@return`.",
+        "Etiquetas `@var` exclusivas."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "El comando por terminal `javadoc ejemplo.java` procesa un archivo con extensión `.java`. ¿A qué corresponde esa extensión? [1]",
+    "opciones": [
+        "Un archivo ejecutable de Windows.",
+        "Un archivo de código fuente Java.",
+        "Un documento de texto enriquecido.",
+        "Una imagen comprimida."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "El uso de plantillas, Javadoc y autocompletado en un IDE, ¿a qué gran objetivo de la ingeniería de software contribuye según los apuntes? [13]",
+    "opciones": [
+        "A realizar el trabajo más tedioso y repetitivo, facilitando el desarrollo y lectura por otras personas.",
+        "A esconder el código de la vista de los jefes.",
+        "A gastar más recursos del servidor.",
+        "A programar juegos en 3D."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En el ejemplo proporcionado de 'HolaMundo', ¿se documenta la clase con alguna etiqueta? [14]",
+    "opciones": [
+        "No, solo se documenta el método main.",
+        "Sí, se documenta la clase con `@version` y `@author`.",
+        "Sí, con `@param` y `@throws`.",
+        "No, las clases nunca se documentan."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "El comando Linux `mkdir` empleado durante la instalación de NetBeans sirve para: [9]",
+    "opciones": [
+        "Borrar una carpeta de forma forzada.",
+        "Mover un archivo de origen a destino.",
+        "Crear un nuevo directorio.",
+        "Descargar un archivo de internet."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "La finalidad general de las 'Tags' o etiquetas de Javadoc es: [4]",
+    "opciones": [
+        "Hacer que el texto se vea de colores brillantes.",
+        "Permitir generar una API completa y estructurada a partir del código fuente con los comentarios.",
+        "Comprimir el archivo fuente.",
+        "Cifrar contraseñas de bases de datos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 3",
+    "pregunta": "En las plantillas de Eclipse, ¿qué ocurriría si insertas la variable predefinida `${enclosing_type}` dentro de la definición de una clase llamada 'Vehiculo'? [20]",
+    "opciones": [
+        "Mostraría un error por falta de parámetros.",
+        "Se reemplazaría por el texto 'Vehiculo'.",
+        "Escribiría 'void'.",
+        "Borraría la clase completa."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué problema fundamental intentan resolver los sistemas de control de versiones al desarrollar un proyecto software?",
+    "opciones": [
+        "La optimización de la memoria RAM del servidor web.",
+        "La necesidad de guardar distintas versiones de las fuentes de forma organizada antes de realizar cambios profundos.",
+        "El cifrado asimétrico de las comunicaciones con la base de datos.",
+        "La generación automática de la documentación en formato HTML."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En un sistema de control de versiones típico, ¿dónde se guardan las fuentes del proyecto con todas sus versiones?",
+    "opciones": [
+        "En un documento de Word en la nube.",
+        "En un directorio controlado por el propio sistema de herramientas.",
+        "Exclusivamente en los correos electrónicos de los programadores.",
+        "En la caché del navegador del cliente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Cuando queremos guardar fuentes nuevas o modificadas, el sistema de control de versiones suele pedirnos:",
+    "opciones": [
+        "Reiniciar el ordenador.",
+        "Que metamos un comentario para identificar los cambios realizados.",
+        "Un pago adicional por uso de ancho de banda.",
+        "Que declaremos las variables globales explícitamente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Es útil un sistema de control de versiones para un único desarrollador trabajando en su casa?",
+    "opciones": [
+        "Sí, de esa forma siempre tendrá todas las versiones de su programa controladas.",
+        "No, estas herramientas solo se activan si detectan más de un usuario en red.",
+        "No, solo tienen sentido en proyectos de más de mil líneas de código.",
+        "Solo es útil si programa exclusivamente en Java."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "De acuerdo a los conceptos básicos, ¿qué es una 'Revisión'?",
+    "opciones": [
+        "El borrado completo de un repositorio para liberar espacio.",
+        "Una visión estática en el tiempo del estado de un grupo de archivos y directorios.",
+        "La corrección automática de los errores de sintaxis del código.",
+        "El cobro de la licencia de uso del sistema distribuido."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Entre los metadatos asociados comúnmente a una revisión se encuentran:",
+    "opciones": [
+        "El tamaño del disco duro del servidor.",
+        "El sistema operativo de destino y la IP del cliente.",
+        "Identidad de quién hizo las modificaciones, fecha y hora de los cambios.",
+        "Las contraseñas de las bases de datos de la empresa."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué es la 'Copia de trabajo' o 'Árbol de trabajo'?",
+    "opciones": [
+        "Un respaldo que se hace en cintas magnéticas cada semana.",
+        "El conjunto de directorios y archivos controlados por el sistema, que se encuentran en edición activa.",
+        "Un virus que duplica los archivos del proyecto.",
+        "La base de datos donde se almacena el servidor web Apache."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En el contexto de una 'Rama de trabajo', la revisión más reciente se denomina:",
+    "opciones": [
+        "Principal (main) o cabeza.",
+        "Footer o final.",
+        "Commit-cero.",
+        "Rama obsoleta."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El lugar en donde se almacenan las revisiones en un sistema de control de versiones se denomina:",
+    "opciones": [
+        "Directorio temporal.",
+        "Copia caché.",
+        "Grafo de conflicto.",
+        "Repositorio."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué ocurre a nivel lógico cuando las ramas de un proyecto se separan y se juntan según es necesario?",
+    "opciones": [
+        "Se forma un grafo de revisión.",
+        "Se bloquea el repositorio definitivamente.",
+        "Se corrompe la copia de trabajo.",
+        "El servidor envía un correo de error crítico."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El estado de 'Conflicto' en un sistema de control de versiones ocurre cuando:",
+    "opciones": [
+        "El servidor se queda sin memoria RAM.",
+        "Varias personas han hecho cambios contradictorios en un mismo documento o grupo de documentos.",
+        "Dos usuarios intentan acceder a la vez a internet.",
+        "Se agota el número máximo de líneas de código permitidas."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Cuando se detecta un conflicto, ¿qué suele hacer el sistema de control de versiones?",
+    "opciones": [
+        "Lo resuelve de forma automática borrando el último cambio.",
+        "Formatea el repositorio para prevenir daños.",
+        "Solamente alerta de la existencia del conflicto.",
+        "Cierra el proyecto y expulsa a los usuarios."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El proceso manual o guiado para solucionar un conflicto se denomina:",
+    "opciones": [
+        "Resolución.",
+        "Limpieza profunda.",
+        "Rollback crítico.",
+        "Checkout forzado."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Cuando se unen los cambios en un archivo (o varios) generando una revisión unificada, se dice que se ha hecho una:",
+    "opciones": [
+        "División de repositorio.",
+        "Sobrescritura ilícita.",
+        "Combinación o integración.",
+        "Descarga inicial (checkout)."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "La lista de cambios generada al comparar revisiones, que puede usarse para reproducir automáticamente las modificaciones, se denomina:",
+    "opciones": [
+        "Script cgi.",
+        "Parche.",
+        "Log de errores.",
+        "Hoja de estilos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si un sistema de control de versiones permite trabajar directamente contra el repositorio, existe un aumento de transparencia, pero como desventaja produce:",
+    "opciones": [
+        "Un mayor consumo de papel.",
+        "El bloqueo de ficheros.",
+        "Que los parches se borren solos.",
+        "Que no se puedan crear más de dos ramas."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Cómo se le llama al paso inicial de bajarse los ficheros del repositorio al empezar a trabajar?",
+    "opciones": [
+        "Commit.",
+        "Checkout.",
+        "Merge.",
+        "Push."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Según la teoría de procedimientos de uso, ¿cuántas veces se hace el 'checkout' inicial de esos ficheros?",
+    "opciones": [
+        "Cada vez que encendemos el ordenador.",
+        "Solo la primera vez que se usan esos ficheros.",
+        "Al finalizar la jornada laboral.",
+        "Cada vez que se sube un nuevo cambio al servidor."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En el ciclo de trabajo habitual, los ficheros modificados en local se sincronizan con los ficheros del repositorio mediante la operación de:",
+    "opciones": [
+        "Update (Actualización de ficheros en local).",
+        "Commit (Actualización de ficheros en repositorio).",
+        "Reset.",
+        "Branching."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Como resultado de la operación Update, ¿qué detectará el sistema informando a los usuarios implicados?",
+    "opciones": [
+        "Si hay virus en la red local.",
+        "Si los servidores web están activos.",
+        "Si existen conflictos en el código.",
+        "Si el usuario ha pagado la licencia de uso."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "La modificación de los ficheros en el servidor/repositorio (subiendo nuestros cambios) se denomina:",
+    "opciones": [
+        "Checkout.",
+        "Commit.",
+        "Pull.",
+        "Diff."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Una de las grandes utilidades del histórico de cambios en estas herramientas es que permite:",
+    "opciones": [
+        "Aumentar el salario del programador.",
+        "Saber exactamente el consumo eléctrico del PC.",
+        "Recuperar versiones pasadas y deshacer cambios.",
+        "Evitar el uso de lenguajes como PHP o Java."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Por qué permite el sistema 'actualizar una copia local con la última versión del servidor' como una gran ventaja técnica?",
+    "opciones": [
+        "Porque elimina la necesidad de repetir descargas completas del proyecto, moviendo solo lo modificado.",
+        "Porque así se esquivan las multas de derechos de autor.",
+        "Porque formatea el disco duro automáticamente.",
+        "Porque el servidor obliga a ello para poder arrancar."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿En qué consiste el sistema de autorización 'basado en el honor' en algunos proyectos?",
+    "opciones": [
+        "En usar biometría y huellas dactilares para cada línea escrita.",
+        "En proporcionar una contraseña global, confiando en que cada persona modificará solo su área asignada (ya que todo está supervisado y se puede revertir).",
+        "En firmar un contrato legal por escrito cada día.",
+        "En que no existen usuarios administradores en todo el mundo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Antes de los VCS, ¿cuál era el método de control más usado (y más propenso a errores como sobrescribir archivos accidentalmente)?",
+    "opciones": [
+        "Almacenamiento en cintas de casete.",
+        "Escribir el código en papel y escanearlo.",
+        "Copiar los archivos manualmente a otro directorio controlando fecha y hora.",
+        "No guardar absolutamente nada."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Menciona una de las primeras y populares herramientas locales que guardaba parches/diferencias entre archivos en disco:",
+    "opciones": [
+        "Subversion.",
+        "Git.",
+        "rcs.",
+        "Mercurial."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué siglas representan a los Sistemas de Control de Versiones Centralizados?",
+    "opciones": [
+        "DVCSs.",
+        "CVCSs.",
+        "HTMLs.",
+        "XMLs."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué herramientas son ejemplos clásicos de sistemas centralizados (CVCSs)?",
+    "opciones": [
+        "Git, Mercurial y Bazaar.",
+        "CVS, Subversion y Perforce.",
+        "Linux, Windows y MacOS.",
+        "Apache, Tomcat y Nginx."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Cuál es la principal desventaja estructural que posee un CVCS (sistema centralizado)?",
+    "opciones": [
+        "El alto coste de la fibra óptica.",
+        "El punto único de fallo que representa el servidor centralizado.",
+        "Que requiere programar en ensamblador.",
+        "Que no permite más de 10 usuarios conectados."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si en un CVCS el disco del servidor se corrompe y no hay copias de seguridad externas, ¿cuál es el resultado?",
+    "opciones": [
+        "El sistema reconstruye la historia leyendo la mente de los usuarios.",
+        "Se pierde absolutamente toda la historia del proyecto salvo las instantáneas locales que tengan los clientes.",
+        "Se descarga una copia de seguridad automáticamente de Google.",
+        "No pasa nada, el servidor central es redundante por naturaleza."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué siglas definen a los Sistemas de Control de Versiones Distribuidos?",
+    "opciones": [
+        "CVCSs.",
+        "DVCSs.",
+        "SQLs.",
+        "TCPs."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En los DVCSs, cada vez que un cliente descarga una instantánea de los archivos (clone), ¿qué sucede en realidad?",
+    "opciones": [
+        "Que bloquea el servidor para el resto.",
+        "Que hace una réplica/copia de seguridad completa de todos los datos y de la historia del repositorio.",
+        "Que borra los datos en el servidor por motivos de seguridad.",
+        "Que se traduce automáticamente todo el código a inglés."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Son ejemplos de Sistemas de Control de Versiones Distribuidos (DVCS):",
+    "opciones": [
+        "Subversion, CVS y Perforce.",
+        "Eclipse, NetBeans e IntelliJ.",
+        "Git, Mercurial, Bazaar y Darcs.",
+        "Apache, Nginx y Tomcat."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "A diferencia de los sistemas centralizados, los distribuidos permiten trabajar simultáneamente con varios repositorios facilitando, por ejemplo:",
+    "opciones": [
+        "Crear código HTML más rápido.",
+        "Flujos de trabajo no posibles en los CVCSs, como modelos jerárquicos.",
+        "Instalar Windows encima de Linux.",
+        "Evitar tener que documentar las funciones."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué proyecto monumental de código abierto impulsó el desarrollo inicial de Git?",
+    "opciones": [
+        "El servidor Apache.",
+        "El IDE Eclipse.",
+        "El núcleo (kernel) de Linux.",
+        "El gestor de bases de datos MySQL."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Entre 2002 y 2005, el proyecto del núcleo de Linux utilizaba un DVCS propietario llamado:",
+    "opciones": [
+        "Subversion.",
+        "GitMaster.",
+        "BitKeeper.",
+        "SourceSafe."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Quién fue el creador inicial de Git basándose en las lecciones aprendidas tras la ruptura con BitKeeper?",
+    "opciones": [
+        "Bill Gates.",
+        "Linus Torvalds.",
+        "Steve Jobs.",
+        "Mark Zuckerberg."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿En qué lenguaje de programación base está escrito Git, aportándole mucha velocidad?",
+    "opciones": [
+        "Java.",
+        "PHP.",
+        "Python.",
+        "C."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Uno de los objetivos fundamentales en el diseño de Git era dar fuerte apoyo a:",
+    "opciones": [
+        "Sistemas operativos Windows exclusivamente.",
+        "El desarrollo no lineal (permitiendo miles de ramas paralelas).",
+        "El diseño de interfaces gráficas tridimensionales.",
+        "La ofimática tradicional."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Sistemas como CVS o Subversion modelan la información que almacenan como:",
+    "opciones": [
+        "Un conjunto de instantáneas globales (fotos del proyecto).",
+        "Un conjunto de archivos y la lista de modificaciones/diferencias hechas sobre cada uno a lo largo del tiempo.",
+        "Páginas web dinámicas en PHP.",
+        "Archivos vectoriales SVG."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "A diferencia de Subversion, ¿cómo modela y almacena Git sus datos conceptualmente?",
+    "opciones": [
+        "Como un conjunto de instantáneas (fotos completas) de un mini sistema de archivos.",
+        "Exclusivamente como parches de texto en la nube.",
+        "Como documentos PDF enlazados.",
+        "Mediante cintas magnéticas indexadas."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En Git, si al hacer un commit un archivo no se ha modificado, para ser eficiente el sistema:",
+    "opciones": [
+        "Crea un clon exacto en el disco consumiendo el doble de memoria.",
+        "Borra el archivo original.",
+        "No almacena el archivo de nuevo, solo guarda un enlace al archivo idéntico ya almacenado.",
+        "Genera un error obligando a cambiar el archivo."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En Git casi todas las operaciones son rápidas porque en la mayoría de los casos:",
+    "opciones": [
+        "El servidor remoto tiene mucha fibra óptica.",
+        "Solo necesitan archivos y recursos locales para operar, leyendo la base de datos local al instante.",
+        "El código en lenguaje C se salta los controles de hardware.",
+        "Nunca comprueba errores."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para garantizar la integridad y que no haya corrupción de datos, antes de ser almacenado todo en Git es verificado mediante:",
+    "opciones": [
+        "Un contrato legal.",
+        "Una suma de comprobación (checksum SHA-1).",
+        "Una llamada a la API de Microsoft.",
+        "La intervención manual de un administrador."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Cuáles son los tres estados principales en los que se pueden encontrar los archivos en Git?",
+    "opciones": [
+        "Compilado, Depurado y Ejecutado.",
+        "Abierto, Cerrado y Bloqueado.",
+        "Confirmado (committed), Modificado (modified) y Preparado (staged).",
+        "Público, Privado y Protegido."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Cuando un archivo en Git está 'confirmado' (committed), significa que:",
+    "opciones": [
+        "Ha sido impreso en papel.",
+        "Los datos están almacenados de manera segura en la base de datos local del directorio de Git.",
+        "Se ha subido automáticamente a Github.",
+        "Alguien lo está modificando en ese mismo instante."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si un archivo fue alterado desde su última copia obtenida, pero no ha sido confirmado ni preparado, se encuentra en estado:",
+    "opciones": [
+        "Dañado.",
+        "Confirmado.",
+        "Modificado.",
+        "Bloqueado."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si un archivo modificado se ha marcado en su versión actual para incluirlo en la próxima confirmación, su estado es:",
+    "opciones": [
+        "Inestable.",
+        "Preparado (staged).",
+        "Committed.",
+        "Enviado."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Las tres secciones principales físicas/lógicas de un proyecto Git local son el Directorio de Git, el Directorio de trabajo y:",
+    "opciones": [
+        "El servidor Apache.",
+        "El área de preparación (staging area o índice).",
+        "La base de datos MySQL.",
+        "El archivo .ini de configuración."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué es la sección conocida como 'Directorio de Git' (Git directory)?",
+    "opciones": [
+        "La carpeta donde instalamos el servidor web.",
+        "El lugar que almacena los metadatos y la base de datos de objetos, siendo lo que se copia al clonar un repositorio.",
+        "El acceso directo en el escritorio de Windows.",
+        "El sitio web oficial de descarga de Git."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Cuál es la función del 'Directorio de trabajo' (working directory) en Git?",
+    "opciones": [
+        "Mantener comprimidos todos los archivos para ahorrar espacio.",
+        "Servir como copia extraíble de una versión del proyecto colocada en disco para usarla o modificarla.",
+        "Hacer copias de seguridad en la nube.",
+        "Monitorizar qué teclas pulsa el programador."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El área de preparación (staging area), a veces también denominada 'índice', consiste en:",
+    "opciones": [
+        "Un archivo que almacena la información acerca de lo que va a ir en la próxima confirmación (commit).",
+        "Una carpeta donde se guardan los virus detectados.",
+        "El catálogo de repositorios públicos de Github.",
+        "Un espacio de almacenamiento en el núcleo de Linux."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El primer paso del flujo de trabajo básico en Git consiste en:",
+    "opciones": [
+        "Confirmar los cambios directamente.",
+        "Preparar los archivos sin haberlos tocado.",
+        "Modificar una serie de archivos en el directorio de trabajo.",
+        "Desinstalar el sistema operativo."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El segundo paso del flujo de trabajo habitual de Git es:",
+    "opciones": [
+        "Modificar los archivos con el editor de textos.",
+        "Preparar los archivos, añadiendo instantáneas de ellos al área de preparación.",
+        "Enviar los archivos al administrador por correo electrónico.",
+        "Borrar todos los ficheros locales."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En el flujo de trabajo de Git, 'Confirmar los cambios' significa:",
+    "opciones": [
+        "Cerrar la sesión de usuario.",
+        "Tomar los archivos del área de preparación y almacenar la instantánea de forma permanente en el directorio de Git.",
+        "Pagar la suscripción mensual del servicio.",
+        "Subir los cambios al repositorio distribuido de otro compañero obligatoriamente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Según los apuntes, ¿por qué suele ser útil instalar Git desde código fuente en lugar del gestor de paquetes básico?",
+    "opciones": [
+        "Porque así el ordenador funciona más frío.",
+        "Porque obtendremos la versión más reciente, que a menudo incluye útiles mejoras en la interfaz de usuario.",
+        "Porque el binario tiene un coste económico.",
+        "Porque la instalación binaria es ilegal en sistemas Debian."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para poder compilar e instalar Git desde su código fuente es necesario disponer de ciertas librerías previas, como por ejemplo:",
+    "opciones": [
+        "curl, zlib y openssl.",
+        "php, mysql y apache.",
+        "java, javac y javadoc.",
+        "office, excel y word."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué comando típico de entornos Debian/Ubuntu usaríamos para descargar el código fuente comprimido de Git desde internet mediante consola?",
+    "opciones": [
+        "apt-get",
+        "wget",
+        "ping",
+        "ftp"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si tenemos el archivo fuente 'git-1.7.6.tar.bz2', el comando adecuado para descomprimirlo propuesto en los apuntes es:",
+    "opciones": [
+        "unzip git-1.7.6.tar.bz2",
+        "tar -xjvf git-1.7.6.tar.bz2",
+        "rar e git-1.7.6.tar.bz2",
+        "gunzip git-1.7.6.tar.bz2"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En el caso de no querer compilar desde el código fuente y usar la herramienta básica de gestión de paquetes de Debian para instalar el binario, ejecutaríamos:",
+    "opciones": [
+        "apt-get install git-core",
+        "yum install git",
+        "pacman -S git",
+        "dpkg -i git.exe"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué comando empleamos para comprobar que Git se ha instalado correctamente y nos devuelva la versión actual?",
+    "opciones": [
+        "git --info",
+        "git status",
+        "git --version",
+        "git check"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "La mayoría de las opciones de configuración para adaptar nuestras preferencias de trabajo en Git se aplican en:",
+    "opciones": [
+        "El switch de red.",
+        "El lado del cliente.",
+        "El router central.",
+        "El servidor DNS."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué comando o herramienta integrada trae Git para establecer y obtener variables de control y funcionamiento?",
+    "opciones": [
+        "git setup",
+        "git control",
+        "git init",
+        "git config"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué es lo primero y más importante que se debe configurar al instalar Git?",
+    "opciones": [
+        "El color de fondo de la terminal.",
+        "El nombre de usuario y la dirección de correo electrónico.",
+        "El nivel de compresión de las imágenes.",
+        "El tipo de base de datos SQL a emplear."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "El nombre de usuario y correo se deben configurar inmediatamente porque:",
+    "opciones": [
+        "Si no, la licencia de Git caduca.",
+        "Las confirmaciones de cambios (commits) en Git usan esta información de manera inmutable para identificar quién envía los cambios.",
+        "El servidor Apache exige un login activo.",
+        "Permite que Git nos envíe un boletín de noticias mensual."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Para qué sirve el flag '--global' cuando ejecutamos 'git config --global user.name \"alumno\"'?",
+    "opciones": [
+        "Para establecerlo únicamente en la carpeta actual.",
+        "Para que se comparta por internet automáticamente.",
+        "Para que Git use esa configuración para todo lo que se haga con el usuario en el sistema operativo.",
+        "Para crear un repositorio a nivel mundial."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si no se configura manualmente un editor de texto con 'core.editor', Git intentará usar por defecto el del sistema, que generalmente en Linux es:",
+    "opciones": [
+        "Notepad.",
+        "Gedit.",
+        "Nano.",
+        "Vi o Vim."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué comando usaríamos si queremos cambiar nuestro editor de texto global en Git por 'emacs'?",
+    "opciones": [
+        "git change editor emacs",
+        "git config --global core.editor emacs",
+        "git emacs --enable",
+        "git core --editor=emacs"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Otra configuración útil es 'merge.tool'. ¿Para qué sirve?",
+    "opciones": [
+        "Para unir varios repositorios en uno solo de forma física.",
+        "Para establecer la herramienta de diferencias por defecto usada para resolver conflictos de unión.",
+        "Para definir qué programa compilará el código.",
+        "Para configurar la tarjeta de red."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "De la siguiente lista de herramientas, ¿cuál acepta Git como una herramienta válida para resolver conflictos (merge.tool)?",
+    "opciones": [
+        "Microsoft Excel.",
+        "Photoshop.",
+        "vimdiff.",
+        "phpMyAdmin."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué comando nos permite ver una lista completa con la configuración actual que tiene Git en nuestra máquina?",
+    "opciones": [
+        "git config --list",
+        "git status --all",
+        "git show-config",
+        "git log"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si no recordamos cómo usar un comando de Git, por ejemplo 'commit', ¿qué orden abre la página de manual (manpage)?",
+    "opciones": [
+        "git ayuda commit",
+        "git help commit",
+        "git --man commit",
+        "help git-commit"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Debido a la importancia de las interfaces gráficas, los apuntes instalan un entorno web intuitivo para repositorios llamado:",
+    "opciones": [
+        "git-gui.",
+        "gitweb.",
+        "github-local.",
+        "phpGit."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué servidor debe estar instalado y configurado previamente para que el paquete 'gitweb' pueda mostrar las páginas web localmente?",
+    "opciones": [
+        "Un servidor FTP.",
+        "Apache.",
+        "Tomcat.",
+        "MySQL."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "En la configuración de gitweb (/etc/gitweb.conf), la variable '$projectroot' define:",
+    "opciones": [
+        "El nombre de la empresa dueña del código.",
+        "La carpeta donde se guardan los repositorios git que queremos mostrar.",
+        "La URL pública del repositorio.",
+        "El tamaño máximo permitido para subir archivos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Al comenzar a trabajar en la carpeta de nuestro nuevo proyecto local, ¿cuál es el primer comando de Git para inicializar el repositorio?",
+    "opciones": [
+        "git start",
+        "git create",
+        "git init",
+        "git begin"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Tras ejecutar 'git init', podemos comprobar que se ha creado de manera automática una carpeta oculta. ¿Cómo se llama?",
+    "opciones": [
+        ".svn",
+        ".config",
+        ".git",
+        ".git_repo"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Una vez creado código en la carpeta del proyecto local, para que Git añada todos los archivos actuales al área de preparación ejecutamos:",
+    "opciones": [
+        "git add .",
+        "git update",
+        "git include all",
+        "git stage *"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para realizar la confirmación de los ficheros y guardar esa instantánea de forma permanente (commit), podemos ejecutar:",
+    "opciones": [
+        "git save",
+        "git push",
+        "git commit -a",
+        "git store"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para iniciar el servicio en red básico de Git que hace público nuestro repositorio local y permite peticiones, usamos el comando:",
+    "opciones": [
+        "git server",
+        "git apache",
+        "git daemon",
+        "git network"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Por defecto, al arrancar el servicio Git daemon, ¿en qué puerto de comunicaciones de la red se pone a la escucha?",
+    "opciones": [
+        "Puerto 80.",
+        "Puerto 21.",
+        "Puerto 8080.",
+        "Puerto 9418."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué comando emplearían los desarrolladores para obtener una copia a través de la red del proyecto que acabamos de publicar?",
+    "opciones": [
+        "git clone git://servidor/proyecto.git",
+        "git copy ftp://servidor/proyecto.git",
+        "git download http://servidor",
+        "git get proyecto"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si tras un primer 'git add' seguimos trabajando y creamos nuevos ficheros, ¿qué debe hacerse para que Git siga su pista?",
+    "opciones": [
+        "Reiniciar la máquina virtual.",
+        "No hay que hacer nada, Git los detecta y añade automáticamente siempre.",
+        "Indicarlo manualmente con un nuevo comando 'git add ARCHIVOSNUEVOS'.",
+        "Realizar un 'git format' del repositorio."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si hemos borrado físicamente unos ficheros viejos del proyecto y queremos que Git 'se olvide' de ellos en el próximo commit, el comando apropiado es:",
+    "opciones": [
+        "git delete ARCHIVOSVIEJOS",
+        "git rm ARCHIVOSVIEJOS",
+        "git erase ARCHIVOSVIEJOS",
+        "git drop ARCHIVOSVIEJOS"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "A nivel interno en Git, renombrar un archivo con 'git mv' equivale exactamente a:",
+    "opciones": [
+        "Encriptar el archivo.",
+        "Cifrar su extensión.",
+        "Eliminar el nombre anterior y agregar el nuevo.",
+        "Hacer una copia de seguridad temporal."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "A veces es interesante ver hacia atrás el historial del proyecto. ¿Qué comando muestra una lista de commits recientes con sus identificadores (hashes SHA1)?",
+    "opciones": [
+        "git status",
+        "git log",
+        "git history",
+        "git list"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si decidimos que todos los commits a partir de cierto punto estaban mal y queremos borrar todo rastro de los commits nuevos volviendo a un punto (SHA1) antiguo permanentemente, usamos:",
+    "opciones": [
+        "git format --deep",
+        "git rollback SHA1_HASH",
+        "git reset --hard SHA1_HASH",
+        "git clean --force SHA1_HASH"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si sólo queremos saltar temporalmente a ver cómo estaba el código en un estado anterior (sin borrar ni modificar la línea de tiempo principal), ejecutaremos:",
+    "opciones": [
+        "git travel SHA1_HASH",
+        "git checkout SHA1_HASH",
+        "git preview SHA1_HASH",
+        "git see SHA1_HASH"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Estando 'viajando en el tiempo' con checkout observando un commit antiguo, ¿qué comando nos devolverá al presente de nuestra rama principal?",
+    "opciones": [
+        "git checkout master",
+        "git return present",
+        "git branch --current",
+        "git exit"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Qué precaución importante debemos tener al hacer 'git checkout' para viajar a una versión anterior si tenemos ficheros modificados sin confirmar?",
+    "opciones": [
+        "Que borrará nuestras contraseñas de red.",
+        "Que esta forma de checkout puede sobreescribir archivos sin avisar, por lo que se recomienda hacer commit antes de ejecutarlo.",
+        "Que creará miles de ramas por accidente colapsando la memoria.",
+        "Que publicará nuestros ficheros locales en internet."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Formando parte de un equipo y teniendo un repositorio remoto clonado localmente, si queremos bajarnos las últimas modificaciones que hicieron los compañeros en el servidor, usamos:",
+    "opciones": [
+        "git clone",
+        "git pull",
+        "git push",
+        "git update"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Si queremos hacer un 'commit' adjuntando directamente el comentario desde la línea de comandos sin abrir el editor de texto Vi/Vim, usaremos la opción:",
+    "opciones": [
+        "-c",
+        "-t",
+        "-m",
+        "-l"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para averiguar visualmente en la consola qué cambios exactos (diferencias) se han introducido en los archivos locales desde el último commit, usamos:",
+    "opciones": [
+        "git view",
+        "git diff",
+        "git compare",
+        "git status"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Git posee una increíble capacidad para crear líneas de trabajo aisladas (para probar características sin afectar la principal). Estas se denominan:",
+    "opciones": [
+        "Branches (Ramas).",
+        "Roots (Raíces).",
+        "Trunks (Troncos).",
+        "Leaves (Hojas)."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Al proceso de integrar o unir los cambios de una rama aislada de vuelta a la línea principal o a otra rama se le denomina comúnmente en Git:",
+    "opciones": [
+        "Push.",
+        "Commit.",
+        "Merge (Fusión).",
+        "Link (Enlace)."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Los apuntes mencionan una conocida web pública orientada a alojar y 'socializar' proyectos utilizando Git (ofreciendo wikis, foros y gráficos). Se trata de:",
+    "opciones": [
+        "SourceForge.net.",
+        "Bitbucket.org.",
+        "Github.com.",
+        "GitLab.com."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Desde el punto de vista de la seguridad en la transmisión de código, el protocolo nativo de Git suele ir frecuentemente montado sobre un acceso seguro conocido como:",
+    "opciones": [
+        "FTP",
+        "Telnet",
+        "SSH",
+        "Gopher"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "¿Es obligatorio el uso de un servidor HTTP/Web (como Apache) para poder compartir y publicar repositorios en Git en una red interna?",
+    "opciones": [
+        "Sí, sin él no se pueden transferir datos.",
+        "No, Git no requiere ningún servidor web obligatorio, se puede usar directamente su protocolo o SSH.",
+        "Solo es obligatorio si usamos la plataforma Windows.",
+        "Sí, pero solo para proyectos open source."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para eliminar el papel de 'responsable' que aprueba manualmente los parches, Git permite que los desarrolladores suban cambios directamente al repositorio público utilizando el comando:",
+    "opciones": [
+        "git receive",
+        "git insert",
+        "git push",
+        "git upload"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Para que el comando push pueda ser aceptado por un repositorio servidor gestionado mediante el demonio de red nativo (git daemon), el servidor debe tener activado el servicio:",
+    "opciones": [
+        "ftp-transfer.",
+        "receive-pack.",
+        "http-upload.",
+        "ssh-keygen."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Unidad 5 de trabajo apartado 4",
+    "pregunta": "Al clonar por primera vez un proyecto remoto y querer crear nuestro propio repositorio local independiente con copia de la base de datos, el primer paso que hace 'git clone' es:",
+    "opciones": [
+        "Crear una contraseña cifrada.",
+        "Copiar localmente el 'directorio de Git' que contiene los metadatos y objetos históricos.",
+        "Pedir permiso al administrador de base de datos MySQL.",
+        "Desinstalar versiones previas de Git."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Cuál de las siguientes es una forma válida de generar documentación con PhpDocumentor?",
+    "opciones": [
+        "Desde un editor gráfico de imágenes.",
+        "Desde línea de comandos (PHP CLI - Command Line Interpreter).",
+        "Mediante llamadas a la API de Windows.",
+        "Exclusivamente conectando un cable serie."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "PhpDocumentor permite generar documentación utilizando:",
+    "opciones": [
+        "Un compilador de C++.",
+        "Una extensión de Microsoft Word.",
+        "Una interfaz web incluida en la distribución.",
+        "Un servidor FTP privado."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Además de la línea de comandos y la interfaz web, ¿cómo más puede PhpDocumentor generar documentación?",
+    "opciones": [
+        "Desde código, incluyendo su funcionalidad dentro de scripts propios en PHP.",
+        "Mediante consultas SQL puras.",
+        "Ejecutando macros de Excel.",
+        "A través de un simulador de Android."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Cuál de los siguientes es un formato de salida válido en los que PhpDocumentor permite generar la documentación?",
+    "opciones": [
+        "ODT.",
+        "DOCX.",
+        "PDF.",
+        "MP3."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Entre los formatos de salida que puede generar PhpDocumentor se encuentra:",
+    "opciones": [
+        "HTML.",
+        "EXE.",
+        "BAT.",
+        "PSD."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "PhpDocumentor es capaz de generar documentación estructurada en el formato de salida:",
+    "opciones": [
+        "AVI.",
+        "ISO.",
+        "CSS.",
+        "XML."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Los sistemas de control de versiones son programas que permiten...",
+    "opciones": [
+        "Documentar aplicaciones.",
+        "Insertar comentarios en el código fuente de las aplicaciones.",
+        "Gestionar un repositorio de archivos y sus distintas versiones.",
+        "Compilar aplicaciones web."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Cuáles son algunas de las herramientas más utilizadas para generar documentación de forma automática a partir del código fuente?",
+    "opciones": [
+        "Apache y PHP.",
+        "MySQL y MariaDB.",
+        "Javadoc y PhpDocumentor.",
+        "HTML y CSS."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "La herramienta de control de versiones no soluciona el _____, sólo informa de su existencia.",
+    "opciones": [
+        "conflicto",
+        "cambio",
+        "parche",
+        "repositorio"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué son exactamente las plantillas de código en Javadoc?",
+    "opciones": [
+        "Archivos de configuración del servidor web.",
+        "Sugerencias de código asociadas a palabras clave.",
+        "Imágenes predeterminadas para los manuales.",
+        "Scripts de base de datos relacionales."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Para usar phpDocumentor desde su interfaz web, ¿qué requisitos previos deben estar instalados y funcionando correctamente en el servidor?",
+    "opciones": [
+        "MySQL y PostgreSQL.",
+        "Tomcat y Java.",
+        "Node.js y MongoDB.",
+        "Apache y PHP."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué hace esencialmente la herramienta Javadoc?",
+    "opciones": [
+        "Traduce código Java a PHP automáticamente.",
+        "Extrae comentarios del código fuente y genera un juego de documentación en formato HTML.",
+        "Encripta el código fuente para mayor seguridad.",
+        "Optimiza la memoria RAM que consume el programa al compilar."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Una plantilla en Javadoc se compone de:",
+    "opciones": [
+        "Un nombre y una descripción.",
+        "Un nombre, un contexto en función del lenguaje y un pattern.",
+        "Un nombre, una descripción, un contexto en función del lenguaje y un pattern.",
+        "Un nombre y un pattern."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "El comando _____ muestra cómo se encuentran los archivos de nuestro proyecto en relación al repositorio del servidor.",
+    "opciones": [
+        "git clone",
+        "git status",
+        "git add",
+        "git cvs"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Para establecer la ruta donde guardar la documentación generada por phpDocumentor, es necesario cambiar el contenido de una línea en el archivo .ini de nuestro proyecto. ¿De qué línea se trata?",
+    "opciones": [
+        "directory",
+        "target",
+        "destination",
+        "path"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En phpDocumentor la documentación se distribuye en bloques 'DocBlock'. Estos bloques siempre se colocan _____ del elemento al que documentan.",
+    "opciones": [
+        "después",
+        "en la definición",
+        "antes",
+        "en medio"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué archivo se emplea en Git si existe la necesidad de excluir archivos del directorio del proyecto para que no sean rastreados?",
+    "opciones": [
+        ".gitexclude",
+        ".gitignore",
+        ".gitconfig",
+        ".gitremove"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Respecto a las características técnicas de Git, ¿en qué lenguaje está escrito principalmente aportándole gran velocidad?",
+    "opciones": [
+        "En Java.",
+        "En PHP.",
+        "En C.",
+        "En Python."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "El comando _____ sólo seguirá la pista de los archivos que estaban presentes la primera vez que se ejecutó git add.",
+    "opciones": [
+        "git clone",
+        "git reboot",
+        "git commit",
+        "git init"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "La documentación a ser utilizada por Javadoc se escribe en comentarios que comienzan con:",
+    "opciones": [
+        "*//",
+        "**/",
+        "//",
+        "/**"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué sección de Git almacena los metadatos y la base de datos de objetos para el proyecto?",
+    "opciones": [
+        "Working directory.",
+        "Git directory.",
+        "Tating directory.",
+        "Staging area."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué ventajas ofrecen los IDEs como Eclipse y NetBeans respecto a la herramienta Javadoc?",
+    "opciones": [
+        "Obligan a generar la documentación subiéndola a repositorios remotos como Github de forma automática.",
+        "Traducen automáticamente los comentarios Javadoc a varios idiomas.",
+        "No soportan Javadoc nativamente sin instalar plugins de pago.",
+        "Disponen de opciones para generarlo mediante ventanas y ofrecen completado de código basado en Javadoc."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Para que Javadoc interprete una etiqueta es necesario:",
+    "opciones": [
+        "Que se sitúe siempre al principio de la definición de funciones Java, y que únicamente sea precedida por espacio(s) o asterisco(s).",
+        "Que se sitúe siempre al principio de la clase Java, y que únicamente sea precedida por espacio(s) o asterisco(s).",
+        "Que se sitúe siempre al principio de una línea, o que únicamente sea precedida por espacio(s) o asterisco(s).",
+        "Que se sitúe siempre al principio de la aplicación Java."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Los 'DocBlock' de phpDocumentor comienzan con los caracteres:",
+    "opciones": [
+        "/**",
+        "*//",
+        "**/",
+        "//"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En sistemas de control de versiones un _____ es el lugar en donde se almacenan las revisiones.",
+    "opciones": [
+        "conflicto",
+        "cambio",
+        "repositorio",
+        "parche"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Cómo identifica Javadoc las etiquetas incrustadas en los comentarios de un código Java?",
+    "opciones": [
+        "Comienzan con el símbolo # y no distinguen mayúsculas de minúsculas.",
+        "Comienzan con el símbolo @ y son sensibles a mayúsculas y minúsculas.",
+        "Comienzan con el símbolo $ y deben estar siempre en mayúsculas.",
+        "Comienzan con el símbolo & y son ignoradas si tienen números."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Los comentarios JavaDoc deben incluir unos indicadores especiales, que comienzan siempre por _____ y se suelen colocar al comienzo de línea.",
+    "opciones": [
+        "#",
+        "!",
+        "@",
+        "*"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Una de las funciones principales que permite un sistema de control de versiones es:",
+    "opciones": [
+        "Únicamente el trabajo de un desarrollador en un momento determinado sobre un proyecto.",
+        "Impedir que más de dos personas lean el código al mismo tiempo.",
+        "Ejecutar la aplicación web automáticamente en los clientes.",
+        "Que varios clientes puedan sacar copias del proyecto al mismo tiempo."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué facilidad ofrece un sistema de control de versiones respecto a las modificaciones de los archivos a lo largo del tiempo?",
+    "opciones": [
+        "Eliminar automáticamente el código de más de 30 días.",
+        "Recuperar versiones anteriores del proyecto.",
+        "Comprimir el proyecto borrando su historial cada vez que se guarda.",
+        "Impedir volver a una versión previa si ya fue confirmada."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En cuanto al seguimiento del proyecto, un sistema de control de versiones permite:",
+    "opciones": [
+        "Ver históricos de cambios y comentarios.",
+        "Ocultar los cambios para que solo los vea el administrador.",
+        "Generar un documento PDF con todos los usuarios del sistema.",
+        "Mostrar estadísticas en tiempo real de la memoria RAM del servidor."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Dentro de un proyecto integrado con Git, un archivo está en estado 'Confirmado' (committed) cuando:",
+    "opciones": [
+        "Se ha marcado el archivo para ir en la próxima confirmación.",
+        "Ha sido modificado pero no almacenado aún en la base de datos.",
+        "Los datos están almacenados de manera segura en la base de datos local.",
+        "No puede volver a modificarse en el futuro bajo ninguna circunstancia."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué significa que un archivo esté en estado 'Modificado' en Git?",
+    "opciones": [
+        "Que ha sido borrado físicamente del disco duro.",
+        "Que está listo en el área de preparación para el próximo commit.",
+        "Que se acaba de subir al servidor remoto con push.",
+        "Que ha sufrido cambios desde que se obtuvo del repositorio, pero no se ha preparado ni confirmado."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En Git, cuando un archivo modificado se ha marcado en su versión actual para incluirlo en la próxima confirmación, su estado es:",
+    "opciones": [
+        "Inmutable.",
+        "Preparado (staged).",
+        "Confirmado (committed).",
+        "Ignorado."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Qué herramienta integrada trae Git para obtener y establecer variables de configuración que controlan su aspecto y funcionamiento?",
+    "opciones": [
+        "git setup",
+        "git properties",
+        "git config",
+        "git admin"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En un sistema de control de versiones centralizado, ¿cómo suele ser la arquitectura empleada y el rol del servidor?",
+    "opciones": [
+        "Una arquitectura de red en anillo sin servidores.",
+        "Una estructura donde cada cliente oculta sus archivos al servidor principal.",
+        "Utilizan una arquitectura cliente-servidor en donde el servidor guarda las versiones actuales del proyecto y su historia.",
+        "Una arquitectura exclusiva de servidor donde el cliente no puede descargar ninguna copia local."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En el caso de ya tener una copia de un proyecto remoto clonada localmente (usando git clone), podemos actualizar nuestra copia a la última versión del servidor con:",
+    "opciones": [
+        "git pull",
+        "git log",
+        "git branch",
+        "git add"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Cuál de las siguientes es una forma correcta de obtener ayuda sobre un comando específico en Git a través de la terminal?",
+    "opciones": [
+        "Ejecutando 'git add [comando] ?'",
+        "Ejecutando 'git help [comando]'",
+        "Ejecutando 'git -info [comando]'",
+        "Ejecutando 'help-git [comando]'"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "Otra forma válida de visualizar la ayuda de un comando específico de Git en consola es añadiendo un parámetro, ¿cuál es?",
+    "opciones": [
+        "Ejecutando 'git [comando] /?'",
+        "Ejecutando 'git [comando] -h'",
+        "Ejecutando 'git [comando] --help'",
+        "Ejecutando 'git help -all [comando]'"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "En sistemas basados en Linux/Unix, ¿cómo se puede acceder a la página del manual de un comando específico de Git?",
+    "opciones": [
+        "Ejecutando 'man -git [comando]'",
+        "Ejecutando 'manual git [comando]'",
+        "Ejecutando 'git man [comando]'",
+        "Ejecutando 'man git-[comando]'"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Examen Online tema 5",
+    "pregunta": "¿Cuál de las siguientes herramientas sirve específicamente para generar documentación a partir del código fuente?",
+    "opciones": [
+        "Git.",
+        "Subversion.",
+        "JavaDoc.",
+        "HTML."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Según la teoría aplicada en la configuración de la tarea, ¿qué tipo de sistema de control de versiones es Git?",
+    "opciones": [
+        "Un Sistema de Control de Versiones Centralizado (CVCS).",
+        "Un Sistema de Control de Versiones Distribuido (DVCS).",
+        "Un sistema de backups jerárquico.",
+        "Un servidor de almacenamiento FTP puramente secuencial."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Cuál es una de las principales diferencias de Git (sistema DVCS) frente a los sistemas centralizados clásicos como Subversion?",
+    "opciones": [
+        "Que requiere estar siempre conectado a internet para hacer un commit.",
+        "Que los clientes replican completamente el repositorio localmente, incluyendo toda su historia.",
+        "Que no permite crear ramas de desarrollo.",
+        "Que solo funciona en sistemas operativos basados en Linux."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "A nivel teórico y estructural, ¿cómo modela Git sus datos al realizar una confirmación (commit)?",
+    "opciones": [
+        "Como una lista de cambios o parches incrementales en cada archivo.",
+        "Como documentos PDF enlazados.",
+        "Como un conjunto de instantáneas (snapshots) de un mini sistema de archivos.",
+        "Como consultas exclusivas a una base de datos MySQL."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En Git, para ser eficiente, ¿qué sucede si un archivo no se ha modificado entre una confirmación y otra?",
+    "opciones": [
+        "Git lo comprime nuevamente ocupando el doble de espacio.",
+        "Git lo elimina por seguridad.",
+        "Git no almacena el archivo de nuevo, solo guarda un enlace al archivo idéntico ya almacenado.",
+        "Git obliga al usuario a modificar el archivo para poder avanzar."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué mecanismo utiliza Git internamente para garantizar la integridad de todos los archivos y evitar que se corrompan sin ser detectados?",
+    "opciones": [
+        "Copias de seguridad en cinta magnética.",
+        "Una suma de comprobación (checksum) basada en SHA-1.",
+        "Un antivirus integrado en la terminal.",
+        "Permisos especiales de administrador de Windows."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para verificar que la herramienta se ha instalado correctamente en nuestra máquina, el comando utilizado en la terminal es:",
+    "opciones": [
+        "git check-install",
+        "git status",
+        "git --version",
+        "git info"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En la teoría de Git, ¿cuáles son las tres secciones principales físicas/lógicas de un proyecto local?",
+    "opciones": [
+        "El servidor Apache, el cliente y la base de datos.",
+        "El Directorio de Git, el Directorio de trabajo y el Área de preparación (staging area).",
+        "La Rama principal, la Rama secundaria y la Nube.",
+        "El archivo config, el archivo ignore y el ejecutable."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Según el flujo de trabajo de Git, ¿qué significa que un archivo esté en estado 'Confirmado' (committed)?",
+    "opciones": [
+        "Que ha sido subido a un servidor como GitHub.",
+        "Que ha sido modificado en el disco duro pero no guardado.",
+        "Que los datos están almacenados de manera segura en la base de datos local de Git.",
+        "Que está listo en el área de preparación para el próximo paso."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué comando de Git utilizamos para establecer variables de configuración que controlan el aspecto y funcionamiento de la herramienta?",
+    "opciones": [
+        "git setup",
+        "git init",
+        "git config",
+        "git properties"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Cuáles son los dos primeros datos que la teoría de Git exige configurar inmediatamente tras la instalación, tal como se hace en la práctica?",
+    "opciones": [
+        "El nombre del repositorio y la rama principal.",
+        "El nombre de usuario y la dirección de correo electrónico.",
+        "El editor de código y el sistema operativo.",
+        "La contraseña de GitHub y la IP del servidor."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Por qué es tan importante configurar correctamente el nombre y el correo electrónico en Git?",
+    "opciones": [
+        "Porque si no, el programa se cierra automáticamente.",
+        "Porque las confirmaciones de cambios (commits) usan esta información de manera inmutable para identificar al autor.",
+        "Para recibir boletines de noticias de Linus Torvalds.",
+        "Para que GitHub pueda cobrarnos la licencia."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Cuando configuramos nuestro nombre o email empleando el flag '--global', ¿qué le indicamos a Git?",
+    "opciones": [
+        "Que la configuración se aplique a todos los usuarios del mundo.",
+        "Que Git use esa configuración de manera general para todo lo que haga el usuario en ese sistema operativo.",
+        "Que envíe nuestra configuración a un servidor público.",
+        "Que solo aplique la configuración a la carpeta actual."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si cometemos un error tipográfico al declarar una variable de configuración global (ej. 'usar.name'), ¿qué parámetro de 'git config' empleamos para eliminarla?",
+    "opciones": [
+        "--delete",
+        "--remove",
+        "--unset",
+        "--clear"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué comando nos permite visualizar una lista con la configuración actual que tiene Git en nuestra máquina para comprobar que todo está correcto?",
+    "opciones": [
+        "git config --list",
+        "git show config",
+        "git status",
+        "git log"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para que Git empiece a controlar las versiones de una carpeta local convirtiéndola en un repositorio, se debe ejecutar:",
+    "opciones": [
+        "git start",
+        "git create",
+        "git init",
+        "git make-repo"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Tras ejecutar 'git init' en nuestro directorio, se crea automáticamente una carpeta oculta donde Git guarda los metadatos y la base de datos de objetos. ¿Cómo se llama?",
+    "opciones": [
+        ".svn",
+        ".config",
+        ".git",
+        ".repository"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "El comando `git add .` (con un punto final), ejecutado en la consola, tiene como función principal en el flujo de trabajo:",
+    "opciones": [
+        "Subir los archivos a internet silenciosamente.",
+        "Añadir todos los archivos nuevos o modificados de la carpeta actual al Área de Preparación (staging area).",
+        "Borrar los archivos que tienen errores.",
+        "Confirmar los cambios definitivamente en el repositorio."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "De acuerdo a los estados teóricos de Git, un archivo que acabamos de pasar por `git add` pero que aún no tiene 'commit', se encuentra:",
+    "opciones": [
+        "Confirmado (committed).",
+        "Modificado (modified) sin registrar.",
+        "Preparado (staged).",
+        "Ignorado."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "El comando `git commit -m \"Mensaje\"` se utiliza habitualmente en la terminal para:",
+    "opciones": [
+        "Bajar los cambios del servidor a la carpeta local.",
+        "Guardar la instantánea permanentemente en el directorio de Git sin necesidad de abrir un editor de texto externo.",
+        "Deshacer el último cambio guardado.",
+        "Enviar un mensaje de correo electrónico al equipo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si realizamos modificaciones en un archivo del proyecto, ¿qué comando muestra las diferencias exactas de lo que hemos modificado antes de prepararlo?",
+    "opciones": [
+        "git view",
+        "git changes",
+        "git diff",
+        "git show"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "El concepto de 'Rama' (Branch) en Git es fundamental. Para renombrar la rama principal de 'master' a 'main', el comando adecuado es:",
+    "opciones": [
+        "git rename master main",
+        "git branch -M main",
+        "git checkout main",
+        "git switch main"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué es GitHub (github.com) según la teoría vista en la unidad?",
+    "opciones": [
+        "Un programa de línea de comandos que se instala en el PC.",
+        "Un lenguaje de programación basado en C.",
+        "Una web pública donde alojar proyectos utilizando Git, que ofrece herramientas para socializarlos.",
+        "El servidor Apache que ejecuta nuestras páginas PHP en la nube."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Cuando enlazamos nuestro repositorio local con un repositorio en la nube en GitHub, utilizamos el comando:",
+    "opciones": [
+        "git link cloud",
+        "git remote add origin [URL]",
+        "git connect origin [URL]",
+        "git fetch [URL]"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué nombre estándar se le suele dar convencionalmente al repositorio remoto principal al enlazarlo con `git remote add`?",
+    "opciones": [
+        "master",
+        "main",
+        "origin",
+        "cloud"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para enviar directamente nuestros cambios confirmados (commits) desde el repositorio local al repositorio público de GitHub, utilizamos el comando:",
+    "opciones": [
+        "git pull",
+        "git upload",
+        "git send",
+        "git push"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si un equipo de desarrolladores quiere clonar y descargar a sus máquinas locales el repositorio que hemos publicado en GitHub, deberán usar:",
+    "opciones": [
+        "git clone [URL]",
+        "git pull [URL]",
+        "git get [URL]",
+        "git copy [URL]"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En el flujo habitual, si hacemos una modificación en el código y queremos consolidar el cambio en local, ¿cuál es el orden lógico de comandos?",
+    "opciones": [
+        "git commit -> git add",
+        "git diff -> git commit -> git add",
+        "git add -> git commit",
+        "git push -> git commit"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Para qué sirve el sistema de autenticación que nos salta en Windows al realizar el primer `git push` hacia GitHub?",
+    "opciones": [
+        "Para encriptar el disco duro.",
+        "Para acreditar que tenemos permisos de escritura y transferencia sobre ese repositorio remoto.",
+        "Para instalar Visual Studio Code.",
+        "Para firmar digitalmente el código fuente en PDF."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "De acuerdo a la teoría de sistemas de control de versiones, cuando subimos los cambios mediante un `push`, ¿qué es exactamente lo que recibe el servidor?",
+    "opciones": [
+        "Un archivo comprimido ZIP con todo el proyecto.",
+        "Solo los archivos que tienen errores.",
+        "Las instantáneas confirmadas que replican la historia local en el repositorio remoto.",
+        "Un reporte PDF de los cambios."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si otro programador ha realizado modificaciones en el repositorio de GitHub y nosotros queremos actualizar nuestro código local con esa última versión, debemos ejecutar:",
+    "opciones": [
+        "git update",
+        "git push",
+        "git pull",
+        "git status"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Una buena documentación del código (como la generada por PhpDocumentor) es esencial en el entorno laboral porque:",
+    "opciones": [
+        "Impide que el código sea copiado ilegalmente.",
+        "Facilita en gran medida el mantenimiento futuro y la comprensión por parte de otros miembros del equipo.",
+        "Convierte automáticamente el código a lenguaje Java.",
+        "Reduce el consumo de memoria RAM del servidor web."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "PhpDocumentor es una herramienta capaz de generar la documentación de un proyecto recorriendo sus ficheros e interpretando...",
+    "opciones": [
+        "El código compilado en binario.",
+        "Las etiquetas HTML estándar.",
+        "Los comentarios estructurados en bloques DocBlock.",
+        "Las sentencias SQL de la base de datos."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué dos formatos de salida populares (mencionados en el temario y aplicables a las prácticas) puede generar PhpDocumentor?",
+    "opciones": [
+        "DOCX y XLSX.",
+        "HTML (mediante plantillas) y PDF.",
+        "EXE y BAT.",
+        "JPG y PNG."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Los bloques de comentarios reconocidos por PhpDocumentor (DocBlocks) se caracterizan porque siempre deben iniciar con:",
+    "opciones": [
+        "//",
+        "/*",
+        "/**",
+        "<!--"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En la teoría de documentación, ¿dónde debe colocarse siempre un bloque DocBlock en el código PHP para que funcione correctamente?",
+    "opciones": [
+        "Al final del fichero.",
+        "En la primera línea del archivo obligatoriamente.",
+        "Justo antes del elemento al que documentan (función, clase, etc.).",
+        "Dentro de las llaves de la función."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Dentro de un DocBlock, las etiquetas especiales que son interpretadas por PhpDocumentor están precedidas por el carácter:",
+    "opciones": [
+        "&",
+        "$",
+        "#",
+        "@"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@author` utilizada en PhpDocumentor sirve específicamente para:",
+    "opciones": [
+        "Autenticar el acceso a la base de datos.",
+        "Indicar el autor que ha programado ese bloque de código.",
+        "Comprobar las credenciales de Git.",
+        "Enlazar la documentación a una red social."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué etiqueta de PhpDocumentor empleamos para indicar la versión actual del elemento o script?",
+    "opciones": [
+        "@edition",
+        "@release",
+        "@version",
+        "@build"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para documentar de forma correcta los parámetros de entrada que recibe una función, se debe emplear la etiqueta:",
+    "opciones": [
+        "@var",
+        "@input",
+        "@argument",
+        "@param"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En un bloque DocBlock de una función que recibe un nombre de usuario como string, una línea correcta de documentación sería:",
+    "opciones": [
+        "@param string $nombre Nombre del usuario.",
+        "@input $nombre string",
+        "@variable nombre (string)",
+        "@string $nombre"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@return` en PhpDocumentor tiene la función de:",
+    "opciones": [
+        "Indicar el valor o tipo de dato devuelto por una función.",
+        "Forzar la finalización del script PHP.",
+        "Hacer una redirección HTTP.",
+        "Indicar el retorno de carro en HTML."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si una función PHP solo realiza tareas internas y no devuelve ningún valor, su etiqueta de retorno en el DocBlock debe especificarse como:",
+    "opciones": [
+        "@return null",
+        "@return false",
+        "@return void",
+        "@return empty"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué etiqueta de PhpDocumentor sirve para incluir anotaciones y descripciones que NO deben aparecer en la documentación pública, pero sí en la de desarrolladores?",
+    "opciones": [
+        "@private",
+        "@hidden",
+        "@secret",
+        "@internal"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué efecto tiene colocar `@access private` en la documentación de un elemento?",
+    "opciones": [
+        "Cifra la función en la ejecución del servidor.",
+        "Evita que se genere documentación pública para ese elemento, ocultando la implementación.",
+        "Convierte la variable local en global de forma privada.",
+        "Bloquea la ejecución del script desde el navegador."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@package` se utiliza en la cabecera de un archivo para:",
+    "opciones": [
+        "Comprimir el archivo en un .zip.",
+        "Incluir documentación global a nivel de fichero, agrupándolo lógicamente.",
+        "Enviar el código por correo.",
+        "Instalar módulos automáticamente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Cuando ejecutamos PhpDocumentor desde línea de comandos (CLI), el parámetro `-d` sirve para:",
+    "opciones": [
+        "Especificar el directorio de destino de la documentación.",
+        "Especificar el directorio de origen donde se encuentra nuestro código PHP.",
+        "Borrar (delete) documentación antigua.",
+        "Descargar (download) dependencias."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En la ejecución por consola de PhpDocumentor, ¿qué parámetro empleamos para indicar la carpeta de destino donde queremos que se guarde la documentación generada (HTML, etc.)?",
+    "opciones": [
+        "-d",
+        "-o",
+        "-t",
+        "-f"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si ejecutamos el comando `phpdoc -d /origen -t /destino`, ¿qué encontraremos como punto de entrada principal en la carpeta `/destino` tras la generación?",
+    "opciones": [
+        "Un archivo .exe ejecutable.",
+        "El código fuente modificado.",
+        "Un archivo index.html para iniciar la navegación de la documentación.",
+        "Un documento PDF con todo el código cifrado."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Al visualizar el árbol de carpetas generado por PhpDocumentor en la carpeta destino, es común encontrar subdirectorios de soporte como:",
+    "opciones": [
+        "css, js y packages.",
+        "bin, sbin y root.",
+        "src, lib y var.",
+        "exe, dll y sys."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "De acuerdo a los requisitos del DocBlock, ¿qué pasa si las líneas intermedias de un comentario largo no comienzan por un asterisco `*`?",
+    "opciones": [
+        "PhpDocumentor genera un error de compilación PHP fatal.",
+        "Son procesadas como código ejecutable.",
+        "Esa línea es ignorada por el motor de PhpDocumentor.",
+        "El texto se imprime en rojo en el HTML final."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "A nivel de interfaz teórica de la aplicación web, lo que describe la interfaz (y que se plasma en la documentación) es:",
+    "opciones": [
+        "El algoritmo interno y uso de bases de datos.",
+        "Qué hace un método, qué parámetros hay que pasar y qué devuelve.",
+        "El rendimiento exacto del servidor Apache.",
+        "El diseño CSS de la página."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué utilidad tienen las herramientas como PhpDocumentor frente a la escritura de un manual en un documento de texto tradicional separado?",
+    "opciones": [
+        "Que ocupa menos espacio en el disco duro.",
+        "Que automatiza el proceso, evitando el doble trabajo de actualizar un manual externo cada vez que cambia el código.",
+        "Que no requiere saber programar.",
+        "Que traduce automáticamente el texto al inglés."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "PhpDocumentor no solo se puede utilizar en la línea de comandos de Linux/Windows, sino que también en entornos aislados o distribuciones preparadas. En la práctica se demostró su uso mediante:",
+    "opciones": [
+        "Una máquina de escribir electrónica.",
+        "Un contenedor de Docker.",
+        "Una macro incrustada en Word.",
+        "Un cliente FTP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En entornos modernos (como Visual Studio Code, NetBeans o Eclipse), estructurar los comentarios con el formato DocBlock permite adicionalmente:",
+    "opciones": [
+        "Ejecutar el programa sin necesidad de servidor Apache.",
+        "Mostrar la información de forma automática mediante el autocompletado del código.",
+        "Corregir los errores lógicos del programa.",
+        "Cifrar el archivo PHP para que nadie pueda robarlo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Al visualizar el archivo `index.html` resultante de PhpDocumentor, ¿qué información obtenemos de la etiqueta `@version` de un script?",
+    "opciones": [
+        "La versión del lenguaje PHP utilizada en el servidor.",
+        "La versión actual del script o archivo que el autor ha documentado.",
+        "La versión del sistema operativo del cliente.",
+        "La versión de Git instalada."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "El comando `tree` mencionado en el desarrollo de la tarea de documentación sirve para:",
+    "opciones": [
+        "Eliminar repositorios Git antiguos.",
+        "Mostrar visualmente en la consola la jerarquía o estructura de directorios y archivos.",
+        "Crear las ramas de un proyecto en Git.",
+        "Descomprimir archivos tar.gz de forma recursiva."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En Git, ¿cuál es el comando que solicita ver un historial de todas las confirmaciones (commits) realizadas, mostrando sus identificadores (SHA-1)?",
+    "opciones": [
+        "git list",
+        "git log",
+        "git history",
+        "git show-commits"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En Git, cuando queremos obtener un repositorio remoto completo que aún no existe en nuestra máquina local, ejecutamos la orden:",
+    "opciones": [
+        "git pull",
+        "git download",
+        "git copy",
+        "git clone"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Según la teoría de sistemas de control de versiones distribuidos (DVCS), si el servidor principal (como GitHub) sufre una caída masiva y pierde datos:",
+    "opciones": [
+        "Todo el historial del proyecto se pierde irremediablemente.",
+        "Solo quedan las confirmaciones de las últimas 24 horas.",
+        "Cualquiera de los repositorios locales de los clientes puede usarse para restaurarlo completo con su historia.",
+        "Hay que pagar una cuota especial de recuperación a Linus Torvalds."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Una 'Copia de trabajo' (working directory) en el entorno de Git es definida como:",
+    "opciones": [
+        "La base de datos MySQL donde se guardan los usuarios.",
+        "El conjunto de archivos comprimidos dentro de .git.",
+        "La extracción y colocación en disco de una versión del proyecto para ser usada o modificada.",
+        "El área de memoria RAM asignada al servidor web."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si queremos documentar que una función matemática `calcularAreaRectangulo` lanza un error si la altura es negativa, podríamos usar teóricamente la etiqueta (aunque es más habitual en JavaDoc, se soporta en phpDoc para excepciones):",
+    "opciones": [
+        "@error",
+        "@catch",
+        "@warning",
+        "@throws"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué ocurre si dentro del DocBlock utilizamos el indicador `@deprecated` en una función de PHP?",
+    "opciones": [
+        "El compilador borra la función directamente.",
+        "Indica que el elemento no debería utilizarse, ya que en futuras versiones podría ser eliminado.",
+        "Cambia el nombre de la función.",
+        "Redirige la función hacia una página web externa."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@example` en PhpDocumentor es especialmente útil porque permite:",
+    "opciones": [
+        "Mostrar ejemplos de cómo NO programar.",
+        "Ejecutar código de prueba unitaria en tiempo real.",
+        "Especificar la ruta a un fichero con código que se mostrará resaltado en la documentación.",
+        "Insertar un video de YouTube en el index.html."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Al visualizar el código de PhpDocumentor, ¿qué elementos pueden ser documentados directamente incluyéndoles un DocBlock justo encima?",
+    "opciones": [
+        "Las sentencias `if/else` y bucles `for`.",
+        "Clases, funciones, variables globales y require/include.",
+        "Las llamadas a librerías CSS en HTML.",
+        "Los comandos de Linux `ls` o `pwd` dentro del script."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En relación al control de versiones, cuando dos usuarios modifican simultáneamente la misma línea de un archivo y ambos intentan guardar sus cambios en el repositorio, se produce:",
+    "opciones": [
+        "Un formato del disco duro.",
+        "Un Conflicto.",
+        "Una Rama (Branch).",
+        "Un Checksum."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para solucionar los conflictos, un sistema como Git por defecto:",
+    "opciones": [
+        "Sobrescribe siempre los cambios del usuario más reciente.",
+        "Solo avisa de la existencia del conflicto, dejando la resolución en manos del usuario.",
+        "Borra el archivo en disputa.",
+        "Sortea de forma aleatoria qué versión conservar."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿A qué se refiere la teoría al mencionar una 'combinación' (merge) en un sistema de control de versiones?",
+    "opciones": [
+        "Al cifrado de varios archivos en un único ZIP.",
+        "Al proceso de unir cambios realizados por diferentes usuarios sobre los mismos ficheros en una revisión unificada.",
+        "Al borrado de la carpeta .git del sistema local.",
+        "Al proceso de descargar el programa de instalación desde la red."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué ventaja tiene generar documentación en formato XML (DocBook) utilizando PhpDocumentor?",
+    "opciones": [
+        "Que ocupa un solo byte en el disco duro.",
+        "Que es el único formato compatible con navegadores de móviles antiguos.",
+        "Que a partir de este dialecto se puede transformar a cualquier otro formato utilizando hojas de estilo XSLT.",
+        "Que se compila automáticamente en un archivo de lenguaje C."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Un sistema de control de versiones permite recuperar versiones pasadas, pero ¿exige mantener docenas de copias del proyecto en carpetas separadas (como V1, V2_final, etc.) en el directorio de trabajo?",
+    "opciones": [
+        "Sí, Git crea carpetas físicas visibles por cada versión.",
+        "No, Git administra internamente la historia en la base de datos de `.git` y el directorio de trabajo solo muestra la revisión activa.",
+        "Solo es posible si usamos Subversion.",
+        "Sí, si no se guardan carpetas físicas no se puede viajar en el tiempo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué comando usaríamos si queremos que Git deje de realizar seguimiento a un archivo en las futuras confirmaciones (borrándolo del control)?",
+    "opciones": [
+        "git clean ARCHIVO",
+        "git erase ARCHIVO",
+        "git rm ARCHIVO",
+        "git destroy ARCHIVO"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para inicializar el entorno de Git y hacer que las subidas locales al servidor público en la nube (ej. GitHub) funcionen, Git a menudo utiliza transporte seguro bajo un protocolo externo. ¿Cuál es habitualmente?",
+    "opciones": [
+        "Telnet",
+        "Gopher",
+        "SSH (o HTTPS)",
+        "FTP"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para comprobar el estado actual de nuestro directorio de trabajo en Git (viendo qué está modificado y qué está en el área de preparación), utilizamos frecuentemente el comando:",
+    "opciones": [
+        "git check",
+        "git status",
+        "git show",
+        "git inspect"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si quisiéramos retroceder en el historial de forma definitiva (borrando commits defectuosos) recuperando el estado exacto de un commit dado con el SHA1 especificado, empleamos:",
+    "opciones": [
+        "git checkout SHA1",
+        "git reset --hard SHA1",
+        "git return SHA1",
+        "git restore --all SHA1"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si un desarrollador solo quiere 'viajar en el tiempo' visualmente para ver cómo estaba el código en un commit antiguo, sin borrar los nuevos, usa:",
+    "opciones": [
+        "git checkout SHA1",
+        "git reset --hard SHA1",
+        "git delete --soft SHA1",
+        "git diff SHA1"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@see` en un DocBlock de PhpDocumentor es empleada para:",
+    "opciones": [
+        "Abrir una imagen en el navegador.",
+        "Crear enlaces internos a la documentación de otro elemento.",
+        "Comprobar el código de seguimiento de Git.",
+        "Lanzar una alerta de seguridad al usuario."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "A diferencia de PhpDocumentor, otra herramienta similar y mencionada en el temario que además es estándar para el lenguaje Java es:",
+    "opciones": [
+        "Doxygen.",
+        "JavaDoc.",
+        "EclipseDoc.",
+        "Subversion."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué información incluye típicamente el 'metadato' de una revisión (commit) generada por un sistema de control de versiones?",
+    "opciones": [
+        "Las especificaciones técnicas del ordenador del cliente.",
+        "Identidad del autor, fecha, hora y razón de los cambios.",
+        "La contraseña del administrador de redes.",
+        "El manual de usuario completo de la herramienta."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué nombre técnico recibe la lista de diferencias generada al comparar revisiones, que puede usarse para reproducir los cambios en un código?",
+    "opciones": [
+        "Commit.",
+        "Parche (Patch).",
+        "Script de Bash.",
+        "DocBlock."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Cuál es la función del archivo 'git-daemon-export-ok' creado durante la configuración de repositorios públicos según el temario?",
+    "opciones": [
+        "Marcar un repositorio como exportable y permitir el acceso público a él mediante git daemon.",
+        "Autorizar al antivirus a analizar la carpeta .git.",
+        "Convertir el repositorio a formato ZIP automáticamente.",
+        "Habilitar el cifrado militar en los commits."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La documentación de la 'Implementación' está orientada a:",
+    "opciones": [
+        "Los usuarios finales que no saben programar.",
+        "Los auditores de seguridad de bases de datos.",
+        "Los desarrolladores que tengan que depurar o actualizar los bloques de código.",
+        "El diseñador gráfico de la interfaz web."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La documentación sobre la 'Toma de decisiones' documenta:",
+    "opciones": [
+        "Los parámetros que hay que pasarle a una función.",
+        "Por qué se ha implementado de determinada forma y no de otra (ej. para optimizar recursos).",
+        "La versión de Git instalada.",
+        "Las variables del sistema operativo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Al documentar la 'Interfaz' (no cómo lo hace, sino qué hace y qué parámetros necesita), esta información es tremendamente útil para:",
+    "opciones": [
+        "Ocultar el código al compilador de PHP.",
+        "El gestor de versiones que hace los parches.",
+        "Terceras personas (u otros programadores) que utilizan funciones o clases diseñadas por nosotros.",
+        "Aumentar el tamaño del archivo final."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Cuál es un beneficio indirecto de escribir buenos bloques DocBlock en entornos IDE como Eclipse o VSCode?",
+    "opciones": [
+        "Que compila el código 10 veces más rápido.",
+        "Que traduce la aplicación a diferentes idiomas en tiempo real.",
+        "Que permite al IDE generar autocompletado y sugerencias informativas cuando llamamos a la función documentada.",
+        "Que bloquea intentos de inyección SQL."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Cuál de las siguientes etiquetas en un DocBlock se usa para incluir información sobre licencias y derechos de código?",
+    "opciones": [
+        "@license",
+        "@copyright",
+        "@rights",
+        "@author"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Si un archivo se modifica localmente pero el desarrollador NO ejecuta el comando `git add`, en qué estado de Git permanece?",
+    "opciones": [
+        "En estado Staged (Preparado).",
+        "En estado Committed (Confirmado).",
+        "En estado Modified (Modificado).",
+        "En estado Ignorado."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué indica teóricamente que un archivo ha sido incorporado al 'Área de preparación' (Staging area)?",
+    "opciones": [
+        "Que ha sido subido a GitHub mediante `push`.",
+        "Que el archivo se ha borrado temporalmente.",
+        "Que se ha marcado una versión actual del archivo para incluirlo de manera definitiva en el próximo `commit`.",
+        "Que el archivo está bloqueado para lectura por otros programas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué etiqueta en un DocBlock de PhpDocumentor usarías si quisieras enlazar un determinado recurso HTTP externo (por ejemplo, la URL de un manual oficial)?",
+    "opciones": [
+        "@url",
+        "@href",
+        "@link",
+        "@web"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Git posee una increíble capacidad para crear líneas de trabajo separadas (para probar características nuevas sin tocar la línea principal de producción). A esto se le llama usar:",
+    "opciones": [
+        "Backups (Copias).",
+        "Branches (Ramas).",
+        "Tags (Etiquetas).",
+        "Clones."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Cuando se usa el comando `git mv` para renombrar un archivo en Git, internamente se está indicando que:",
+    "opciones": [
+        "Se está moviendo el archivo a una rama secundaria.",
+        "Se elimina el nombre anterior y se agrega el nuevo, todo en un solo paso de seguimiento.",
+        "Se está borrando el historial completo del archivo.",
+        "Se está subiendo el archivo al servidor público."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Además de PhpDocumentor, existe una alternativa para documentar código PHP (y otros lenguajes) que no requiere estar escrita en PHP ni servidor web. Es un programa ejecutable. ¿Cuál es?",
+    "opciones": [
+        "Doxygen.",
+        "DocBook.",
+        "EclipseDoc.",
+        "GitDoc."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En PhpDocumentor, el formato de comentarios se basa estrechamente en el estándar previamente establecido por:",
+    "opciones": [
+        "Microsoft Word.",
+        "C++Doc.",
+        "JavaDoc.",
+        "XML."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@since` en PhpDocumentor sirve principalmente para:",
+    "opciones": [
+        "Declarar la fecha exacta y hora en la que se compila el script.",
+        "Indicar que el elemento está disponible desde una determinada versión anterior del proyecto.",
+        "Fijar el momento de finalización del proyecto.",
+        "Reemplazar a la etiqueta `@author`."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué significa el uso de la directiva `--global` combinada con `core.editor` (ej. `git config --global core.editor code --wait`) vista en las configuraciones de Git?",
+    "opciones": [
+        "Que se descargará el editor globalmente desde internet.",
+        "Que Git usará el editor configurado (ej. VS Code) por defecto en todo el sistema para operaciones que requieran escribir mensajes, como los commits largos.",
+        "Que el editor modificará la configuración de todos los usuarios en red local.",
+        "Que el editor solo funciona para archivos PHP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En los Sistemas de Control de Versiones Centralizados (CVCS), si el servidor principal falla y su disco se corrompe sin respaldos...",
+    "opciones": [
+        "Los clientes continúan subiendo código entre sí automáticamente por P2P.",
+        "No sucede nada porque el código se genera mediante inteligencia artificial.",
+        "Se pierde absolutamente toda la historia del proyecto salvo la instantánea local actual que tengan los clientes.",
+        "El servidor restaura el código comunicándose con GitHub."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Según la teoría aplicada, la combinación típica para un 'commit' en consola usa un parámetro para pasar el mensaje directamente. ¿Cuál es ese parámetro?",
+    "opciones": [
+        "-msg",
+        "-t",
+        "-c",
+        "-m"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "A partir de un conjunto de archivos PHP documentados y ubicados en una carpeta, la ejecución en Docker del comando `phpdoc -d /origen -t /destino` se considera un ejemplo de:",
+    "opciones": [
+        "Generación automática de documentación a partir del código fuente.",
+        "Control de versiones distribuido en red.",
+        "Depuración remota de errores en ejecución.",
+        "Cifrado de servidor web en Apache."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "Para la integración de Git con entornos visuales web en local (antes de la popularidad de GitHub), el temario explica cómo instalar y configurar el paquete:",
+    "opciones": [
+        "git-apache",
+        "gitweb",
+        "git-ui",
+        "git-php"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "El comando `mkdir` empleado ocasionalmente en el entorno de consola durante el desarrollo de la tarea sirve de manera general para:",
+    "opciones": [
+        "Añadir archivos al staging area.",
+        "Borrar una base de datos.",
+        "Crear un nuevo directorio (carpeta).",
+        "Descomprimir un archivo descargado."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "¿Qué aporta la estructura distribuida de Git (DVCS) en caso de que el servidor que contiene el proyecto principal falle permanentemente?",
+    "opciones": [
+        "Que cualquier repositorio de cliente contiene la historia y datos completos, pudiendo usarse para restaurar el servidor.",
+        "Nada, porque los clientes solo tienen parches incrementales sin sentido.",
+        "Que los clientes tendrán que volver a programar el sistema.",
+        "El envío automático de un correo al soporte de GitHub."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "En las buenas prácticas de PhpDocumentor mostradas, si un método requiere recibir un objeto o variable de tipo numérico, la etiqueta `@param` debe indicar idealmente:",
+    "opciones": [
+        "Solo la descripción sin tipo, pues PHP no tiene tipos.",
+        "El tipo de dato, el nombre de la variable y una descripción (ej. `@param float $base La medida...`).",
+        "El tipo de retorno esperado de la variable.",
+        "Únicamente el nombre de la variable."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Tarea tema 5",
+    "pregunta": "La etiqueta `@ignore` en un bloque DocBlock de PhpDocumentor produce la siguiente reacción en el generador:",
+    "opciones": [
+        "Destruye el archivo fuente original por seguridad.",
+        "Evita explícitamente que PhpDocumentor documente y procese ese determinado elemento.",
+        "Oculta la visualización de errores al compilar.",
+        "Muestra la función en letra pequeña en el índice HTML."
+    ],
+    "correcta": 1
 }
+
 
 
 
