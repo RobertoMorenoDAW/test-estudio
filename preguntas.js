@@ -13111,6 +13111,1172 @@ const BBDD_PREGUNTAS = [
         "Muestra la función en letra pequeña en el índice HTML."
     ],
     "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué efecto tiene utilizar la etiqueta @access con el valor 'private' en un DocBlock según phpDocumentor?",
+    "opciones": [
+        "Se oculta todo el archivo fuente para mayor seguridad.",
+        "Genera un error fatal durante la compilación del código PHP.",
+        "No se genera documentación para el elemento, a menos que se indique explícitamente.",
+        "Convierte automáticamente las variables públicas en privadas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si deseamos generar documentación únicamente sobre la interfaz (métodos públicos) y excluir los detalles de implementación (métodos privados), ¿qué etiqueta resulta muy interesante emplear?",
+    "opciones": [
+        "@public",
+        "@ignore",
+        "@internal",
+        "@access"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cómo afecta la marca @access a la visibilidad de los elementos en la documentación generada si le asignamos el valor 'private'?",
+    "opciones": [
+        "Se muestran en color rojo destacando su nivel de seguridad.",
+        "Se ocultan de la documentación pública para no mostrar la implementación.",
+        "Se cifran con contraseña en la interfaz web de la documentación.",
+        "Se convierten en funciones globales automáticamente."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Para qué se emplea principalmente la marca @author dentro de un DocBlock en phpDocumentor?",
+    "opciones": [
+        "Para indicar el autor del código.",
+        "Para otorgar permisos de ejecución de servidor al creador.",
+        "Para enlazar al perfil de una red social del programador.",
+        "Para verificar la sintaxis del código introducido."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si queremos dejar constancia de qué persona ha escrito o desarrollado un bloque de código PHP, ¿qué etiqueta debemos añadir a nuestro comentario de documentación?",
+    "opciones": [
+        "@writer",
+        "@developer",
+        "@author",
+        "@coder"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué información se incluye al usar la etiqueta @copyright en la documentación de un proyecto?",
+    "opciones": [
+        "La fecha y hora de la compilación.",
+        "Información sobre derechos del código (derechos de autor).",
+        "La empresa que ha comprado el software.",
+        "El tamaño en bytes del archivo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "La etiqueta @copyright se utiliza en phpDocumentor específicamente para:",
+    "opciones": [
+        "Evitar mediante encriptación que el código se ejecute sin licencia.",
+        "Mostrar información legal o sobre derechos del código.",
+        "Cifrar el archivo PHP para evitar copias no autorizadas.",
+        "Indicar que la clase o función es privada y de uso exclusivo."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si un elemento del código no debería utilizarse porque en futuras versiones podría no estar disponible, ¿qué marca usamos para indicarlo?",
+    "opciones": [
+        "@obsolete",
+        "@deprecated",
+        "@delete",
+        "@old"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cuál es la finalidad de la etiqueta @deprecated en el código de nuestra aplicación?",
+    "opciones": [
+        "Acelerar la carga en memoria del elemento documentado.",
+        "Ocultar el elemento para que phpDocumentor no lo lea nunca más.",
+        "Avisar de que el elemento no debe usarse y que podría desaparecer en el futuro.",
+        "Borrar automáticamente el método en la siguiente versión."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si estás revisando un manual de API generado por phpDocumentor y ves que un método tiene la marca @deprecated, ¿qué debes deducir?",
+    "opciones": [
+        "Que es la mejor y más eficiente opción para ejecutar ese proceso.",
+        "Que es un método obsoleto y se aconseja no usarlo ante posibles eliminaciones.",
+        "Que es de uso exclusivo para los administradores del servidor.",
+        "Que es un método privado que requiere contraseña."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué característica especial ofrece la etiqueta @example cuando le pasamos la ruta hasta un fichero con código PHP?",
+    "opciones": [
+        "Ejecuta el fichero automáticamente y muestra su resultado en la web.",
+        "Lo adjunta como un archivo comprimido ZIP descargable.",
+        "phpDocumentor se encarga de mostrar el código de dicho fichero resaltado (syntax-highlighted).",
+        "Verifica si el código contenido en ese fichero tiene errores de compilación."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Para qué usaríamos la marca @example en un bloque DocBlock?",
+    "opciones": [
+        "Para incrustar una imagen gráfica de ejemplo en el manual.",
+        "Para permitir especificar la ruta a un fichero con código PHP y que se muestre resaltado.",
+        "Para enlazar con un tutorial externo en formato de video.",
+        "Para crear y añadir una nueva plantilla de código en el IDE."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cómo podemos evitar explícitamente que phpDocumentor documente un determinado elemento del código?",
+    "opciones": [
+        "Utilizando la etiqueta @ignore.",
+        "Borrando el archivo de la carpeta.",
+        "Utilizando la etiqueta @delete.",
+        "Utilizando la etiqueta @hidden."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cuál de las siguientes etiquetas instruye a phpDocumentor para que evite incluir un elemento en la documentación generada?",
+    "opciones": [
+        "@exclude",
+        "@avoid",
+        "@ignore",
+        "@skip"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Para qué sirve la etiqueta @internal en phpDocumentor?",
+    "opciones": [
+        "Para indicar que la variable es interna del servidor web.",
+        "Para incluir información que no debería aparecer en la documentación pública, pero sí en la documentación interna para desarrolladores.",
+        "Para enlazar a páginas en la intranet de la empresa exclusivamente.",
+        "Para forzar que el código PHP se ejecute solo en 'localhost'."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si queremos escribir un comentario técnico útil solo para los desarrolladores de nuestro equipo y que no se muestre en el manual público general, la marca idónea es:",
+    "opciones": [
+        "@internal",
+        "@private",
+        "@team",
+        "@dev"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Para separar la información de la interfaz (pública) de la de implementación (solo para desarrolladores) de un elemento, usamos la etiqueta:",
+    "opciones": [
+        "@hide",
+        "@internal",
+        "@invisible",
+        "@exclude"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "La etiqueta @link se emplea dentro de un DocBlock para:",
+    "opciones": [
+        "Vincular el archivo PHP a una base de datos.",
+        "Incluir un enlace (http://...) a un determinado recurso.",
+        "Conectar dos clases en tiempo de compilación.",
+        "Realizar una petición cURL a una web."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si queremos referenciar una URL externa (como un manual externo o página web) que aporte contexto a nuestro código, la etiqueta adecuada a usar es:",
+    "opciones": [
+        "@url",
+        "@href",
+        "@web",
+        "@link"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Mientras que @link apunta a URLs o recursos externos, ¿para qué se utiliza la etiqueta @see en phpDocumentor?",
+    "opciones": [
+        "Para crear enlaces internos a la documentación de un elemento.",
+        "Para inspeccionar visualmente el código fuente generado.",
+        "Para hacer visible temporalmente una variable privada.",
+        "Para ejecutar una clase en la consola."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué etiqueta empleamos para generar referencias cruzadas o enlaces hacia otros métodos o clases dentro de nuestra propia documentación?",
+    "opciones": [
+        "@reference",
+        "@see",
+        "@goto",
+        "@link-internal"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cuál de estas marcas usarías en phpDocumentor para sugerir a otro programador que \"vea también\" la documentación de otra función relacionada del mismo proyecto?",
+    "opciones": [
+        "@look",
+        "@link",
+        "@see",
+        "@goto"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "La etiqueta @since permite indicar:",
+    "opciones": [
+        "La fecha exacta en la que se empezó a programar el proyecto.",
+        "Que el elemento está disponible desde una determinada versión del paquete o distribución.",
+        "El tiempo de ejecución en milisegundos de un método.",
+        "El punto a partir del cual el servidor debe reiniciar el servicio Apache."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si un nuevo método ha sido introducido recientemente en la versión 2.0 de nuestro software, ¿qué marca usamos para indicarlo en su documentación?",
+    "opciones": [
+        "@version 2.0",
+        "@since 2.0",
+        "@release 2.0",
+        "@build 2.0"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué información muestra la etiqueta @version en la documentación de un DocBlock?",
+    "opciones": [
+        "La versión requerida del servidor web Apache.",
+        "La versión mínima de PHP necesaria para ejecutar el script.",
+        "La versión actual del elemento que se está documentando.",
+        "La versión actual de la herramienta phpDocumentor."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Para especificar en qué versión se encuentra actualmente una clase o archivo y dejarlo plasmado en el manual, usamos la marca:",
+    "opciones": [
+        "@release",
+        "@update",
+        "@current",
+        "@version"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Existen marcas que solamente se pueden utilizar en bloques de determinados elementos. ¿Cuál de ellas se usa para especificar el uso de variables globales dentro de una función?",
+    "opciones": [
+        "@var",
+        "@global",
+        "@env",
+        "@system"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "La etiqueta @global de phpDocumentor está diseñada específicamente para:",
+    "opciones": [
+        "Hacer que cualquier función local sea accesible globalmente por otros archivos.",
+        "Especificar y documentar el uso de variables globales dentro de una función.",
+        "Aplicar traducciones globales a múltiples idiomas en la documentación.",
+        "Definir de forma obligatoria constantes en todo el proyecto web."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Para detallar los datos o argumentos que recibe una función, en phpDocumentor utilizamos la etiqueta especial:",
+    "opciones": [
+        "@argument",
+        "@input",
+        "@param",
+        "@var"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cuál es el propósito exacto de la etiqueta @param en el DocBlock de un método o función?",
+    "opciones": [
+        "Documentar los parámetros que recibe la función.",
+        "Forzar obligatoriamente el tipo de dato en la ejecución de PHP.",
+        "Limitar el número máximo de argumentos que admite la función.",
+        "Documentar el valor que es devuelto por la función."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué etiqueta se utiliza exclusivamente en un DocBlock para indicar el valor devuelto por una función?",
+    "opciones": [
+        "@output",
+        "@yield",
+        "@result",
+        "@return"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si una función devuelve un arreglo (array) con resultados procesados, la forma de documentar este comportamiento es mediante la marca:",
+    "opciones": [
+        "@array",
+        "@return",
+        "@param",
+        "@value"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "En caso de que un método o función en PHP no devuelva ningún valor, ¿qué etiqueta solemos usar en el bloque de documentación para reflejar este comportamiento?",
+    "opciones": [
+        "@void",
+        "@return",
+        "@empty",
+        "@null"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Según las reglas de formato de phpDocumentor, ¿dónde deben colocarse siempre los bloques 'DocBlock'?",
+    "opciones": [
+        "Justo antes del elemento al que documentan.",
+        "Al final del fichero PHP.",
+        "Dentro de las llaves de la función o clase.",
+        "En un fichero de texto independiente llamado docs.txt."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Dentro de un DocBlock, ¿qué sucede con aquellas líneas de texto que NO comienzan con el carácter asterisco (*)?",
+    "opciones": [
+        "Generan un error fatal que detiene la compilación del código.",
+        "Son ignoradas por phpDocumentor.",
+        "Se formatean automáticamente en negrita en el HTML resultante.",
+        "Son interpretadas como variables globales."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Además de funciones (function) y clases (class), ¿cuáles de los siguientes elementos también pueden ser documentados directamente mediante un DocBlock?",
+    "opciones": [
+        "Bucles while y for.",
+        "Condicionales if y switch.",
+        "Sentencias include/require y variables globales.",
+        "Llamadas a funciones de bases de datos externas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si deseas incluir documentación global a nivel de fichero y clase (para agrupar el código), ¿qué marca especial debes utilizar?",
+    "opciones": [
+        "@global",
+        "@group",
+        "@package",
+        "@file"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "La principal utilidad práctica de establecer la marca @access con el valor 'private' es:",
+    "opciones": [
+        "Cifrar el código PHP para que no pueda ser leído por otros.",
+        "Generar documentación sólo sobre la interfaz (métodos públicos) pero ocultar la implementación (métodos privados).",
+        "Bloquear el acceso HTTP al servidor web mediante autenticación.",
+        "Prevenir ataques de inyección de código SQL."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "En la documentación de un método, si aparece la etiqueta @deprecated, significa que:",
+    "opciones": [
+        "Es el método más optimizado del paquete y debe priorizarse su uso.",
+        "El elemento no debería utilizarse, ya que en futuras versiones podría no estar disponible.",
+        "El método es privado y requiere de una contraseña para ejecutarse.",
+        "El autor original del código ha abandonado el proyecto."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué hace phpDocumentor cuando encuentra la etiqueta @example apuntando a la ruta de un fichero PHP?",
+    "opciones": [
+        "Ejecuta el fichero en el servidor y muestra el resultado HTML.",
+        "Se encarga de mostrar el código de ese fichero resaltado (syntax-highlighted).",
+        "Comprueba si el código contiene errores de sintaxis y lanza una alerta.",
+        "Permite al usuario descargar el archivo en un formato comprimido ZIP."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cuál es la diferencia fundamental entre el uso de la marca @link y la marca @see?",
+    "opciones": [
+        "No hay diferencia, son alias y cumplen la misma función exacta.",
+        "@link es exclusiva para código HTML y @see para código fuente PHP.",
+        "@link incluye un enlace externo a un recurso (http://...), mientras que @see se utiliza para crear enlaces internos a la documentación de otro elemento.",
+        "@link descarga un archivo y @see lo muestra por pantalla."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Si necesitas documentar que una clase o función se incorporó al proyecto a partir de la versión 2.5 de la distribución, la etiqueta correcta es:",
+    "opciones": [
+        "@version 2.5",
+        "@since 2.5",
+        "@release 2.5",
+        "@update 2.5"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué información proporciona la etiqueta @version en contraposición a la etiqueta @since?",
+    "opciones": [
+        "La versión actual del elemento en sí, y no desde cuándo está disponible.",
+        "La versión mínima del navegador web requerida.",
+        "La versión del lenguaje PHP que está ejecutando el servidor.",
+        "La versión del sistema operativo del cliente."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "De las siguientes listas de marcas, ¿cuáles están restringidas y SOLAMENTE se pueden utilizar en bloques de determinados elementos (como por ejemplo, funciones)?",
+    "opciones": [
+        "@author y @copyright",
+        "@ignore y @internal",
+        "@global, @param y @return",
+        "@example y @link"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Cuál es la utilidad específica de la marca @global cuando se usa en un DocBlock de una función?",
+    "opciones": [
+        "Publicar la documentación de la función en toda la red local.",
+        "Indicar que la función puede ser llamada desde cualquier archivo del proyecto.",
+        "Especificar el uso de variables globales dentro de la función.",
+        "Obligar al servidor a aplicar la función a todas las páginas web."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "Para documentar correctamente los parámetros de entrada que requiere una función para su ejecución, se emplea la etiqueta:",
+    "opciones": [
+        "@return",
+        "@param",
+        "@input",
+        "@var"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "phpDocumentor Tema 5",
+    "pregunta": "¿Qué información debe acompañar obligatoriamente a la etiqueta @return en un bloque de documentación?",
+    "opciones": [
+        "El nombre del autor que creó la función de retorno.",
+        "El enlace externo hacia el manual oficial de PHP.",
+        "La descripción del valor que es devuelto por la función.",
+        "La fecha y hora en la que la función finaliza su ejecución."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Cómo debe ir precedida la descripción general de una clase o método en los comentarios de JavaDoc?",
+    "opciones": [
+        "Debe comenzar obligatoriamente con el indicador @description.",
+        "No va precedida de ningún indicador especial, como es usual en JavaDoc.",
+        "Debe estar escrita entre etiquetas HTML como <b> o <i>.",
+        "Debe comenzar siempre por el indicador @info."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "En relación a los indicadores especiales (como @author o @version) dentro de un comentario JavaDoc, ¿son de uso obligatorio?",
+    "opciones": [
+        "Sí, si falta alguno el programa no compilará.",
+        "Solo es obligatorio el indicador @author por cuestiones de derechos.",
+        "No, los indicadores no son obligatorios; por ejemplo, no se usa @param si no hay parámetros.",
+        "Sí, pero solo para los métodos públicos."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Permite JavaDoc que un mismo comentario incluya un indicador repetido varias veces?",
+    "opciones": [
+        "Sí, por ejemplo se pueden incluir varios indicadores @param si un método tiene varios parámetros.",
+        "No, generaría una redundancia y un error en la generación del HTML.",
+        "Solo está permitido repetir el indicador @version.",
+        "Sí, pero solo si están escritos en líneas alternas."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Para qué se utiliza el indicador @author en la documentación JavaDoc?",
+    "opciones": [
+        "Para definir la autorización de seguridad del método.",
+        "Para indicar quién escribió el código al que se refiere el comentario.",
+        "Para conceder permisos de administrador sobre esa clase.",
+        "Para especificar la empresa dueña del software."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "Si un fragmento de código ha sido desarrollado por varias personas, ¿cómo se debe utilizar el indicador @author?",
+    "opciones": [
+        "Solo se puede nombrar al programador principal del equipo.",
+        "Se deben escribir los nombres separados por comas o repetir el indicador @author.",
+        "Se debe usar el indicador @team en lugar de @author.",
+        "No se debe incluir el indicador, ya que solo soporta un autor."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "Según la convención habitual al documentar, ¿dónde es más normal incluir el indicador @author para no ser redundante?",
+    "opciones": [
+        "En todos y cada uno de los métodos privados del programa.",
+        "En el archivo de configuración externo del IDE.",
+        "En el comentario de la clase, y no repetirlo por método a no ser que el método sea de otra persona.",
+        "Dentro de las variables locales del método main."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "El indicador @version dentro de JavaDoc sirve específicamente para:",
+    "opciones": [
+        "Comprobar la versión de la máquina virtual de Java.",
+        "Forzar al usuario a actualizar la aplicación.",
+        "Indicar el número de versión (normalmente de clases, y a veces de métodos).",
+        "Versionar automáticamente el código con Git."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿A qué tipo de elementos suele aplicarse más frecuentemente el indicador @version?",
+    "opciones": [
+        "A las variables locales de una función.",
+        "Normalmente a las clases, aunque en ocasiones también se usa para métodos.",
+        "Únicamente a métodos estáticos (static).",
+        "A las constantes declaradas con 'final'."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "El indicador @param en JavaDoc tiene la finalidad fundamental de:",
+    "opciones": [
+        "Para parametrizar la ruta de compilación del proyecto.",
+        "Para describir un parámetro de un método.",
+        "Para establecer variables de entorno globales.",
+        "Para definir qué tipo de parámetros admite la clase principal."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "Si estás documentando un método que necesita un argumento llamado 'edad', la línea correcta en JavaDoc sería:",
+    "opciones": [
+        "@variable edad Descripción",
+        "@input edad Descripción",
+        "@param edad Descripción",
+        "@argument edad Descripción"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Qué información nos proporciona el indicador @return en un comentario JavaDoc?",
+    "opciones": [
+        "El comando necesario para volver al menú anterior.",
+        "La confirmación de que un bucle ha terminado.",
+        "El número de veces que se ha ejecutado el programa.",
+        "Describe el valor de salida (lo que devuelve) de un método."
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "Si un método procesa unos datos matemáticos y entrega un resultado final numérico, la etiqueta que debemos usar para documentar dicho resultado es:",
+    "opciones": [
+        "@yield",
+        "@output",
+        "@result",
+        "@return"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Cuándo se utiliza apropiadamente el indicador @see en la documentación?",
+    "opciones": [
+        "Cuando queremos visualizar el código en otra ventana.",
+        "Cuando el trozo de código comentado se encuentra relacionado con otra clase o método.",
+        "Para activar las advertencias de depuración por consola.",
+        "Para enlazar a una página web externa que no tiene que ver con el código."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "La sintaxis correcta para referenciar a otro elemento relacionado en JavaDoc consta de:",
+    "opciones": [
+        "El indicador @see, seguido del nombre (clase o método) y su descripción.",
+        "El indicador @look, seguido de una URL.",
+        "El indicador @linkto, seguido del número de línea.",
+        "El indicador @goto, seguido del archivo."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "Si un método puede fallar bajo ciertas circunstancias, 'romperse' y lanzar una excepción, ¿con qué indicador se documenta este comportamiento?",
+    "opciones": [
+        "@error",
+        "@break",
+        "@catch",
+        "@throws"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Qué información debe suceder a la etiqueta @throws en el comentario de JavaDoc?",
+    "opciones": [
+        "El nombre del archivo donde ocurrió el error.",
+        "El nombre de la clase Excepción y su descripción de por qué ocurre.",
+        "El correo electrónico del autor del método.",
+        "El código numérico del error en hexadecimal."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "¿Qué mensaje transmite a otros programadores que un método tenga el indicador @deprecated?",
+    "opciones": [
+        "Que es el método más seguro y encriptado de la clase.",
+        "Que el método ya no se usa, ha quedado obsoleto y se ha sustituido por otro.",
+        "Que el método es privado y solo se usa para pruebas internas.",
+        "Que el método requiere permisos de administrador para ser llamado."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Javadoc Tema 5",
+    "pregunta": "Según el texto, respecto al uso del indicador @deprecated en JavaDoc, es cierto que:",
+    "opciones": [
+        "Es obligatorio incluirlo en la primera versión de todas las clases.",
+        "Se usa habitualmente para métodos, pero es más raro encontrarlo marcando una clase completa.",
+        "Genera un error y borra el archivo para proteger el sistema.",
+        "Solo se puede emplear si se usa conjuntamente con el indicador @author."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "repaso profesor",
+    "pregunta": "¿Cuál es una característica correcta del protocolo FTP?",
+    "opciones": [
+      "Utiliza un único puerto UDP para la comunicación",
+      "Cifra automáticamente todas las credenciales",
+      "Utiliza dos conexiones TCP: control y datos",
+      "No permite transferencia de archivos binarios"
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Por qué FTP no se considera un protocolo seguro?",
+    "opciones": [
+      "Porque no permite conexiones remotas",
+      "Porque no cifra usuario y contraseña",
+      "Porque solo funciona en redes locales",
+      "Porque usa demasiados puertos UDP"
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué tipo de registro DNS se utiliza para asociar un nombre a una dirección IP?",
+    "opciones": [
+      "MX",
+      "A",
+      "CNAME",
+      "NS"
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué herramienta se utiliza para comprobar errores en un fichero de zona DNS?",
+    "opciones": [
+      "dig",
+      "named-checkzone",
+      "nslookup",
+      "ping"
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué tipo de zona DNS se utiliza para resolver IP → nombre?",
+    "opciones": [
+      "Zona directa",
+      "Zona secundaria",
+      "Zona inversa",
+      "Zona de caché"
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué tipos de usuarios puede gestionar un servidor ProFTPD?",
+    "opciones": [
+      "Solo usuarios del sistema",
+      "Usuarios anónimos, del sistema y virtuales",
+      "Solo usuarios SQL",
+      "Solo administradores de red"
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué representa un commit en Git?",
+    "opciones": [
+      "Un repositorio remoto",
+      "Una copia temporal de archivos eliminados",
+      "Una instantánea del estado del proyecto",
+      "Una rama de desarrollo"
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Cuál es el orden correcto en Git?",
+    "opciones": [
+      "commit → add → init",
+      "add → commit → init",
+      "init → add → commit",
+      "init → commit → add"
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Para qué se utiliza git clone?",
+    "opciones": [
+      "Para actualizar un repositorio local",
+      "Para eliminar un repositorio remoto",
+      "Para crear una copia local de un repositorio remoto",
+      "Para fusionar ramas"
+    ],
+    "correcta": 2
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué hace el comando git pull?",
+    "opciones": [
+      "Sube cambios al repositorio remoto",
+      "Descarga y actualiza cambios desde el remoto",
+      "Crea una nueva rama",
+      "Inicializa un repositorio"
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "repaso profesor",
+    "pregunta": "¿Qué comando de Git se utiliza para crear una nueva rama de trabajo?",
+    "opciones": [
+      "git merge",
+      "git branch",
+      "git init",
+      "git diff"
+    ],
+    "correcta": 1
+  },
+  {
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Para visualizar una lista de los commits recientes junto a sus identificadores (hashes SHA1), el comando adecuado es:",
+    "opciones": [
+        "$ git list",
+        "$ git log",
+        "$ git show",
+        "$ git history"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "¿Qué información imprescindible nos proporciona el comando '$ git log' si queremos viajar hacia atrás en el historial del proyecto?",
+    "opciones": [
+        "El tamaño exacto en disco de cada modificación.",
+        "Los permisos de escritura del repositorio remoto.",
+        "Los hashes SHA1 asociados a cada commit reciente.",
+        "La contraseña del servidor GitHub."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Si descubrimos que todos los cambios realizados a partir de un cierto punto estaban mal y queremos borrarlos definitivamente, usamos:",
+    "opciones": [
+        "$ git delete --all",
+        "$ git checkout SHA1_HASH",
+        "$ git reset --hard SHA1_HASH",
+        "$ git format SHA1_HASH"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "¿Qué efecto produce el comando '$ git reset --hard SHA1_HASH' sobre el proyecto?",
+    "opciones": [
+        "Sube todos los cambios locales al servidor remoto.",
+        "Cifra el proyecto mediante el algoritmo SHA1.",
+        "Recupera el estado de un commit dado y borra para siempre cualquier recuerdo de commits más nuevos.",
+        "Clona el proyecto en una nueva carpeta."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "En caso de necesitar saltar a un estado anterior de forma temporal (sin borrar los commits más recientes), el comando que utilizaremos es:",
+    "opciones": [
+        "$ git reset --soft SHA1_HASH",
+        "$ git checkout SHA1_HASH",
+        "$ git jump SHA1_HASH",
+        "$ git branch SHA1_HASH"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "¿Cuál es la principal diferencia entre '$ git reset --hard' y '$ git checkout' al viajar a un commit antiguo?",
+    "opciones": [
+        "Que checkout borra permanentemente los commits nuevos y reset no.",
+        "Que reset requiere conexión a internet y checkout funciona en local.",
+        "Que checkout nos lleva atrás en el tiempo temporalmente sin tocar los commits más nuevos, al contrario que reset.",
+        "No existe ninguna diferencia, son comandos equivalentes."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Una vez que hemos viajado atrás en el tiempo temporalmente con '$ git checkout SHA1_HASH', ¿qué comando usamos para volver al presente?",
+    "opciones": [
+        "$ git checkout master",
+        "$ git return",
+        "$ git reset present",
+        "$ git go forward"
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "¿Es posible restaurar únicamente ciertos archivos o directorios de un commit antiguo en lugar de todo el proyecto?",
+    "opciones": [
+        "Sí, añadiéndolos al final del comando '$ git checkout SHA1_HASH algun.archivo otro.archivo'.",
+        "No, Git obliga a restaurar el proyecto completo siempre.",
+        "Sí, pero solo si usamos el comando '$ git reset --hard'.",
+        "Sí, siempre que los archivos tengan extensión .php."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "¿Qué peligro y recomendación advierten los apuntes al utilizar la forma de '$ git checkout' para restaurar archivos específicos?",
+    "opciones": [
+        "Puede borrar la base de datos del servidor, se recomienda apagar la red.",
+        "Puede sobreescribir archivos sin avisar; por ello es recomendable hacer commit antes de ejecutarlo.",
+        "Provoca que la cuenta de GitHub se bloquee temporalmente.",
+        "Inutiliza el comando '$ git pull' en el futuro."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Para obtener una copia íntegra de un proyecto administrado por Git desde un servidor, la instrucción correcta es:",
+    "opciones": [
+        "$ git download git://servidor/ruta/a/los/archivos",
+        "$ git get git://servidor/ruta/a/los/archivos",
+        "$ git clone git://servidor/ruta/a/los/archivos",
+        "$ git copy git://servidor/ruta/a/los/archivos"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Si ya disponemos de una copia clonada de un proyecto en nuestro equipo, ¿cómo la actualizamos a la última versión disponible en el servidor?",
+    "opciones": [
+        "$ git update",
+        "$ git fetch",
+        "$ git upgrade",
+        "$ git pull"
+    ],
+    "correcta": 3
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Para descargar un script desde la máquina de otro desarrollador del grupo a través de una conexión SSH, ¿qué comando ejecutarán los compañeros?",
+    "opciones": [
+        "$ git ssh tu.maquina:/ruta/al/script",
+        "$ git clone tu.maquina:/ruta/al/script",
+        "$ git pull ssh://tu.maquina/script",
+        "$ git receive tu.maquina:/ruta/al/script"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Si los demás miembros del grupo de desarrollo NO tienen acceso por SSH a nuestra máquina, ¿qué servicio debemos arrancar para que puedan clonar el repositorio?",
+    "opciones": [
+        "$ git server",
+        "$ git apache",
+        "$ git daemon",
+        "$ git host"
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "De acuerdo al flujo de trabajo, cada vez que modifiquemos nuestro script local y creemos que está listo para su lanzamiento, ¿qué comando confirma todos los cambios y añade el mensaje de una vez?",
+    "opciones": [
+        "$ git commit -a -m \"Siguiente envío\"",
+        "$ git push -all -msg \"Siguiente envío\"",
+        "$ git save -m \"Siguiente envío\"",
+        "$ git upload \"Siguiente envío\""
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Si queremos revisar las modificaciones exactas que hemos introducido en nuestro código desde el último commit, utilizaremos el comando:",
+    "opciones": [
+        "$ git compare",
+        "$ git diff",
+        "$ git status",
+        "$ git changes"
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "El comando '$ git diff' es muy útil en nuestro trabajo diario porque nos permite:",
+    "opciones": [
+        "Averiguar qué cambios hicimos desde el último commit.",
+        "Cambiar el nombre a la rama principal.",
+        "Subir los cambios al servidor de forma diferencial.",
+        "Comprobar el ancho de banda consumido por GitHub."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Según los apuntes, ¿qué nombre técnico reciben las líneas de trabajo donde se pueden probar nuevas características sin afectar a la línea principal?",
+    "opciones": [
+        "Roots (Raíces).",
+        "Trunks (Troncos).",
+        "Branch (Ramas).",
+        "Leaves (Hojas)."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Una de las grandes ventajas de Git reside en la facilidad para el desarrollo paralelo. Al proceso de integrar posteriormente esa rama a la principal se le llama:",
+    "opciones": [
+        "Upload.",
+        "Merge (fusión).",
+        "Checkout.",
+        "Diff."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "¿Qué es exactamente Github.com según el material proporcionado?",
+    "opciones": [
+        "Un lenguaje de programación basado en Git.",
+        "Una web donde alojar proyectos utilizando el sistema de control de versiones Git.",
+        "El programa de consola que hay que instalar en Windows para usar Git.",
+        "Un cliente de correo electrónico para programadores."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Trabajando con Git Tema 5",
+    "pregunta": "Además del simple almacenaje de proyectos, ¿qué tipo de herramientas adicionales proporciona Github.com para 'socializar' el trabajo?",
+    "opciones": [
+        "Compiladores de código fuente y servidores de bases de datos.",
+        "Llamadas de voz y videoconferencias.",
+        "Feeds rss, wikis o gráficos de cómo los desarrolladores trabajan en sus repositorios.",
+        "Diseño de interfaces gráficas (CSS/HTML) automáticas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "Según el texto, ¿qué permite hacer un sistema de control de versiones respecto a las copias de un proyecto?",
+    "opciones": [
+        "Limitar el número de copias a una sola por ordenador.",
+        "Sacar copias del proyecto al mismo tiempo por parte de varios clientes.",
+        "Bloquear las copias para que nadie pueda descargarlas.",
+        "Borrar copias antiguas automáticamente cada semana."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "Al realizar modificaciones a los ficheros, ¿qué característica fundamental mantiene el sistema de control de versiones?",
+    "opciones": [
+        "Un histórico de los cambios realizados.",
+        "Un registro impreso en papel de las modificaciones.",
+        "Una copia de seguridad cifrada en una base de datos externa.",
+        "Una versión compilada en lenguaje máquina."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "Respecto a las versiones de los archivos, los clientes de un sistema de control de versiones pueden:",
+    "opciones": [
+        "Eliminar irreversiblemente las versiones de otros compañeros.",
+        "Traducir las versiones automáticamente a otros lenguajes.",
+        "Comparar diferentes versiones de archivos.",
+        "Bloquear el acceso a versiones pasadas."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "¿Qué función destaca el texto cuando varios usuarios trabajan sobre el mismo código?",
+    "opciones": [
+        "Unir los cambios realizados por diferentes usuarios sobre los mismos ficheros.",
+        "Borrar el fichero para evitar que se solapen los cambios.",
+        "Sobrescribir siempre el fichero con los datos del primer usuario en guardar.",
+        "Impedir que dos usuarios abran el mismo fichero a la vez."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "El texto menciona la capacidad de sacar una 'foto' del proyecto. ¿A qué se refiere esta función?",
+    "opciones": [
+        "A tomar una captura de pantalla de la interfaz gráfica del programa.",
+        "A generar un gráfico de rendimiento de la base de datos.",
+        "A tomar una instantánea histórica del proyecto tal como se encontraba en un momento determinado.",
+        "A escanear los documentos impresos del proyecto."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "¿Qué relación y función se establece entre una copia local y el servidor en un sistema de control de versiones?",
+    "opciones": [
+        "El servidor formatea la copia local para evitar virus.",
+        "Permite actualizar una copia local con la última versión que se encuentra en el servidor.",
+        "Desconecta permanentemente la copia local del servidor.",
+        "Obliga al usuario a borrar su copia local para poder descargar la del servidor."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "Entre las funciones de un sistema de control de versiones se incluye la posibilidad de estructurar el desarrollo al:",
+    "opciones": [
+        "Mantener distintas ramas de un proyecto.",
+        "Diseñar un árbol de bases de datos relacionales.",
+        "Crear esquemas de redes neuronales.",
+        "Borrar el árbol de directorios de Windows."
+    ],
+    "correcta": 0
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "¿Cuál de las siguientes acciones NO es una de las funciones de un sistema de control de versiones mencionadas en el texto?",
+    "opciones": [
+        "Mantener distintas ramas de un proyecto.",
+        "Sacar copias del proyecto al mismo tiempo.",
+        "Compilar automáticamente el proyecto en un archivo ejecutable.",
+        "Comparar diferentes versiones de archivos."
+    ],
+    "correcta": 2
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "La función de 'Unir cambios realizados por diferentes usuarios sobre los mismos ficheros' está pensada para:",
+    "opciones": [
+        "Facilitar el trabajo en solitario sin conexión a internet.",
+        "Permitir la colaboración e integración del trabajo de un equipo de desarrolladores.",
+        "Evitar que se guarden los archivos modificados.",
+        "Penalizar a los usuarios que hacen cambios simultáneos."
+    ],
+    "correcta": 1
+},
+{
+    "tema": "Control de versiones Tema 5",
+    "pregunta": "Al poder 'Actualizar una copia local con la última versión que se encuentra en el servidor', el desarrollador consigue:",
+    "opciones": [
+        "Disponer en su equipo de trabajo de los últimos avances integrados por el resto del equipo.",
+        "Ocultar sus propios cambios al resto de los programadores.",
+        "Apagar el servidor de forma remota.",
+        "Bloquear el proyecto para que nadie más lo descargue."
+    ],
+    "correcta": 0
 }
 
 
