@@ -1,12 +1,6 @@
 @echo off
 
 echo =====================
-echo ESTADO GIT
-echo =====================
-git status
-
-echo.
-echo =====================
 echo AÑADIENDO CAMBIOS
 echo =====================
 git add .
