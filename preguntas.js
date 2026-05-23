@@ -9319,7 +9319,7 @@ const BBDD_PREGUNTAS = [
     "correcta": 1
 },{
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué es Javadoc según el material proporcionado? [1]",
+    "pregunta": "¿Qué es Javadoc según el material proporcionado? ",
     "opciones": [
         "Un entorno de desarrollo integrado (IDE).",
         "Una utilidad de Sun Microsystems para generar APIs en formato HTML.",
@@ -9330,7 +9330,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cuál es el formato de salida predeterminado de la documentación generada por Javadoc? [1]",
+    "pregunta": "¿Cuál es el formato de salida predeterminado de la documentación generada por Javadoc? ",
     "opciones": [
         "PDF.",
         "XML.",
@@ -9341,7 +9341,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cuál es la finalidad principal de utilizar Javadoc al programar? [2]",
+    "pregunta": "¿Cuál es la finalidad principal de utilizar Javadoc al programar? ",
     "opciones": [
         "Evitar que la documentación se quede rápidamente obsoleta manteniendo los comentarios junto al código.",
         "Aumentar la velocidad de compilación del programa Java.",
@@ -9352,7 +9352,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Dónde se pide a los programadores de Java que escriban la documentación básica para Javadoc? [2]",
+    "pregunta": "¿Dónde se pide a los programadores de Java que escriban la documentación básica para Javadoc? ",
     "opciones": [
         "En un documento de Word externo.",
         "En una wiki compartida en la intranet.",
@@ -9363,7 +9363,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué extrae exactamente la herramienta Javadoc para generar la documentación? [2]",
+    "pregunta": "¿Qué extrae exactamente la herramienta Javadoc para generar la documentación? ",
     "opciones": [
         "Las variables privadas de la clase.",
         "Los comentarios incrustados en el código fuente de los programas Java.",
@@ -9374,7 +9374,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cómo interpreta el formato HTML resultante de Javadoc la comunidad de desarrolladores? [3]",
+    "pregunta": "¿Cómo interpreta el formato HTML resultante de Javadoc la comunidad de desarrolladores? ",
     "opciones": [
         "Como un formato obsoleto y en desuso.",
         "Como el formato de toda la documentación estándar de Java provista por Sun.",
@@ -9385,7 +9385,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Con qué caracteres deben comenzar obligatoriamente los comentarios interpretados por Javadoc? [3]",
+    "pregunta": "¿Con qué caracteres deben comenzar obligatoriamente los comentarios interpretados por Javadoc? ",
     "opciones": [
         "/*",
         "//",
@@ -9396,7 +9396,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Con qué caracteres terminan los comentarios de Javadoc? [3]",
+    "pregunta": "¿Con qué caracteres terminan los comentarios de Javadoc? ",
     "opciones": [
         "*/",
         "***/",
@@ -9407,7 +9407,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Dentro de un bloque de comentario Javadoc, ¿por qué carácter comienza habitualmente cada línea? [3]",
+    "pregunta": "Dentro de un bloque de comentario Javadoc, ¿por qué carácter comienza habitualmente cada línea? ",
     "opciones": [
         "#",
         "*",
@@ -9418,7 +9418,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Es posible incluir código HTML dentro de los comentarios de Javadoc? [3]",
+    "pregunta": "¿Es posible incluir código HTML dentro de los comentarios de Javadoc? ",
     "opciones": [
         "No, generará un error de compilación.",
         "Sí, se puede escribir código HTML y operadores para que los interprete Javadoc.",
@@ -9429,7 +9429,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué símbolo se utiliza generalmente para preceder a las etiquetas o operadores de Javadoc? [4]",
+    "pregunta": "¿Qué símbolo se utiliza generalmente para preceder a las etiquetas o operadores de Javadoc? ",
     "opciones": [
         "&",
         "%",
@@ -9440,7 +9440,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Las etiquetas de Javadoc son sensibles a mayúsculas y minúsculas? [4]",
+    "pregunta": "¿Las etiquetas de Javadoc son sensibles a mayúsculas y minúsculas? ",
     "opciones": [
         "No, dan el mismo resultado en cualquier formato.",
         "Sí, son sensibles a mayúsculas-minúsculas.",
@@ -9451,7 +9451,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Dónde debe situarse exactamente una etiqueta Javadoc para que la herramienta la interprete como tal? [4]",
+    "pregunta": "¿Dónde debe situarse exactamente una etiqueta Javadoc para que la herramienta la interprete como tal? ",
     "opciones": [
         "En cualquier parte del comentario, sin restricciones.",
         "Al final de la línea, después de un punto y coma.",
@@ -9462,7 +9462,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué sucede si una etiqueta Javadoc no se ubica correctamente al principio de la línea o tras un asterisco? [4]",
+    "pregunta": "¿Qué sucede si una etiqueta Javadoc no se ubica correctamente al principio de la línea o tras un asterisco? ",
     "opciones": [
         "Se elimina automáticamente del código.",
         "El programa no compila.",
@@ -9473,7 +9473,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cuáles son los dos tipos principales de etiquetas en Javadoc? [5]",
+    "pregunta": "¿Cuáles son los dos tipos principales de etiquetas en Javadoc? ",
     "opciones": [
         "Globales y locales.",
         "Públicas y privadas.",
@@ -9484,7 +9484,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Dónde se pueden utilizar exclusivamente las etiquetas de bloque en Javadoc? [5]",
+    "pregunta": "¿Dónde se pueden utilizar exclusivamente las etiquetas de bloque en Javadoc? ",
     "opciones": [
         "En cualquier parte de la descripción principal.",
         "Sólo en la sección de etiquetas que sigue a la descripción principal.",
@@ -9495,7 +9495,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué formato visual define a una etiqueta de bloque? [5]",
+    "pregunta": "¿Qué formato visual define a una etiqueta de bloque? ",
     "opciones": [
         "{@etiqueta}",
         "@etiqueta",
@@ -9506,7 +9506,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Dónde está permitido utilizar las etiquetas inline en Javadoc? [5]",
+    "pregunta": "¿Dónde está permitido utilizar las etiquetas inline en Javadoc? ",
     "opciones": [
         "Únicamente en la sección de variables de clase.",
         "Sólo en la sección final de etiquetas.",
@@ -9517,7 +9517,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cuál es la sintaxis correcta para escribir una etiqueta inline en Javadoc? [5]",
+    "pregunta": "¿Cuál es la sintaxis correcta para escribir una etiqueta inline en Javadoc? ",
     "opciones": [
         "[@tag]",
         "(@tag)",
@@ -9528,7 +9528,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En el ejemplo del tema, ¿sobre qué sistema operativo se realiza la instalación de Javadoc y los IDEs? [6]",
+    "pregunta": "En el ejemplo del tema, ¿sobre qué sistema operativo se realiza la instalación de Javadoc y los IDEs? ",
     "opciones": [
         "Ubuntu 20.04 LTS.",
         "Debian 6.0.1 Squeeze.",
@@ -9539,7 +9539,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué dos entornos de desarrollo integrados (IDEs) se mencionan como los de mayor crecimiento para programar en Java? [7]",
+    "pregunta": "¿Qué dos entornos de desarrollo integrados (IDEs) se mencionan como los de mayor crecimiento para programar en Java? ",
     "opciones": [
         "IntelliJ IDEA y BlueJ.",
         "Visual Studio y Xcode.",
@@ -9550,7 +9550,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué pilar fundamental se menciona como base para el crecimiento y evolución de IDEs como Eclipse o NetBeans? [7]",
+    "pregunta": "¿Qué pilar fundamental se menciona como base para el crecimiento y evolución de IDEs como Eclipse o NetBeans? ",
     "opciones": [
         "El soporte de hardware avanzado.",
         "Su comunidad de desarrolladores.",
@@ -9561,7 +9561,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Según el texto, ¿qué presiona a los programadores a mejorar los IDEs continuamente? [8]",
+    "pregunta": "Según el texto, ¿qué presiona a los programadores a mejorar los IDEs continuamente? ",
     "opciones": [
         "El pago por licencias comerciales.",
         "La competencia por ser el mejor IDE ante el avance de nuevas tecnologías.",
@@ -9572,7 +9572,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué comando se indica para instalar Eclipse desde un terminal en Debian? [8]",
+    "pregunta": "¿Qué comando se indica para instalar Eclipse desde un terminal en Debian? ",
     "opciones": [
         "yum install eclipse",
         "apt-get install eclipse",
@@ -9583,7 +9583,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Para instalar NetBeans, ¿qué método de obtención se sugiere en el documento? [8]",
+    "pregunta": "Para instalar NetBeans, ¿qué método de obtención se sugiere en el documento? ",
     "opciones": [
         "Usar el comando apt-get directamente.",
         "Acceder a la página de NetBeans para realizar la descarga.",
@@ -9594,7 +9594,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Al descargar NetBeans desde su web, ¿qué plataforma y arquitectura se seleccionan en el ejemplo? [9]",
+    "pregunta": "Al descargar NetBeans desde su web, ¿qué plataforma y arquitectura se seleccionan en el ejemplo? ",
     "opciones": [
         "Windows (x86/x64).",
         "macOS (ARM).",
@@ -9605,7 +9605,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué comando se usa para crear la carpeta de instalación de NetBeans según los apuntes? [9]",
+    "pregunta": "¿Qué comando se usa para crear la carpeta de instalación de NetBeans según los apuntes? ",
     "opciones": [
         "mkdir /usr/NetBeans69",
         "touch /usr/NetBeans69",
@@ -9616,7 +9616,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Tras crear la carpeta para NetBeans, ¿qué comando asigna los permisos de propietario al usuario 'alumno' de forma recursiva? [9]",
+    "pregunta": "Tras crear la carpeta para NetBeans, ¿qué comando asigna los permisos de propietario al usuario 'alumno' de forma recursiva? ",
     "opciones": [
         "chmod 777 /usr/NetBeans69",
         "chown -R alumno /usr/NetBeans69",
@@ -9627,7 +9627,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cómo se llama el archivo descargado para instalar NetBeans en el ejemplo de los apuntes? [9]",
+    "pregunta": "¿Cómo se llama el archivo descargado para instalar NetBeans en el ejemplo de los apuntes? ",
     "opciones": [
         "netbeans-install.deb",
         "NetBeans-6.9-ml-linux.sh",
@@ -9638,7 +9638,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué comando se ejecuta para asignar permisos de ejecución al instalador de NetBeans? [10]",
+    "pregunta": "¿Qué comando se ejecuta para asignar permisos de ejecución al instalador de NetBeans? ",
     "opciones": [
         "chown root NetBeans-6.9-ml-linux.sh",
         "chmod a+x /usr/NetBeans69/NetBeans-6.9-ml-linux.sh",
@@ -9649,7 +9649,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Para ejecutar el binario de instalación de NetBeans desde la consola, se utiliza el comando: [10]",
+    "pregunta": "Para ejecutar el binario de instalación de NetBeans desde la consola, se utiliza el comando: ",
     "opciones": [
         "bash ./install",
         "sh NetBeans-6.9-ml-linux.sh",
@@ -9660,7 +9660,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Una vez ejecutado el instalador de NetBeans y aceptada la licencia, ¿qué interfaz aparece para continuar? [10]",
+    "pregunta": "Una vez ejecutado el instalador de NetBeans y aceptada la licencia, ¿qué interfaz aparece para continuar? ",
     "opciones": [
         "Una consola de texto en blanco y negro.",
         "Un 'wizard' o asistente de configuración.",
@@ -9671,7 +9671,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Además de generar Javadoc, ¿qué otra funcionalidad útil ofrecen IDEs como Eclipse y NetBeans basada en los comentarios? [10]",
+    "pregunta": "Además de generar Javadoc, ¿qué otra funcionalidad útil ofrecen IDEs como Eclipse y NetBeans basada en los comentarios? ",
     "opciones": [
         "El completado de código javadoc.",
         "La traducción automática del código.",
@@ -9682,7 +9682,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En Eclipse, ¿en qué menú se encuentra la opción 'Generate Javadoc...'? [11]",
+    "pregunta": "En Eclipse, ¿en qué menú se encuentra la opción 'Generate Javadoc...'? ",
     "opciones": [
         "File",
         "Edit",
@@ -9693,7 +9693,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Al usar 'Generate Javadoc...' en Eclipse, ¿qué parámetros principales permite configurar la ventana? [11]",
+    "pregunta": "Al usar 'Generate Javadoc...' en Eclipse, ¿qué parámetros principales permite configurar la ventana? ",
     "opciones": [
         "El puerto de red y el servidor DNS.",
         "El proyecto del que generar documentación y la ruta de la carpeta de destino.",
@@ -9704,7 +9704,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué archivo HTML se genera comúnmente como punto de entrada para iniciar la navegación de la documentación Javadoc? [12]",
+    "pregunta": "¿Qué archivo HTML se genera comúnmente como punto de entrada para iniciar la navegación de la documentación Javadoc? ",
     "opciones": [
         "main.html",
         "index.html",
@@ -9715,7 +9715,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si no se usa un IDE, ¿cómo se puede ejecutar javadoc directamente sobre el código fuente? [12]",
+    "pregunta": "Si no se usa un IDE, ¿cómo se puede ejecutar javadoc directamente sobre el código fuente? ",
     "opciones": [
         "Desde el panel de control de Windows.",
         "Yendo al directorio donde se instaló el JDK y ejecutando javadoc por consola.",
@@ -9726,7 +9726,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cuál es el comando exacto para generar documentación de un archivo llamado 'ejemplo.java' desde la consola? [12]",
+    "pregunta": "¿Cuál es el comando exacto para generar documentación de un archivo llamado 'ejemplo.java' desde la consola? ",
     "opciones": [
         "java doc ejemplo.java",
         "javadoc ejemplo.java",
@@ -9737,7 +9737,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿A qué elementos están destinados principalmente los comentarios JavaDoc? [13]",
+    "pregunta": "¿A qué elementos están destinados principalmente los comentarios JavaDoc? ",
     "opciones": [
         "A bucles y condicionales.",
         "A clases y métodos.",
@@ -9748,7 +9748,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Según la teoría, ¿por qué se decidió fijar un formato común para los comentarios Javadoc? [13]",
+    "pregunta": "Según la teoría, ¿por qué se decidió fijar un formato común para los comentarios Javadoc? ",
     "opciones": [
         "Para que la compilación sea más rápida.",
         "Para que los comentarios escritos por un programador resultaran legibles y útiles para otro.",
@@ -9759,7 +9759,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En un bloque Javadoc, la descripción general de la clase o método... [14]",
+    "pregunta": "En un bloque Javadoc, la descripción general de la clase o método... ",
     "opciones": [
         "Debe comenzar siempre con el indicador @description.",
         "No va precedida de ningún indicador especial.",
@@ -9770,7 +9770,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Son obligatorios los indicadores (etiquetas) en los comentarios Javadoc? [15]",
+    "pregunta": "¿Son obligatorios los indicadores (etiquetas) en los comentarios Javadoc? ",
     "opciones": [
         "Sí, sin ellos no se genera la documentación.",
         "Sí, siempre debe haber al menos un @author.",
@@ -9781,7 +9781,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Es posible que un comentario incluya un mismo indicador más de una vez? [15]",
+    "pregunta": "¿Es posible que un comentario incluya un mismo indicador más de una vez? ",
     "opciones": [
         "No, generaría un error de redundancia.",
         "Sí, por ejemplo si un método tiene varios parámetros, se repite @param.",
@@ -9792,7 +9792,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué información proporciona el indicador @author? [15]",
+    "pregunta": "¿Qué información proporciona el indicador @author? ",
     "opciones": [
         "El servidor donde está alojado el código.",
         "Quién escribió el código al que se refiere el comentario.",
@@ -9803,7 +9803,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si un código fue escrito por varias personas, ¿cómo se reflejan en la etiqueta @author? [15]",
+    "pregunta": "Si un código fue escrito por varias personas, ¿cómo se reflejan en la etiqueta @author? ",
     "opciones": [
         "Escribiendo los nombres separados por comas o repitiendo el indicador.",
         "Agrupándolos bajo un nombre ficticio.",
@@ -9814,7 +9814,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Dónde es normal incluir el indicador @author para no ser redundante? [16]",
+    "pregunta": "¿Dónde es normal incluir el indicador @author para no ser redundante? ",
     "opciones": [
         "En todos y cada uno de los métodos privados.",
         "En el comentario de la clase, y no repetirlo por método a menos que lo escriba otra persona.",
@@ -9825,7 +9825,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué indicador se utiliza para especificar el número de versión de una clase? [15]",
+    "pregunta": "¿Qué indicador se utiliza para especificar el número de versión de una clase? ",
     "opciones": [
         "@release",
         "@build",
@@ -9836,7 +9836,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Para qué elementos se usa normalmente la etiqueta @version? [16]",
+    "pregunta": "¿Para qué elementos se usa normalmente la etiqueta @version? ",
     "opciones": [
         "Principalmente para clases, y en ocasiones para métodos.",
         "Exclusivamente para variables globales.",
@@ -9847,7 +9847,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "El indicador @param sirve específicamente para describir: [17]",
+    "pregunta": "El indicador @param sirve específicamente para describir: ",
     "opciones": [
         "El tipo de retorno de la clase.",
         "Un parámetro de un método.",
@@ -9858,7 +9858,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Según el texto, si un método no tiene parámetros... [15]",
+    "pregunta": "Según el texto, si un método no tiene parámetros... ",
     "opciones": [
         "Se escribe '@param none'.",
         "Se genera una excepción al compilar.",
@@ -9869,7 +9869,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué etiqueta Javadoc se emplea para describir el valor de salida o retorno de un método? [17]",
+    "pregunta": "¿Qué etiqueta Javadoc se emplea para describir el valor de salida o retorno de un método? ",
     "opciones": [
         "@yield",
         "@output",
@@ -9880,7 +9880,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿En qué situación se debe utilizar la etiqueta @see? [17]",
+    "pregunta": "¿En qué situación se debe utilizar la etiqueta @see? ",
     "opciones": [
         "Cuando el método necesita mostrar algo por pantalla.",
         "Cuando el trozo de código está relacionado con otra clase o método cuyo nombre se indica.",
@@ -9891,7 +9891,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si un método puede 'romperse' o fallar bajo alguna circunstancia lanzando un error, ¿qué etiqueta se usa para documentarlo? [17]",
+    "pregunta": "Si un método puede 'romperse' o fallar bajo alguna circunstancia lanzando un error, ¿qué etiqueta se usa para documentarlo? ",
     "opciones": [
         "@error",
         "@catch",
@@ -9902,7 +9902,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué información acompaña al indicador @throws en su sintaxis? [17]",
+    "pregunta": "¿Qué información acompaña al indicador @throws en su sintaxis? ",
     "opciones": [
         "El nombre de la clase de excepción y su descripción.",
         "El número de línea donde podría ocurrir el error.",
@@ -9913,7 +9913,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si un método antiguo ha sido sustituido por uno nuevo y ya no debe usarse, lo documentaremos con: [17]",
+    "pregunta": "Si un método antiguo ha sido sustituido por uno nuevo y ya no debe usarse, lo documentaremos con: ",
     "opciones": [
         "@old",
         "@unused",
@@ -9924,7 +9924,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Según los apuntes, ¿es común encontrar la etiqueta @deprecated en una clase completa? [17]",
+    "pregunta": "Según los apuntes, ¿es común encontrar la etiqueta @deprecated en una clase completa? ",
     "opciones": [
         "Sí, es su uso más habitual.",
         "No, es más raro encontrarlos para una clase que para un método.",
@@ -9935,7 +9935,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué facilidad brindan las convenciones en el código fuente (como usar /** y */) junto a herramientas como javadoc? [18]",
+    "pregunta": "¿Qué facilidad brindan las convenciones en el código fuente (como usar /** y */) junto a herramientas como javadoc? ",
     "opciones": [
         "Evitan el uso de memoria RAM.",
         "Hacen que el trabajo de documentar el código de nuevas clases Java sea trivial.",
@@ -9946,7 +9946,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "La documentación oficial del API de Java ha sido creada utilizando: [18]",
+    "pregunta": "La documentación oficial del API de Java ha sido creada utilizando: ",
     "opciones": [
         "Microsoft Word.",
         "Las convenciones de comentarios Javadoc.",
@@ -9957,7 +9957,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué son exactamente las 'plantillas de código' (templates) mencionadas en los apuntes? [18]",
+    "pregunta": "¿Qué son exactamente las 'plantillas de código' (templates) mencionadas en los apuntes? ",
     "opciones": [
         "Imágenes de fondo para el entorno de programación.",
         "Sugerencias de código asociadas a palabras clave.",
@@ -9968,7 +9968,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿En qué ruta de menú se pueden encontrar o definir las plantillas en Eclipse? [18]",
+    "pregunta": "¿En qué ruta de menú se pueden encontrar o definir las plantillas en Eclipse? ",
     "opciones": [
         "File > New > Template",
         "Preferences > Java > Editor > Templates",
@@ -9979,7 +9979,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué recomendación se da en el tema acerca de las plantillas existentes en el IDE? [18]",
+    "pregunta": "¿Qué recomendación se da en el tema acerca de las plantillas existentes en el IDE? ",
     "opciones": [
         "Borrarlas todas para ahorrar memoria.",
         "Examinarlas todas, ya que pueden ahorrar mucho trabajo.",
@@ -9990,7 +9990,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Las plantillas suelen utilizar nombres similares a las construcciones Java que encapsulan, por ejemplo: [19]",
+    "pregunta": "Las plantillas suelen utilizar nombres similares a las construcciones Java que encapsulan, por ejemplo: ",
     "opciones": [
         "int, float, double",
         "public, private, protected",
@@ -10001,7 +10001,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Es posible crear plantillas personalizadas en el IDE? [19]",
+    "pregunta": "¿Es posible crear plantillas personalizadas en el IDE? ",
     "opciones": [
         "No, vienen predefinidas e inmutables de fábrica.",
         "Sí, podemos definir y crear nuestras propias plantillas.",
@@ -10012,7 +10012,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Además de plantillas de estructuras de código (como bucles), existen plantillas predefinidas específicas para: [19]",
+    "pregunta": "Además de plantillas de estructuras de código (como bucles), existen plantillas predefinidas específicas para: ",
     "opciones": [
         "Javadoc.",
         "Consultas SQL.",
@@ -10023,7 +10023,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Una plantilla de código se compone estructuralmente de: [19]",
+    "pregunta": "Una plantilla de código se compone estructuralmente de: ",
     "opciones": [
         "Clase, método, paquete e importación.",
         "Variables globales y locales.",
@@ -10034,7 +10034,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En la composición de una plantilla, ¿qué es el 'contexto'? [19]",
+    "pregunta": "En la composición de una plantilla, ¿qué es el 'contexto'? ",
     "opciones": [
         "El ámbito donde se guarda el archivo en disco duro.",
         "El entorno en función del lenguaje (por ejemplo, si estamos en el código, en el javadoc...).",
@@ -10045,7 +10045,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Dentro de la definición de una plantilla, ¿qué es el 'pattern'? [19]",
+    "pregunta": "Dentro de la definición de una plantilla, ¿qué es el 'pattern'? ",
     "opciones": [
         "El código de la plantilla, que puede incluir texto fijo y variables predefinidas.",
         "El diseño de colores del código en el editor.",
@@ -10056,7 +10056,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué indica la variable predefinida ${cursor} dentro del 'pattern' de una plantilla? [20]",
+    "pregunta": "¿Qué indica la variable predefinida ${cursor} dentro del 'pattern' de una plantilla? ",
     "opciones": [
         "El icono del ratón que se mostrará.",
         "La posición en la que se establecerá el cursor de texto tras desplegar el código.",
@@ -10067,7 +10067,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Para qué sirve la variable predefinida ${enclosing_type} en una plantilla? [20]",
+    "pregunta": "¿Para qué sirve la variable predefinida ${enclosing_type} en una plantilla? ",
     "opciones": [
         "Para encapsular el código en un try/catch.",
         "Para escribir el nombre de la variable actual.",
@@ -10078,7 +10078,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué información inserta automáticamente la variable ${enclosing_method}? [20]",
+    "pregunta": "¿Qué información inserta automáticamente la variable ${enclosing_method}? ",
     "opciones": [
         "Los parámetros del método.",
         "El nombre del método en el que nos encontramos.",
@@ -10089,7 +10089,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si deseamos que nuestra plantilla de Javadoc incluya el año automáticamente, usaremos la variable: [20]",
+    "pregunta": "Si deseamos que nuestra plantilla de Javadoc incluya el año automáticamente, usaremos la variable: ",
     "opciones": [
         "${date}",
         "${current_year}",
@@ -10100,7 +10100,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué variable predefinida inserta la hora en curso al usar una plantilla? [20]",
+    "pregunta": "¿Qué variable predefinida inserta la hora en curso al usar una plantilla? ",
     "opciones": [
         "${hour}",
         "${time}",
@@ -10111,7 +10111,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué atajo de teclado se utiliza comúnmente para desplegar sugerencias de plantillas tras comenzar a escribir su nombre? [20]",
+    "pregunta": "¿Qué atajo de teclado se utiliza comúnmente para desplegar sugerencias de plantillas tras comenzar a escribir su nombre? ",
     "opciones": [
         "ALT + F4",
         "SHIFT + Enter",
@@ -10122,7 +10122,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Para añadir una plantilla nueva desde la opción 'Templates' se requiere: [20]",
+    "pregunta": "Para añadir una plantilla nueva desde la opción 'Templates' se requiere: ",
     "opciones": [
         "Reiniciar el entorno de desarrollo.",
         "Asignarle nombre, descripción y elegir el código que queremos que se muestre.",
@@ -10133,7 +10133,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En el contexto empresarial descrito (BK programación), ¿qué factor fundamental afecta a la reutilización de código de manera positiva? [21]",
+    "pregunta": "En el contexto empresarial descrito (BK programación), ¿qué factor fundamental afecta a la reutilización de código de manera positiva? ",
     "opciones": [
         "Ocultar el código fuente a los demás compañeros.",
         "Una buena documentación y los comentarios del código fuente mediante plantillas.",
@@ -10144,7 +10144,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En el ejemplo de código 'HolaMundo', ¿cuál es el autor definido en el comentario Javadoc? [14]",
+    "pregunta": "En el ejemplo de código 'HolaMundo', ¿cuál es el autor definido en el comentario Javadoc? ",
     "opciones": [
         "Sun Microsystems",
         "Linus Torvalds",
@@ -10155,7 +10155,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En el ejemplo de código 'HolaMundo', el método 'main' tiene un comentario que documenta un parámetro, ¿cuál es? [11]",
+    "pregunta": "En el ejemplo de código 'HolaMundo', el método 'main' tiene un comentario que documenta un parámetro, ¿cuál es? ",
     "opciones": [
         "@param args",
         "@param string",
@@ -10166,7 +10166,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué ocurre si en el código Java encontramos un bloque que comienza por '/*' en vez de '/**'? [3]",
+    "pregunta": "¿Qué ocurre si en el código Java encontramos un bloque que comienza por '/*' en vez de '/**'? ",
     "opciones": [
         "Se interpreta como una etiqueta de bloque.",
         "Provoca un error fatal de compilación.",
@@ -10177,7 +10177,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿A qué se refiere Javadoc cuando menciona generar APIs? [1]",
+    "pregunta": "¿A qué se refiere Javadoc cuando menciona generar APIs? ",
     "opciones": [
         "Archivos de Protocolo de Internet.",
         "Aplication Programing Interface (Interfaz de Programación de Aplicaciones).",
@@ -10188,7 +10188,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Por qué Javadoc representa una ventaja sobre un manual de documentación completamente desconectado del código? [2]",
+    "pregunta": "¿Por qué Javadoc representa una ventaja sobre un manual de documentación completamente desconectado del código? ",
     "opciones": [
         "Porque Javadoc pesa menos en megabytes.",
         "Porque evita tener que mantener el manual al día realizando un doble trabajo al modificar el código.",
@@ -10199,7 +10199,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si un desarrollador incluye una etiqueta `@author` en mayúsculas, como `@AUTHOR`, ¿qué pasará probablemente según las normas de Javadoc? [4]",
+    "pregunta": "Si un desarrollador incluye una etiqueta `@author` en mayúsculas, como `@AUTHOR`, ¿qué pasará probablemente según las normas de Javadoc?",
     "opciones": [
         "Funcionará exactamente igual.",
         "Provocará la eliminación del archivo por seguridad.",
@@ -10210,7 +10210,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Es obligatorio el indicador `@return` para métodos que devuelven 'void' (nada)? [15]",
+    "pregunta": "¿Es obligatorio el indicador `@return` para métodos que devuelven 'void' (nada)? ",
     "opciones": [
         "Sí, siempre debe ponerse `@return void`.",
         "No, los indicadores no son obligatorios y en este caso carece de sentido.",
@@ -10221,7 +10221,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Cómo se indica en Javadoc que una versión concreta de la documentación fue escrita el 24/07/11, basándonos en el ejemplo de los apuntes? [14]",
+    "pregunta": "¿Cómo se indica en Javadoc que una versión concreta de la documentación fue escrita el 24/07/11, basándonos en el ejemplo de los apuntes? ",
     "opciones": [
         "Con la etiqueta @date 24/07/11",
         "Con la etiqueta @version 1.2.0, 24/07/11",
@@ -10232,7 +10232,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si Eclipse ofrece opciones de Javadoc, ¿dónde podemos acceder a la navegación principal de la documentación que acaba de crear? [12]",
+    "pregunta": "Si Eclipse ofrece opciones de Javadoc, ¿dónde podemos acceder a la navegación principal de la documentación que acaba de crear? ",
     "opciones": [
         "Abriendo el archivo index.html generado en la ruta indicada.",
         "Leyendo el código binario .class.",
@@ -10243,7 +10243,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "El comando de sistema operativo para dar de forma recursiva la propiedad a un usuario sobre una carpeta (como se vio en la instalación de NetBeans) usa el parámetro: [9]",
+    "pregunta": "El comando de sistema operativo para dar de forma recursiva la propiedad a un usuario sobre una carpeta (como se vio en la instalación de NetBeans) usa el parámetro: ",
     "opciones": [
         "-r",
         "-R",
@@ -10254,7 +10254,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Durante la instalación de herramientas para Java en Debian, se usan comandos ejecutados con el símbolo '#' por delante. ¿Qué implica habitualmente el símbolo '#'? [8]",
+    "pregunta": "Durante la instalación de herramientas para Java en Debian, se usan comandos ejecutados con el símbolo '#' por delante. ¿Qué implica habitualmente el símbolo '#'? ",
     "opciones": [
         "Que es un comentario de Java.",
         "Que el comando debe ejecutarse como administrador o root en la consola.",
@@ -10265,7 +10265,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En las etiquetas inline '{@tag}', ¿qué representan las llaves? [5]",
+    "pregunta": "En las etiquetas inline '{@tag}', ¿qué representan las llaves? ",
     "opciones": [
         "El inicio y fin del código ejecutable del programa.",
         "La delimitación física para que la herramienta interprete la etiqueta en medio de la descripción.",
@@ -10276,7 +10276,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué indicador sería apropiado para detallar que un método realiza una división y falla si el divisor es cero? [17]",
+    "pregunta": "¿Qué indicador sería apropiado para detallar que un método realiza una división y falla si el divisor es cero?",
     "opciones": [
         "@error DivZero",
         "@warning Divisor cero",
@@ -10287,7 +10287,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Según la nomenclatura de las plantillas predefinidas en IDEs, ¿qué plantilla usarías presumiblemente para generar la estructura de una condición? [19]",
+    "pregunta": "Según la nomenclatura de las plantillas predefinidas en IDEs, ¿qué plantilla usarías presumiblemente para generar la estructura de una condición?",
     "opciones": [
         "for",
         "while",
@@ -10298,7 +10298,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué beneficio inmediato aporta a un desarrollador el autocompletado de javadoc en un IDE como NetBeans? [10]",
+    "pregunta": "¿Qué beneficio inmediato aporta a un desarrollador el autocompletado de javadoc en un IDE como NetBeans? ",
     "opciones": [
         "Genera interfaces gráficas con botones automáticamente.",
         "Acelera la escritura y evita memorizar la estructura exacta de etiquetas, al ofrecerlas y rellenarlas automáticamente.",
@@ -10309,7 +10309,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Si abres la documentación HTML de un método y observas un texto tachado con una advertencia de que será eliminado en el futuro, ¿qué etiqueta usó el creador? [17]",
+    "pregunta": "Si abres la documentación HTML de un método y observas un texto tachado con una advertencia de que será eliminado en el futuro, ¿qué etiqueta usó el creador? ",
     "opciones": [
         "@deleted",
         "@removed",
@@ -10320,7 +10320,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué relación existe entre las herramientas phpDocumentor (vista previamente) y Javadoc? [1]",
+    "pregunta": "¿Qué relación existe entre las herramientas phpDocumentor (vista previamente) y Javadoc?",
     "opciones": [
         "Ninguna, tienen sintaxis totalmente opuestas.",
         "phpDocumentor genera la documentación de una forma parecida al estándar y etiquetas de JavaDoc.",
@@ -10331,7 +10331,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "La instalación de software en distribuciones Linux de la familia Debian suele requerir la gestión de permisos. ¿Qué hace `chmod a+x` sobre el instalador de NetBeans? [10]",
+    "pregunta": "La instalación de software en distribuciones Linux de la familia Debian suele requerir la gestión de permisos. ¿Qué hace `chmod a+x` sobre el instalador de NetBeans? ",
     "opciones": [
         "Añade un usuario al sistema.",
         "Asigna permiso de ejecución (eXecute) a todos (All) los usuarios.",
@@ -10342,7 +10342,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Por qué es tan importante la variable predefinida `${cursor}` al diseñar una plantilla de código propia? [20]",
+    "pregunta": "¿Por qué es tan importante la variable predefinida `${cursor}` al diseñar una plantilla de código propia? ",
     "opciones": [
         "Porque cambia el color del puntero del ratón.",
         "Porque permite ubicar al desarrollador exactamente en el punto de escritura donde debe continuar codificando tras insertar la plantilla.",
@@ -10353,7 +10353,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "Cuando en Eclipse vamos a `Preferences > Java > Editor > Templates`, estamos modificando configuraciones que afectan principalmente al: [18]",
+    "pregunta": "Cuando en Eclipse vamos a `Preferences > Java > Editor > Templates`, estamos modificando configuraciones que afectan principalmente al: ",
     "opciones": [
         "Compilador visual del sistema operativo.",
         "Editor de código fuente del IDE.",
@@ -10364,7 +10364,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "¿Qué indica el apunte respecto al número de autores que se pueden citar con `@author`? [15]",
+    "pregunta": "¿Qué indica el apunte respecto al número de autores que se pueden citar con `@author`?",
     "opciones": [
         "Existe un límite máximo de dos autores.",
         "Si son varias personas se escriben los nombres separados por comas o se repite el indicador.",
@@ -10375,7 +10375,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En un método que calcula un área, recibe 'base' y 'altura' y devuelve el resultado, ¿cuántos `@param` y `@return` utilizaríamos según las buenas prácticas? [15]",
+    "pregunta": "En un método que calcula un área, recibe 'base' y 'altura' y devuelve el resultado, ¿cuántos `@param` y `@return` utilizaríamos según las buenas prácticas?",
     "opciones": [
         "Un `@param` conjunto y ningún `@return`.",
         "Dos `@param` (uno para base, otro para altura) y un `@return`.",
@@ -10386,7 +10386,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "El comando por terminal `javadoc ejemplo.java` procesa un archivo con extensión `.java`. ¿A qué corresponde esa extensión? [1]",
+    "pregunta": "El comando por terminal `javadoc ejemplo.java` procesa un archivo con extensión `.java`. ¿A qué corresponde esa extensión?",
     "opciones": [
         "Un archivo ejecutable de Windows.",
         "Un archivo de código fuente Java.",
@@ -10397,7 +10397,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "El uso de plantillas, Javadoc y autocompletado en un IDE, ¿a qué gran objetivo de la ingeniería de software contribuye según los apuntes? [13]",
+    "pregunta": "El uso de plantillas, Javadoc y autocompletado en un IDE, ¿a qué gran objetivo de la ingeniería de software contribuye según los apuntes?",
     "opciones": [
         "A realizar el trabajo más tedioso y repetitivo, facilitando el desarrollo y lectura por otras personas.",
         "A esconder el código de la vista de los jefes.",
@@ -10408,7 +10408,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "En el ejemplo proporcionado de 'HolaMundo', ¿se documenta la clase con alguna etiqueta? [14]",
+    "pregunta": "En el ejemplo proporcionado de 'HolaMundo', ¿se documenta la clase con alguna etiqueta?",
     "opciones": [
         "No, solo se documenta el método main.",
         "Sí, se documenta la clase con `@version` y `@author`.",
@@ -10419,7 +10419,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "El comando Linux `mkdir` empleado durante la instalación de NetBeans sirve para: [9]",
+    "pregunta": "El comando Linux `mkdir` empleado durante la instalación de NetBeans sirve para:",
     "opciones": [
         "Borrar una carpeta de forma forzada.",
         "Mover un archivo de origen a destino.",
@@ -10430,7 +10430,7 @@ const BBDD_PREGUNTAS = [
 },
 {
     "tema": "Unidad 5 de trabajo apartado 3",
-    "pregunta": "La finalidad general de las 'Tags' o etiquetas de Javadoc es: [4]",
+    "pregunta": "La finalidad general de las 'Tags' o etiquetas de Javadoc es:",
     "opciones": [
         "Hacer que el texto se vea de colores brillantes.",
         "Permitir generar una API completa y estructurada a partir del código fuente con los comentarios.",
