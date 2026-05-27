@@ -14277,7 +14277,414 @@ const BBDD_PREGUNTAS = [
         "Bloquear el proyecto para que nadie más lo descargue."
     ],
     "correcta": 0
-}
+},
+{
+        "tema": "Tarea tema 4",
+        "pregunta": "¿Qué registro DNS relaciona un nombre de dominio con una dirección IPv4?",
+        "opciones": [
+            "MX",
+            "PTR",
+            "A",
+            "SOA"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Tarea tema 4",
+        "pregunta": "¿Qué herramienta se usa habitualmente para comprobar errores en una zona DNS concreta?",
+        "opciones": [
+            "named-checkzone",
+            "dns-test",
+            "zoneverify",
+            "checkdnsfile"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "Tarea tema 4",
+        "pregunta": "¿Qué utilidad permite consultar registros DNS desde terminal?",
+        "opciones": [
+            "chmod",
+            "nslookup",
+            "passwd",
+            "route"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "Tarea tema 4",
+        "pregunta": "En una URL, ¿qué representa normalmente el elemento situado más a la derecha?",
+        "opciones": [
+            "El subdominio",
+            "El nombre del servidor",
+            "El dominio de nivel superior",
+            "El protocolo de acceso"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "Tarea tema 4",
+        "pregunta": "¿Cuál es la finalidad principal de una zona DNS inversa?",
+        "opciones": [
+            "Traducir nombres en direcciones IP",
+            "Resolver IPs hacia nombres de dominio",
+            "Gestionar correo electrónico",
+            "Crear subdominios automáticamente"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "Tarea tema 4",
+        "pregunta": "En LDAP, ¿qué identifica de forma única una entrada?",
+        "opciones": [
+            "El atributo mail",
+            "El DN",
+            "El UID numérico",
+            "El CN exclusivamente"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "Tarea tema 4",
+        "pregunta": "¿Para qué sirve un registro MX en DNS?",
+        "opciones": [
+            "Asociar un dominio con servidores de correo",
+            "Definir alias de dominio",
+            "Configurar servidores FTP",
+            "Traducir IPv6"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cuál es el comando correcto para inicializar un nuevo repositorio de Git en el directorio actual?",
+        "opciones": [
+            "git create",
+            "git start",
+            "git init",
+            "git new"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para realizar una consulta DNS básica y obtener la IP de un dominio, ¿qué comando de red se utiliza?",
+        "opciones": [
+            "nslookup",
+            "dns-query",
+            "ip-check",
+            "host-lookup"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Qué comando de la consola FTP se utiliza para descargar un archivo del servidor al equipo local?",
+        "opciones": [
+            "put",
+            "get",
+            "download",
+            "pull"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para instalar el servidor LDAP y sus utilidades en un sistema Debian, el comando correcto es:",
+        "opciones": [
+            "apt-get install ldap-server",
+            "apt-get install slapd ldap-utils",
+            "service install openldap",
+            "dpkg -i ldap-utils"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Qué comando de Git permite configurar el nombre del usuario de forma global en el sistema?",
+        "opciones": [
+            "git user \"nombre\"",
+            "git config user.name \"nombre\"",
+            "git config --global user.name \"nombre\"",
+            "git set global name \"nombre\""
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para clonar un repositorio remoto de Git utilizando su propio protocolo, ¿cuál es la sintaxis correcta?",
+        "opciones": [
+            "git clone http://servidor/proyecto.git",
+            "git clone git://servidor/proyecto.git",
+            "git clone ssh://servidor/proyecto.git",
+            "git clone ftp://servidor/proyecto.git"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para realizar un test de rendimiento con ApacheBench de 1000 peticiones en bloques de 50, se ejecuta:",
+        "opciones": [
+            "ab -p 1000 -c 50 http://url/",
+            "ab -n 1000 -c 50 http://url/",
+            "ab -r 1000 -b 50 http://url/",
+            "ab --total 1000 --block 50 http://url/"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Qué comando se usa para añadir todos los archivos modificados al \"staging area\" en Git?",
+        "opciones": [
+            "git stage --all",
+            "git commit -a",
+            "git add .",
+            "git push ."
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para reiniciar el servicio ProFTPD y aplicar cambios tras una modificación de configuración en Debian:",
+        "opciones": [
+            "/etc/init.d/proftpd restart",
+            "service ftp reload",
+            "proftpd --restart",
+            "systemctl apply proftpd"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cómo se verifica la sintaxis del archivo principal de configuración de BIND?",
+        "opciones": [
+            "named-checkzone named.conf",
+            "bind-check /etc/bind/named.conf",
+            "named-checkconf /etc/bind/named.conf",
+            "service bind9 syntax"
+        ],
+        "correcta": 2
+    },    
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cuál es el comando para volver al estado de un commit específico borrando permanentemente los cambios posteriores?",
+        "opciones": [
+            "git reset --hard SHA1_HASH",
+            "git checkout SHA1_HASH",
+            "git revert HASH",
+            "git reset --soft HASH"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para modificar una entrada existente en LDAP mediante un archivo de texto, el comando es:",
+        "opciones": [
+            "ldapadd -f archivo.ldif",
+            "ldapmodify -x -D cn=admin,dc=... -W -f archivo.ldif",
+            "slapmodify -f archivo.ldif",
+            "ldap-update -f archivo.ldif"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cuál es la sintaxis correcta de un registro MX en un archivo de zona DNS con prioridad 10?",
+        "opciones": [
+            "IN MX mail.ejemplo.com. 10",
+            "IN MX 10 mail.ejemplo.com.",
+            "MX 10 mail.ejemplo.com.",
+            "MX PRIORITY 10 mail.ejemplo.com."
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "En ProFTPD, ¿qué directiva permite que el login 'anonymous' sea tratado como el usuario 'ftp' del sistema?",
+        "opciones": [
+            "AnonymousUser ftp",
+            "UserAlias anonymous ftp",
+            "MapUser anonymous to ftp",
+            "GuestUser ftp"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Qué comando de OpenSSL genera un certificado autofirmado rsa de 1024 bits válido por 10 años?",
+        "opciones": [
+            "openssl gen-cert -days 3650",
+            "openssl req -x509 -newkey rsa:1024 -keyout key.key -out cert.crt -nodes -days 3650",
+            "openssl x509 -create -years 10",
+            "openssl rsa -new -out cert.crt -days 3650"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "En named.conf.local, ¿cómo se define correctamente una zona maestra para \"ejemplo.com\"?",
+        "opciones": [
+            "master-zone \"ejemplo.com\" { file \"db.ej\"; };",
+            "zone \"ejemplo.com\" { type master; file \"/var/lib/bind/master/db.ejemplo.com.hosts\"; };",
+            "zone \"ejemplo.com\" IN { master; file \"db.ej\"; };",
+            "define zone \"ejemplo.com\" as master;"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para iniciar el demonio de Git y hacer público un repositorio permitiendo el acceso remoto por protocolo git:",
+        "opciones": [
+            "git daemon --base-path=/var/cache/git --detach --syslog --export-all",
+            "git server --start --public",
+            "service git-daemon start",
+            "git --daemonize --export-all"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cuál es el formato obligatorio de la primera línea de una entrada en un archivo LDIF?",
+        "opciones": [
+            "dn:",
+            "id:",
+            "entry:",
+            "cn:"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para crear los archivos de base de datos necesarios para gestionar límites de cuotas en ProFTPD:",
+        "opciones": [
+            "proftpd --init-quotas",
+            "ftpquota --create-table --type=limit --table-path=/etc/proftpd/ftpquota.limittab",
+            "mysql < quota_tables.sql",
+            "service proftpd quota-setup"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Al monitorizar una URL HTTPS con ApacheBench, ¿qué parámetro se suele requerir explícitamente en versiones antiguas para habilitar protocolos específicos SSL/TLS o ajustar el cifrado?",
+        "opciones": [
+            "-ssl 3",
+            "-p 443",
+            "-f",
+            "-tls 1.2"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "En la configuración de ProFTPD, ¿qué etiqueta define un VirtualHost basado en IP?",
+        "opciones": [
+            "<VirtualHost>",
+            "Define VirtualHost 192.168.200.251",
+            "<VirtualHost 192.168.200.251>",
+            "Listen 192.168.200.251:21"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para configurar una zona esclava en BIND indicando la IP del maestro 192.168.200.250:",
+        "opciones": [
+            "zone \"ej.com\" { type slave; masters { 192.168.200.250; }; file \"...\"; };",
+            "zone \"ej.com\" { slave-of 192.168.200.250; };",
+            "zone \"ej.com\" { type slave; server 192.168.200.250; };",
+            "zone \"ej.com\" { masters = 192.168.200.250; };"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Qué comando se utiliza en Debian para reconfigurar el dominio DNS y otros parámetros básicos de OpenLDAP?",
+        "opciones": [
+            "slapd-config --reset",
+            "apt-get reconfigure slapd",
+            "dpkg-reconfigure slapd",
+            "ldap-setup --domain"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cómo se visualiza la página del manual (manpage) de un comando específico de Git?",
+        "opciones": [
+            "git man",
+            "git help <comando>",
+            "git show-manual",
+            "git doc"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Para forzar manualmente una transferencia de zona en un servidor secundario BIND:",
+        "opciones": [
+            "rndc retransfer proyecto-empresa.local",
+            "rndc reload zone proyecto-empresa.local",
+            "dig -t AXFR proyecto-empresa.local",
+            "named-transfer proyecto-empresa.local"
+        ],
+        "correcta": 0
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "Comando de ftpquota para limitar a un usuario a 4 GB de subida:",
+        "opciones": [
+            "ftpquota --set --user=user1 --size=4Gb",
+            "ftpquota --add-record --type=limit --name=user1 --quota-type=user --bytes-upload=4 --units=Gb",
+            "ftpquota --limit-bytes 4G --user user1",
+            "ftpquota --create --limit=4GB --name=user1"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cómo se restaura un archivo específico desde un commit o hash dado sin cambiar de rama?",
+        "opciones": [
+            "git reset HASH archivo",
+            "git checkout SHA1_HASH archivo",
+            "git restore --from HASH archivo",
+            "git revert HASH --file archivo"
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Qué comando permite verificar la integridad y corrección del archivo de configuración de OpenLDAP?",
+        "opciones": [
+            "slapd-check",
+            "ldap-verify",
+            "slaptest",
+            "openldap-verify-config"
+        ],
+        "correcta": 2
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "En una resolución inversa de DNS para la IP 192.168.200.100, ¿cuál es el nombre del dominio en el árbol?",
+        "opciones": [
+            "192.168.200.100.in-addr.arpa.",
+            "100.200.168.192.in-addr.arpa.",
+            "arpa.in-addr.192.168.200.100.",
+            "reverse.192.168.200.100."
+        ],
+        "correcta": 1
+    },
+    {
+        "tema": "preguntas Elisabeth",
+        "pregunta": "¿Cuál es el comando correcto para verificar que el servicio Nagios no tiene errores antes de arrancar?",
+        "opciones": [
+            "nagios --check-all",
+            "nagios -v /etc/nagios/nagios.conf",
+            "service nagios syntax",
+            "nagios-verify -f config"
+        ],
+        "correcta": 1
+    }
 
 
 
